@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Check A0 geometry against the design parameters, not electrical function."""
+raise SystemExit('Historical A0 checker: use check_connectors.py for A1.')
 import hashlib
 import json
 import math

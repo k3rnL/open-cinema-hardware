@@ -1,0 +1,122 @@
+(footprint "SameSky_RCJ-021"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "RCJ-021 vertical RCA; Same Sky RCJ-02 drawing 2026-06-25 p2; signal=1, shell=2")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "90f4dada-7f7a-4b18-b10d-09a5b0c57755")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "SameSky_RCJ-021"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "814ecf11-b825-4c6c-ba41-fd1e009f13cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5cda62c-ecec-45d2-a888-be7f006a5cb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecd73b4c-57e0-4ca6-90ba-d13357af2804")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.9 -5.5)
+		(end 6.9 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "109d633e-c40e-446b-9c75-e0163273252f")
+	)
+	(fp_rect
+		(start -6.325 -5)
+		(end 6.325 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "91264344-db4b-4dff-bdb5-3f37064f5d1c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.15 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "76cd7352-a663-4e73-8dbe-c719371070c3")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.6)
+		(size 2.8 2.8)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71b2486d-2cd0-4ef9-b2c6-8af90b7cab5c")
+	)
+	(pad "2" thru_hole circle
+		(at -5.15 0)
+		(size 3.2 3.2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c6361cf-8645-4ec1-9ad9-0e7c329e7b83")
+	)
+	(pad "2" thru_hole circle
+		(at 5.15 0)
+		(size 3.2 3.2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96bff4ad-cd3e-4524-81f9-0c5258b4a120")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/RCJ-021.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

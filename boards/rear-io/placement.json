@@ -1,26 +1,154 @@
 {
-  "revision": "A0-mechanical",
+  "revision": "A1-connector-fit",
   "units": "mm",
-  "coordinate_system": "Exterior rear view: x right, z up; origin at panel bottom centre",
-  "board": {"width": 228, "height": 32, "thickness": 1.6, "corner_radius": 2, "top_z": 69, "status": "proposed"},
-  "opening": {"width": 210, "height": 25, "radius": 5, "centre_z": 51.5, "status": "measured from Rear Panel v4 / Sketch2"},
-  "mounting_holes": {"diameter": 3.2, "positions_xz": [[-109, 64], [109, 64], [-109, 42], [109, 42]], "status": "proposed PCB holes, not existing frame fixings"},
-  "connector_envelopes": {
-    "speaker": {"width": 14, "height": 18, "depth": 20, "description": "One speaker pair, two spring contacts; placeholder"},
-    "optical": {"width": 14, "height": 14, "depth": 20, "description": "TOSLINK receiver; placeholder"},
-    "coax": {"width": 12, "height": 12, "depth": 20, "description": "RCA coaxial SPDIF input; placeholder"},
-    "hdmi": {"width": 18, "height": 9, "depth": 20, "description": "HDMI Type A eARC/ARC input; placeholder"}
+  "board": {
+    "width": 228,
+    "height": 32,
+    "thickness": 1.6,
+    "top_z": 69,
+    "bottom_z": 37,
+    "orientation": "vertical; F.Cu exterior"
+  },
+  "opening": {
+    "width": 210,
+    "height": 25,
+    "radius": 5,
+    "centre_z": 51.5
+  },
+  "reference_fixing_points": {
+    "source": "Rear Panel v4 Sketch3",
+    "diameter": 3,
+    "positions_xz": [
+      [
+        -110,
+        44
+      ],
+      [
+        -110,
+        59
+      ]
+    ],
+    "status": "reference only, no drill"
+  },
+  "optical_clearance_windows": {
+    "centres_x": [
+      28,
+      48
+    ],
+    "bottom_z": 39.9,
+    "top_z": 64,
+    "width": 17,
+    "radius": 0.5
+  },
+  "daughterboard": {
+    "width": 16,
+    "depth": 24,
+    "thickness": 1.6,
+    "pcb_top_z": 44.5,
+    "mounting": "undecided; physically supported independently of main PCB",
+    "connection": "deferred; no interboard header selected"
   },
   "connectors": [
-    {"ref": "J1", "label": "SPK 1", "type": "speaker", "x": -88, "z": 51.5},
-    {"ref": "J2", "label": "SPK 2", "type": "speaker", "x": -70, "z": 51.5},
-    {"ref": "J3", "label": "SPK 3", "type": "speaker", "x": -52, "z": 51.5},
-    {"ref": "J4", "label": "SPK 4", "type": "speaker", "x": -34, "z": 51.5},
-    {"ref": "J5", "label": "SPK 5", "type": "speaker", "x": -16, "z": 51.5},
-    {"ref": "J6", "label": "SPK 6", "type": "speaker", "x": 2, "z": 51.5},
-    {"ref": "J7", "label": "OPT 1", "type": "optical", "x": 28, "z": 51.5},
-    {"ref": "J8", "label": "OPT 2", "type": "optical", "x": 48, "z": 51.5},
-    {"ref": "J9", "label": "COAX", "type": "coax", "x": 68, "z": 51.5},
-    {"ref": "J10", "label": "HDMI", "type": "hdmi", "x": 91, "z": 51.5}
-  ]
+    {
+      "ref": "J1",
+      "label": "SPK 1",
+      "footprint": "Phoenix_1732496",
+      "x": -88,
+      "z": 51.5,
+      "mpn": "1732496",
+      "origin_x": -91.4,
+      "origin_z": 55.5
+    },
+    {
+      "ref": "J2",
+      "label": "SPK 2",
+      "footprint": "Phoenix_1732496",
+      "x": -70,
+      "z": 51.5,
+      "mpn": "1732496",
+      "origin_x": -73.4,
+      "origin_z": 55.5
+    },
+    {
+      "ref": "J3",
+      "label": "SPK 3",
+      "footprint": "Phoenix_1732496",
+      "x": -52,
+      "z": 51.5,
+      "mpn": "1732496",
+      "origin_x": -55.4,
+      "origin_z": 55.5
+    },
+    {
+      "ref": "J4",
+      "label": "SPK 4",
+      "footprint": "Phoenix_1732496",
+      "x": -34,
+      "z": 51.5,
+      "mpn": "1732496",
+      "origin_x": -37.4,
+      "origin_z": 55.5
+    },
+    {
+      "ref": "J5",
+      "label": "SPK 5",
+      "footprint": "Phoenix_1732496",
+      "x": -16,
+      "z": 51.5,
+      "mpn": "1732496",
+      "origin_x": -19.4,
+      "origin_z": 55.5
+    },
+    {
+      "ref": "J6",
+      "label": "SPK 6",
+      "footprint": "Phoenix_1732496",
+      "x": 2,
+      "z": 51.5,
+      "mpn": "1732496",
+      "origin_x": -1.4,
+      "origin_z": 55.5
+    },
+    {
+      "ref": "J7",
+      "label": "OPT 1",
+      "footprint": "Optical_Daughterboard_Assembly",
+      "x": 28,
+      "z": 50.5,
+      "mpn": "OC-OPTICAL-A1 / FCR684205R",
+      "origin_x": 28,
+      "origin_z": 50.5
+    },
+    {
+      "ref": "J8",
+      "label": "OPT 2",
+      "footprint": "Optical_Daughterboard_Assembly",
+      "x": 48,
+      "z": 50.5,
+      "mpn": "OC-OPTICAL-A1 / FCR684205R",
+      "origin_x": 48,
+      "origin_z": 50.5
+    },
+    {
+      "ref": "J9",
+      "label": "COAX",
+      "footprint": "SameSky_RCJ-021",
+      "x": 65,
+      "z": 51.5,
+      "mpn": "RCJ-021",
+      "origin_x": 65,
+      "origin_z": 51.5
+    },
+    {
+      "ref": "J10",
+      "label": "HDMI",
+      "footprint": "Amphenol_10078837-001LF",
+      "x": 88,
+      "z": 51.5,
+      "mpn": "10078837-001LF",
+      "origin_x": 88,
+      "origin_z": 51.5
+    }
+  ],
+  "circuit_status": "no nets or tracks, logic/LVDS/power deferred"
 }

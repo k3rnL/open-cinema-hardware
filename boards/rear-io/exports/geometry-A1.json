@@ -1,0 +1,24 @@
+{
+  "revision": "A1",
+  "kicad_version": "10.0.5",
+  "sha256": {
+    "boards/rear-io/rear-io.kicad_pcb": "6785ecba4daacb07b6dbb03b463289fc9f9c3b86eb7e7c8f4a7caa44a39984aa",
+    "boards/optical-input/optical-input.kicad_pcb": "aa8db15598b5d007d8e22a21a659d5ee9d4fa0ead2b4bcc8a3b0ca2efabe951c"
+  },
+  "main_pad_count": 53,
+  "child_pad_count": 6,
+  "checks": [
+    "228 x 32 board; closed outer perimeter and two windows",
+    "six two-pole terminals, RCA and HDMI have real pads",
+    "two separate optical assemblies; receiver pads on child board",
+    "project-relative models resolve",
+    "no mounting drills added at owner reference points",
+    "nominal drawing envelopes fit within rounded opening and do not overlap",
+    "native DRC reports zero violations on both saved boards"
+  ],
+  "limitations": [
+    "No nets/tracks or circuit connectivity validation",
+    "Nominal projected fit only; no plug/tool access, tolerance stack or full enclosure interference test",
+    "Daughterboard supports/interconnect and plate setback undecided"
+  ]
+}

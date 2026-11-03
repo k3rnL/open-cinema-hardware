@@ -4,6 +4,7 @@
 Explicitly regenerates the board from placement.json: do not run over unmerged
 manual PCB edits. Connector envelopes have no electrical pads or assigned part.
 """
+raise SystemExit('Historical A0 generator: use generate_connectors.py for A1; restore the A0 commit to regenerate A0.')
 import csv
 import json
 import math

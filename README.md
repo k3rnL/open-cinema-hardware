@@ -1,56 +1,50 @@
 # Open Cinema Hardware
 
-Editable hardware designs for [Open Cinema](https://github.com/k3rnL/open-cinema).
-Project history, research and the searchable reference book remain in
-[open-cinema-resources](https://github.com/k3rnL/open-cinema-resources).
+Editable hardware for [Open Cinema](https://github.com/k3rnL/open-cinema).
+The [resources repository](https://github.com/k3rnL/open-cinema-resources) holds the searchable reference book and project history.
 
-## Rear connector board — A0 mechanical study
+## Rear connector assembly — A1
 
-Open [rear-io.kicad_pro](boards/rear-io/rear-io.kicad_pro) in **KiCad 10**,
-then open the PCB. The sources were generated and checked with KiCad **10.0.5**.
+Open [rear-io.kicad_pro](boards/rear-io/rear-io.kicad_pro) in **KiCad 10** (checked with 10.0.5).
+The main PCB remains **vertical, 228 × 32 × 1.6 mm**. Two small horizontal optical daughterboards pass through clearance windows in it. Each has its own [editable KiCad project](boards/optical-input/optical-input.kicad_pro).
 
-![Connector placement, viewed from outside the rear](boards/rear-io/exports/rear-io-A0-top.png)
+![Rear connector assembly, exterior view](boards/rear-io/exports/rear-io-A1-front.png)
 
-- Proposed vertical PCB: **228 × 32 mm**, nominal **1.6 mm**, R2 corners.
-- Reference opening: **210 × 25 mm, R5**, measured from the owner's Fusion
-  document `Rear Panel v4`, `Sketch2`, on 2026-11-03.
-- Six speaker pairs (12 contacts), two optical inputs, one coaxial S/PDIF input,
-  and one HDMI input for the future eARC/ARC circuitry.
-- Four proposed 3.2 mm PCB mounting holes, separate from the rear frame fixings.
-- Connector positions are editable KiCad footprints with labelled 3D envelopes.
+| Qty | Interface | Selected reference |
+| --- | --- | --- |
+| 6 | Two-pole speaker spring terminal | Phoenix Contact **1732496**, SPT 2,5/ 2-V-5,0-EX |
+| 2 | Optical receiver, one per daughterboard | Cliff **FCR684205R / ORJ5** |
+| 1 | Coaxial S/PDIF RCA socket | Same Sky **RCJ-021** |
+| 1 | Vertical HDMI Type A socket | Amphenol FCI **10078837-001LF** |
 
-**This is a fit study, not a functional or fabrication-ready PCB.** Connector
-envelopes are deliberately padless placeholders, not verified commercial parts.
-Their dimensions and the common 20 mm depth are design allowances. They cannot
-be used to order connectors or cut the connection plate. No logic, LVDS circuits,
-signal pads, nets, tracks, copper pours, schematic or fabrication outputs exist.
+[Parts, sources and footprint/model provenance](docs/connector-selection-A1.md).
+The speaker terminals are green industrial spring terminals; they are not red/black consumer speaker clips.
 
-## Use in Fusion
+Real connector pads replace the A0 envelopes. J7/J8 on the main board represent the optical assemblies mechanically; their receiver solder pads are in the daughterboard project. The Phoenix model comes from KiCad; the other STEP models were reconstructed from manufacturer drawings and have simplified cosmetic details.
 
-- [PCB and connector envelopes — STEP](boards/rear-io/exports/rear-io-A0-envelopes.step)
-- [PCB only — STEP](boards/rear-io/exports/rear-io-A0-board-only.step)
-- [Board outline — DXF](boards/rear-io/exports/rear-io-A0-outline.dxf)
-- [Placement drawing — SVG](boards/rear-io/exports/rear-io-A0-layout.svg)
-- [Geometry and integration notes](docs/rear-io-mechanical.md)
-- [Checks and limitations](docs/verification-A0.md)
+**Mechanical integration study, not a fabrication release.** There are no circuit nets, tracks, schematic, logic or LVDS electronics. Daughterboard support/wiring, plate cutouts and PCB setback remain undecided. The two owner-supplied Ø3 fixing locations are reference graphics only, with no PCB drills.
 
-The STEP assembly was imported into a temporary Fusion document to check solid
-geometry. It has not been fitted into or checked for interference with the full
-enclosure. The owner's original Fusion document was left unchanged.
+## Integration files
 
-## Repository map
+- [Assembly STEP for Fusion](boards/rear-io/exports/rear-io-A1-assembly.step)
+- [PCB-only STEP](boards/rear-io/exports/rear-io-A1-board-only.step)
+- [PCB perimeter and optical windows — DXF](boards/rear-io/exports/rear-io-A1-outline.dxf)
+- [Angled assembly view](boards/rear-io/exports/rear-io-A1-oblique.png)
+- [Placement drawing — SVG](boards/rear-io/exports/rear-io-A1-layout.svg)
+- [Geometry, coordinates and remaining fit work](docs/rear-io-mechanical.md)
+- [Verification and limits](docs/verification-A1.md)
+- [Owner's sketch evidence](mechanical/reference/README.md)
 
-| Location | Purpose |
-| --- | --- |
-| `boards/rear-io/` | KiCad project, editable PCB, local footprint/model library, placement parameters and exports |
-| `mechanical/reference/` | Owner screenshots and read-only extraction of the rear-panel sketch |
-| `docs/` | Fit assumptions, coordinate systems and verification |
-| `tools/` | Initial study generator and geometry checker |
+A0 exports remain as historical evidence; [A0 notes](docs/rear-io-mechanical-A0.md) describe the superseded placeholder study. Use **A1** for current integration.
+
+## Working on the project
 
 Keep this checkout beside `open-cinema-resources` in `Documents/Open Cinema`.
-Use the memory skill in the resources repository for retrieving or recording
-project knowledge. Keep future editable PCB work here and link it from memory.
+Use its `open-cinema-memory` skill for context retrieval and recording decisions.
+Project-relative footprint/model libraries travel with both KiCad projects.
+`tools/check_connectors.py` checks saved A1 geometry; `tools/export_review.py` exports it without regeneration. Run them with KiCad's Python/CLI respectively. `tools/generate_connectors.py` explicitly rebuilds the study and must not overwrite later manual edits. See [verification](docs/verification-A1.md).
 
 ## License
 
-No hardware license has been selected. Rights remain with the contributors.
+No project hardware license has been selected. Rights remain with contributors.
+The included Phoenix footprint derivative and 3D model are KiCad library material; see [attribution and library license](docs/sources/README.md).

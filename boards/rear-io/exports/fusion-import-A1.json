@@ -1,0 +1,299 @@
+{
+  "source": "rear-io-A1-assembly.step",
+  "units": "mm",
+  "occurrences": [
+    {
+      "name": "rear-io-A1-assembly 1:1+10078837-001LF:1+Amphenol_10078837-001LF:1",
+      "bodies": 29,
+      "solid_bodies": 29,
+      "bounds_mm": [
+        [
+          73.94,
+          47.33,
+          -0.325
+        ],
+        [
+          102.06,
+          55.69,
+          12.065
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:1+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 1,
+      "solid_bodies": 1,
+      "bounds_mm": [
+        [
+          -21.71,
+          44.74,
+          1.585
+        ],
+        [
+          -10.29,
+          58.26,
+          16.005
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:1+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 4,
+      "solid_bodies": 4,
+      "bounds_mm": [
+        [
+          -19.97,
+          46.73,
+          -1.025
+        ],
+        [
+          -13.83,
+          56.07,
+          1.615
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+optical-daughterboard-assembly:1+Optical_daughterboard_assembly:1",
+      "bodies": 11,
+      "solid_bodies": 11,
+      "bounds_mm": [
+        [
+          39.98,
+          40.38,
+          -14.275
+        ],
+        [
+          56.02,
+          63.52,
+          12.065
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+RCJ-021:1+SameSky_RCJ-021:1",
+      "bodies": 6,
+      "solid_bodies": 6,
+      "bounds_mm": [
+        [
+          59.155,
+          46.48,
+          -4.725
+        ],
+        [
+          70.845,
+          56.52,
+          17.405
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+rear-io_PCB:1",
+      "bodies": 1,
+      "solid_bodies": 1,
+      "bounds_mm": [
+        [
+          -114.01,
+          36.99,
+          -0.01
+        ],
+        [
+          114.01,
+          69.01,
+          1.52
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:2+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 1,
+      "solid_bodies": 1,
+      "bounds_mm": [
+        [
+          -3.71,
+          44.74,
+          1.585
+        ],
+        [
+          7.71,
+          58.26,
+          16.005
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:2+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 4,
+      "solid_bodies": 4,
+      "bounds_mm": [
+        [
+          -1.97,
+          46.73,
+          -1.025
+        ],
+        [
+          4.17,
+          56.07,
+          1.615
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:3+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 1,
+      "solid_bodies": 1,
+      "bounds_mm": [
+        [
+          -75.71,
+          44.74,
+          1.585
+        ],
+        [
+          -64.29,
+          58.26,
+          16.005
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:3+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 4,
+      "solid_bodies": 4,
+      "bounds_mm": [
+        [
+          -73.97,
+          46.73,
+          -1.025
+        ],
+        [
+          -67.83,
+          56.07,
+          1.615
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:4+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 1,
+      "solid_bodies": 1,
+      "bounds_mm": [
+        [
+          -57.71,
+          44.74,
+          1.585
+        ],
+        [
+          -46.29,
+          58.26,
+          16.005
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:4+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 4,
+      "solid_bodies": 4,
+      "bounds_mm": [
+        [
+          -55.97,
+          46.73,
+          -1.025
+        ],
+        [
+          -49.83,
+          56.07,
+          1.615
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+optical-daughterboard-assembly:2+Optical_daughterboard_assembly:1",
+      "bodies": 11,
+      "solid_bodies": 11,
+      "bounds_mm": [
+        [
+          19.98,
+          40.38,
+          -14.275
+        ],
+        [
+          36.02,
+          63.52,
+          12.065
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:5+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 1,
+      "solid_bodies": 1,
+      "bounds_mm": [
+        [
+          -93.71,
+          44.74,
+          1.585
+        ],
+        [
+          -82.29,
+          58.26,
+          16.005
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:5+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 4,
+      "solid_bodies": 4,
+      "bounds_mm": [
+        [
+          -91.97,
+          46.73,
+          -1.025
+        ],
+        [
+          -85.83,
+          56.07,
+          1.615
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:6+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd:1+a6383c44-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 1,
+      "solid_bodies": 1,
+      "bounds_mm": [
+        [
+          -39.71,
+          44.74,
+          1.585
+        ],
+        [
+          -28.29,
+          58.26,
+          16.005
+        ]
+      ]
+    },
+    {
+      "name": "rear-io-A1-assembly 1:1+1732496:6+CQ assembly:1+a63837e4-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd:1+a6383f14-a09d-11ed-8f45-a0cec80452fd_part:1",
+      "bodies": 4,
+      "solid_bodies": 4,
+      "bounds_mm": [
+        [
+          -37.97,
+          46.73,
+          -1.025
+        ],
+        [
+          -31.83,
+          56.07,
+          1.615
+        ]
+      ]
+    }
+  ],
+  "root_bodies": [],
+  "verification": "STEP imported in temporary Fusion document. Bounds/solid status only; full enclosure fit not checked.",
+  "solid_instance_count": 88,
+  "step_sha256": "9ac31a14ada4dc21c6eb79daf31dd8472a61baef69214a5d706206aaf68ea7dd"
+}

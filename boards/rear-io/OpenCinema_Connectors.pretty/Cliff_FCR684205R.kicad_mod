@@ -1,0 +1,153 @@
+(footprint "Cliff_FCR684205R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Cliff ORJ5 receiver; drawing version 2.0 2023-06-29 pp3,7. Front/mouth toward -Y. Pin 1 at right in mating-face view.")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc14e62f-f9b5-409e-b66b-0c4d4bc8a73c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "Cliff_FCR684205R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6acdbde-b042-4e47-ae05-ad0c01f42af9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17777d5b-1b2f-4821-8d06-03c820276f06")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9167df99-6406-4894-a1a2-d0a3a28aebd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.25 -11.3)
+		(end 6.25 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "de811bfa-d992-4ddd-b74d-078ef037472a")
+	)
+	(fp_line
+		(start -3 -9.8)
+		(end 3 -9.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fa6da8e9-2b90-44a5-8505-cf849060247e")
+	)
+	(fp_rect
+		(start -5.75 -8.5)
+		(end 5.75 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4468d237-e9f0-4f1b-8192-8a8c8c9f84d0")
+	)
+	(fp_rect
+		(start -4.75 -10.8)
+		(end 4.75 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ccb1d9a7-8207-4535-8f33-32e1ed9e1df0")
+	)
+	(pad "" np_thru_hole circle
+		(at -4.6 2.1)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f34f7ada-ee9e-4ab9-a6f3-b9b0241d79f3")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -3.9)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e25e6aff-5683-4055-a505-85738377ee6a")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.6 2.1)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "eec0b3ad-6cd6-416f-b5b4-1b2970f92f46")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59ee0439-9c9c-467d-8b94-0121be9dc9fb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc40204f-726d-4c83-a385-f752eec55e1b")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea08f913-f80f-4798-a78d-4c48fb856e4a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../rear-io/models/FCR684205R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
