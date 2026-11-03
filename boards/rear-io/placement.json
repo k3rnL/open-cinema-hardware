@@ -1,5 +1,5 @@
 {
-  "revision": "A4-alignment-holes",
+  "revision": "A5-both-side-alignment",
   "units": "mm",
   "board": {
     "width": 228,
@@ -10,9 +10,10 @@
     "top_z": 69,
     "bottom_z": 37,
     "orientation": "vertical; F.Cu exterior; straight speaker pins through board",
-    "overall_width_including_alignment_tabs": 233,
+    "overall_width_including_alignment_tabs": 238,
     "alignment_tab_left_x": -119,
-    "outline_note": "228x32 body plus two left D-shaped R4 alignment tabs, centre x-115,z44/59; overall233x32"
+    "outline_note": "228x32 body plus four R4 tabs, centres x+/-115,z44/59; overall238x32",
+    "alignment_tab_right_x": 119
   },
   "opening": {
     "width": 220,
@@ -24,7 +25,7 @@
     "status": "measured read-only from updated owner Sketch3"
   },
   "reference_fixing_points": {
-    "source": "2026-11-03 updated Rear Panel v4 Sketch3",
+    "source": "Owner Sketch3 left pair plus explicit owner request to mirror on both sides",
     "diameter": 3,
     "positions_xz": [
       [
@@ -34,17 +35,28 @@
       [
         -115,
         59
+      ],
+      [
+        115,
+        44
+      ],
+      [
+        115,
+        59
       ]
     ],
-    "status": "two actual D3 NPTH alignment holes; provisional mounting, no fastener chosen",
+    "status": "four actual D3 NPTH alignment holes, two per side; provisional mounting",
     "references": [
       "HREF1",
-      "HREF2"
+      "HREF2",
+      "HREF3",
+      "HREF4"
     ],
     "alignment_tabs": {
       "radius": 4,
       "leftmost_x": -119,
-      "nominal_radial_material_around_hole": 2.5
+      "nominal_radial_material_around_hole": 2.5,
+      "rightmost_x": 119
     }
   },
   "optical_clearance_windows": {

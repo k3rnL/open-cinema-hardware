@@ -1,4 +1,4 @@
-# Rear I/O mechanical integration — A4
+# Rear I/O mechanical integration — A5
 
 2026-11-03 · millimetres · fit study, no released manufacturing tolerances.
 
@@ -12,16 +12,16 @@ Exterior rear view: x right, z up, origin at panel bottom centre. STEP X = rear 
 | --- | --- | --- |
 | Frame opening | x−110…110, z34…69, R5 | Updated owner geometry, measured read-only |
 | Main PCB body | x−114…114, z37…69, R2; 228 × 32 × 1.6 | Vertical, F.Cu toward exterior |
-| Alignment tabs | R4, centres x−115,z44/59; leftmost x−119 | Overall PCB width233; provisional |
+| Alignment tabs | R4, centres x±115,z44/59; outer extents x±119 | Overall PCB width238; provisional |
 | Speaker centres | x−77 / −21, z52 | Two Dragon City PT-603B, six contacts each |
 | Speaker bodies | 30 high, z37…67 | Straight tails point behind PCB, not down |
 | Speaker pin grid | 13 column pitch × 19.5 row pitch | Two rows of three; numbering project-defined |
 | Optical assemblies | x28 / 48, optical axis z50.5 | A1 parts and horizontal child boards retained |
 | RCA / HDMI | x65 / 88, z51.5 | A1 pads/models retained |
 | Optical windows | 17 wide, z39.9…64, R0.5 | Child supports and interconnects undecided |
-| Owner alignment holes HREF1/HREF2 | x−115,z44/59, Ø3 | Real non-plated holes through PCB; provisional mounting |
+| Owner alignment holes HREF1–HREF4 | x±115,z44/59, Ø3 | Real non-plated holes through PCB; provisional mounting |
 
-A4 restores the owner-requested alignment holes as actual STEP geometry. Each left tab has a 4 mm outer radius around a Ø3 hole, leaving nominal 2.5 mm radial material. The tab geometry is a project fit allowance, not a chosen fastening system. There are no added mirrored holes. Connector footprints and placements are identical to A3.
+A5 provides the owner-requested alignment holes on both sides as actual STEP geometry. Each tab has a 4 mm outer radius around a Ø3 hole, leaving nominal 2.5 mm radial material. The tab geometry is a project fit allowance, not a chosen fastening system. The right pair mirrors the left pair, as explicitly requested by the owner. Connector footprints and placements are identical to A3.
 
 The straight speaker pins project **3.4 mm behind the component seating plane**, perpendicular to the board. The speaker body stays within the opening's height. This solves the rejected downward-tail geometry; it does not establish full PSU clearance.
 
