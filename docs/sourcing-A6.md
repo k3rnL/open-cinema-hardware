@@ -11,13 +11,13 @@ Quantities below are per finished rear I/O assembly. Stock is a dated observatio
 | 2 optical | Cliff **FCR684205R**, ORJ5 | [DigiKey 4654-FCR684205R-ND](https://www.digikey.com/en/products/detail/cliff-electronic-components-ltd/FCR684205R/15283094): active, **1129** shown by opened page. No purchasable JLC public listing verified | Retain. Global Sourcing subject to JLC acceptance, or external purchase; populate the two separate optical boards |
 | 2 six-contact speaker blocks | Dragon City **PT-603B** | [Manufacturer catalogue](https://www.dragoncity.com.hk/st6p.html) and [drawing](https://www.dragoncity.com.hk/dwpt603b.pdf); JLC exact public search returned0 results | **Procurement unresolved.** No verified small-quantity retail stock or current rating for the exact modeled part |
 
-## A stocked external speaker candidate, not a drop-in substitution
+## Rejected 3 A speaker alternative
 
-[Harfington item1058833](https://www.harfington.com/products/p-1058833), **Uxcell WP6-03, SKU a19012500ux0044**, is offered singly and the live page says in stock, dispatch in24hours. Two units provide six pairs. Its rear/side photos show straight pins extending normal to the rear mounting face. The seller lists52×30×29mm,45mm mounting pitch,13mm column pitch and1.5mm pin width. These make it a useful **sample candidate** in the same packaging class.
+[Harfington item1058833](https://www.harfington.com/products/p-1058833), **Uxcell WP6-03, SKU a19012500ux0044**, is offered singly and the live page says in stock, dispatch in24hours. Two units provide six pairs. Its rear/side photos show straight pins extending normal to the rear mounting face. The seller lists52×30×29mm,45mm mounting pitch,13mm column pitch and1.5mm pin width. These place it in the same packaging class, but the owner subsequently confirmed 4 Ω or mixed/unknown loads. **The 3 A alternative is rejected for the intended full-power use.**
 
 It is **not established as the same part as PT-603B**. The exact row spacing, seating depth, finished drill recipe, flange stack and electrical qualification are missing. The current KiCad model therefore remains identified as PT-603B; it has not been silently relabeled to the Uxcell SKU.
 
-The seller advertises **3A**, not an amplifier-qualified rating. For an illustrative resistive load,50W into4Ω requires about3.54A RMS, already above3A;50W into8Ω gives2.5A before margin or impedance variation. Do not approve this alternative for full50W/4Ω operation. Speaker impedance/power requirements and a suitable current rating must be established before committing the speaker footprint or placing a production order. Stock availability alone is not qualification.
+The seller advertises **3A**, not an amplifier-qualified rating. For an illustrative resistive load,50W into4Ω requires about3.54A RMS, already above3A;50W into8Ω gives2.5A before margin or impedance variation. Do not approve this alternative for full50W/4Ω operation. The owner has confirmed 4 Ω or mixed/unknown loads; maximum power, load minima and a suitable current rating must be established before committing the speaker footprint or placing a production order. Stock availability alone is not qualification.
 
 Photos inspected on the seller's page: `ux_a19012500ux0044_ux_d01` (rear dimensions) and `ux_a19012500ux0044_ux_d02` (straight-tail side view). Photos are linked through the product page and not republished here. Generic WP6-03 listings can differ; use the exact SKU and verify samples.
 
@@ -32,3 +32,13 @@ The [cradle and fasteners](assembly-and-optical-support-A6.md) are mechanical it
 ## Release gates
 
 Confirm the exact speaker part, sample dimensions and current capability; finish the circuit and production pad qualification; confirm the JLC assembly service/process for through-hole parts; validate cradle tolerances, temperature and cable loads; then freeze the BOM and connection-plate cutouts. The present design is a mechanical integration prototype.
+
+## Higher-current alternative under consideration
+
+The owner confirmed **4 Ω or mixed/unknown speaker loads**. A speaker connector must therefore not be selected on an8Ω-only assumption.
+
+Cliff **FE6930** is a more credible electrical candidate: [manufacturer specification](https://www.cliffusa.com/products/springterminals/multi.htm) states7A at60V AC; [DigiKey4654-FE6930-ND](https://www.digikey.com/en/products/detail/cliff-electronic-components-ltd/FE6930/25552004) lists stock. The [manufacturer drawing](https://www.cliffuk.co.uk/products/springterminals/FE6930.pdf), visually inspected, shows straight rear pins,65mm total width including ears,30mm height,58mm fixing pitch and eight contacts.
+
+Two blocks would provide **eight speaker pairs**, including two spare pairs, rather than the requested six. This requires the owner's preference and a new verified layout/model revision. It is not a drop-in change to A6: current speaker footprints remain PT-603B. A provisional packing idea moves the optical/RCA group about4mm right and HDMI about3mm right, keeping the220×35 opening; this is not yet a verified enclosure layout.
+
+The matching CliffFE6935 two-contact part is also rated7A, but its [drawing](https://www.cliffuk.co.uk/products/springterminals/FE6935.pdf) shows bent/downward PCB terminals and42mm overall width. It does not solve the owner's straight-tail constraint as a direct replacement. No order or substitution has been made.

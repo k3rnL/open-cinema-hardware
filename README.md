@@ -26,7 +26,7 @@ Four M2 screws attach the shared cradle to the carrier; two screws hold each opt
 
 | Qty | Interface | Reference / sourcing status |
 | --- | --- | --- |
-| 2 | Six-contact red/black speaker block | **Dragon City PT-603B** — modeled candidate; exact retail supply/current rating unresolved. Stocked Uxcell alternative needs sample/current qualification |
+| 2 | Six-contact red/black speaker block | **Dragon City PT-603B** — modeled candidate; exact retail supply/current rating unresolved. 3A Uxcell alternative rejected for4Ω/mixed loads;7A Cliff alternative requires layout/pair-count decision |
 | 2 | Optical receiver | Cliff **FCR684205R / ORJ5** — distributor stock found; JLC Global Sourcing or external purchase |
 | 1 | Coaxial S/PDIF RCA | Same Sky **RCJ-021** — JLC **C4992555**, zero public stock; distributor stock found |
 | 1 | Vertical HDMI Type A | Amphenol **10078837-001LF** — JLC **C7159430**,2400 shown in stock on2026-11-03 |
