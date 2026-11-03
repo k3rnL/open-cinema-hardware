@@ -1,5 +1,7 @@
 # A8 horizontal connector fit study
 
+**Export scope superseded by [A9](pcb-only-assembly-A9.md):** the owner designs the backplate and L brackets; current exports contain only the unchanged PCB and connectors. The plate/support descriptions below record the earlier A8 study.
+
 The owner changed from a vertical carrier to a horizontal PCB and explicitly required the speaker clips to be soldered to that same PCB. A8 implements that mechanical direction. All six speaker pairs, both optical receivers, the coaxial RCA and HDMI are directly mounted on one board. A7 remains available in Git history and its exports are retained.
 
 **This is a mechanical candidate, not a qualified connector BOM or fabrication release.** In particular, the compact right-angle KLS speaker block has no published operating-current rating in the drawing inspected. Its inclusion does not supersede the project's current requirement with a lower rating. Do not order it as an approved 50 W / 4 Ω solution on the strength of this fit model.
@@ -67,7 +69,7 @@ Using read-only copies of the actual rear-frame and PSU bodies in Home Cinema v 
 
 Evidence: [native DRC](../boards/rear-io/exports/rear-io-A8-drc.json),[pad and source-hash checks](../boards/rear-io/exports/geometry-check-A8.json),[Fusion fit/joint checks](../boards/rear-io/exports/fusion-integration-A8.json),[installed geometry](../boards/rear-io/exports/geometry-A8.json).
 
-Use **rear-io-A8-rigid.f 3d** or **rear-io-A8-rigid.step** for the plate/PCB/support assembly; **rear-io-A8-board-rigid.step** contains only the oriented PCB and connectors. Raw `rear-io-A8-assembly.step` is the hierarchical KiCad export in native board coordinates. A7 exports and the [A7 commit](https://github.com/k3rnL/open-cinema-hardware/tree/eae54aa79c94255bdad5aaae5bf087d2b4166b0e) remain historical comparison material.
+Use **rear-io-A8-rigid.f3d** or **rear-io-A8-rigid.step** for the plate/PCB/support assembly; **rear-io-A8-board-rigid.step** contains only the oriented PCB and connectors. Raw `rear-io-A8-assembly.step` is the hierarchical KiCad export in native board coordinates. A7 exports and the [A7 commit](https://github.com/k3rnL/open-cinema-hardware/tree/eae54aa79c94255bdad5aaae5bf087d2b4166b0e) remain historical comparison material.
 
 Rebuild only in a clean/staged checkout: `build_models_A8_fusion.py`, `build_horizontal_A8.py --apply`, `export_review.py`, `build_integration_A8_fusion.py`, `check_horizontal_A8.py`, then `verify_A8_fusion.py`. Fusion scripts use unsaved temporary documents; the last check reads the open Home Cinema v 7 document. No schematic, routing, decoding, LVDS, power circuitry or manufacturing files have been added. Keep mains separate and never common speaker negatives by assumption.
 

@@ -1,0 +1,40 @@
+{
+  "revision": "A9 integration export; PCB remains A8",
+  "root_bodies": 67,
+  "child_occurrences": 0,
+  "all_solid": true,
+  "backplate_bodies": 0,
+  "bracket_bodies": 0,
+  "pcb_holes_mm": {
+    "diameter": 3,
+    "x": [
+      -110,
+      110
+    ],
+    "inward_depth": [
+      12,
+      30
+    ]
+  },
+  "reimports": [
+    {
+      "file": "rear-io-A8-board-rigid.step",
+      "bodies": 67,
+      "children": 0,
+      "geometry_matches": true
+    },
+    {
+      "file": "rear-io-A9-rigid.step",
+      "bodies": 67,
+      "children": 0,
+      "geometry_matches": true
+    },
+    {
+      "file": "rear-io-A9-rigid.f3d",
+      "bodies": 67,
+      "children": 0,
+      "geometry_matches": true
+    }
+  ],
+  "pcb_sha256": "3c37f837fc464e4c3b83596c678ecc29128d9efb228c7fdef9567f9b5ee3e3f7"
+}

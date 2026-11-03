@@ -2,23 +2,23 @@
 
 Editable hardware for [Open Cinema](https://github.com/k3rnL/open-cinema). The [resources repository](https://github.com/k3rnL/open-cinema-resources) holds searchable knowledge and decision history.
 
-## A8: horizontal connector fit study
+## A9: horizontal PCB and connectors only
 
 All six speaker pairs, two optical receivers, coaxial RCA and HDMI are directly soldered to one horizontal PCB. The board sits above the connectors with its component side facing downward, so the solder tails point upward. Optical daughterboards and their cradle are no longer needed.
 
-![Installed A8 study](boards/rear-io/exports/rear-io-A8-installed-oblique.png)
+![Installed A8 study](boards/rear-io/exports/rear-io-A9-installed-oblique.png)
 
 **Fit study only:** the right-angle KLS speaker blocks have an unverified operating-current rating and purchase route. The recessed RCA needs a cable-fit check. Do not treat these as approved production parts or final plate cutouts.
 
 ## Files to use
 
-- [Rigid Fusion assembly (.f3d)](boards/rear-io/exports/rear-io-A8-rigid.f3d)
-- [Rigid STEP assembly](boards/rear-io/exports/rear-io-A8-rigid.step)
+- [Rigid Fusion assembly (.f3d)](boards/rear-io/exports/rear-io-A9-rigid.f3d)
+- [Rigid STEP assembly](boards/rear-io/exports/rear-io-A9-rigid.step)
 - [PCB and connectors only, oriented rigid STEP](boards/rear-io/exports/rear-io-A8-board-rigid.step)
 - [Editable KiCad project](boards/rear-io/rear-io.kicad_pro)
 - [Dimensions, connector references, sourcing, limitations and checks](docs/horizontal-assembly-A8.md)
 
-The full assembly contains one component with 70 solid bodies, including a provisional connection plate and two support brackets. Four Ø3 reference holes remain at x±115, z44/59 mm. A rigid joint to one hole moved all 70 bodies together; disable **Ground to Parent** before aligning it. The raw KiCad STEP retains independent components and native board coordinates.
+The current export contains one component with **67 solid bodies: PCB and connectors only**. The backplate and both L brackets have been removed; the owner will design those. All four Ø3 PCB mounting holes remain at x±110 mm, 12/30 mm inward. The old vertical plate-reference holes belong to the owner’s mechanical parts and are no longer represented by added support solids. See the [A9 change record](docs/pcb-only-assembly-A9.md).
 
 The PCB is nominally 228 ×39.8 ×1.6 mm. The connector seating surface is z67 mm above the enclosure floor. KiCad DRC passes with zero violations. Copies of the current rear frame and PSU show no modeled collision, with 2 mm minimum assembly-to-PSU clearance; this is not thermal or tolerance qualification. The temporary fit test used copies; the subsequent authorized live integration is recorded below.
 
@@ -39,4 +39,4 @@ A7's vertical FE6930 design and exports remain available in [Git history](https:
 
 No project hardware license has been selected. Redistributed KiCad library assets retain their [attribution and license](docs/sources/README.md).
 
-Fusion cloud status: the open linked source shows A8, but its save remains pending at v2. Parent v3 and Home Cinema v8 saved. See the [integration status](docs/horizontal-assembly-A8.md#live-fusion-integration-status--2026-11-03) before reopening or replacing cloud files.
+Fusion cloud status: the open linked source shows A9 (PCB and connectors only), but its save remains pending at v2. Parent v3 and Home Cinema v8 saved. See the [integration status](docs/pcb-only-assembly-A9.md#fusion-status) before reopening or replacing cloud files.
