@@ -1,39 +1,39 @@
 {
-  "revision": "A2-speaker-clip-fit",
+  "revision": "A3-straight-speaker-clips",
   "units": "mm",
   "board": {
-    "width": 99,
+    "width": 228,
     "height": 32,
     "thickness": 1.6,
-    "left_x": 15,
+    "left_x": -114,
     "right_x": 114,
     "top_z": 69,
     "bottom_z": 37,
-    "orientation": "vertical; F.Cu exterior; audio inputs only"
+    "orientation": "vertical; F.Cu exterior; straight speaker pins through board"
   },
   "opening": {
-    "width": 210,
+    "width": 220,
     "height": 35,
     "radius": 5,
-    "centre_z": 56.5,
-    "bottom_z": 39,
-    "top_z": 74,
-    "status": "owner permits taller opening; frame CAD not edited"
+    "centre_z": 51.5,
+    "bottom_z": 34,
+    "top_z": 69,
+    "status": "measured read-only from updated owner Sketch3"
   },
   "reference_fixing_points": {
-    "source": "Rear Panel v4 Sketch3",
+    "source": "2026-11-03 updated Rear Panel v4 Sketch3",
     "diameter": 3,
     "positions_xz": [
       [
-        -110,
+        -115,
         44
       ],
       [
-        -110,
+        -115,
         59
       ]
     ],
-    "status": "reference only, no drill"
+    "status": "reference only; no frame fixing drills"
   },
   "optical_clearance_windows": {
     "centres_x": [
@@ -57,22 +57,22 @@
     {
       "ref": "SP1",
       "label": "SPK 1\u20133",
-      "footprint": "KLS_WP_6P_03B_Panel_Assembly",
+      "footprint": "DragonCity_PT-603B_Straight",
       "x": -77,
-      "z": 56.5,
-      "mpn": "L-KLS1-WP-6P-03B-B/R",
+      "z": 52,
+      "mpn": "Dragon City PT-603B",
       "origin_x": -77,
-      "origin_z": 56.5
+      "origin_z": 52
     },
     {
       "ref": "SP2",
       "label": "SPK 4\u20136",
-      "footprint": "KLS_WP_6P_03B_Panel_Assembly",
+      "footprint": "DragonCity_PT-603B_Straight",
       "x": -21,
-      "z": 56.5,
-      "mpn": "L-KLS1-WP-6P-03B-B/R",
+      "z": 52,
+      "mpn": "Dragon City PT-603B",
       "origin_x": -21,
-      "origin_z": 56.5
+      "origin_z": 52
     },
     {
       "ref": "J7",
@@ -115,15 +115,18 @@
       "origin_z": 51.5
     }
   ],
-  "circuit_status": "no nets or tracks; input logic/LVDS/power deferred",
+  "circuit_status": "no nets or tracks; input logic/LVDS/power and speaker harness deferred",
   "speakers": {
-    "status": "mechanical candidate, not electrically qualified",
-    "mount": "connection plate, no attachment to input PCB",
-    "termination": "insulated handwired tails to amplifier proposed; retention and strain relief unresolved",
-    "flange_front_from_pcb_mm": 12.95,
-    "flange_back_from_pcb_mm": 10.45,
-    "main_pcb_pads": 0,
+    "status": "mechanical candidate; procurement/current/production footprint unqualified",
+    "mount": "vertical PCB with component fixing holes reserved; panel load support not designed",
+    "main_pcb_signal_pads": 12,
+    "main_pcb_component_mounting_holes": 4,
+    "body_front_height": 30,
+    "tail_direction": "normal to rear face, into enclosure; no below-body extension",
+    "tail_projection_behind_pcb_seating_plane": 3.4,
+    "hole_pattern": "13mm column spacing,19.5mm row spacing; numbering project-defined",
+    "drills": "signal D2.2 project allowance, component fix D3.2 based on panel drawing; confirm before production",
     "current_rating": "not published in inspected drawing",
-    "colour_mapping": "illustrative black upper/red lower; confirm exact ordering"
+    "colour_mapping": "illustrative black upper/red lower; verify supplied variant"
   }
 }

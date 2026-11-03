@@ -1,0 +1,7 @@
+{
+  "revision": "A3",
+  "body_count": 102,
+  "all_solid": true,
+  "source": "native KiCad assembly STEP reimport",
+  "scope": "standalone import check, not complete enclosure interference test"
+}

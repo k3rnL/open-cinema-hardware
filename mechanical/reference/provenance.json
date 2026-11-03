@@ -12,5 +12,12 @@
     "provided": "2026-11-03",
     "source": "Owner supplied in project chat",
     "sha256": "c63a31bbb2eefc2991fec6ed311dccf2f4a019c82acd8a0e1ad83f4b3e0ae807"
+  },
+  {
+    "file": "rear-panel-220x35.png",
+    "original_filename": "codex-clipboard-2a7b2347-58f4-458b-98ce-573fb8a306fe.png",
+    "provided": "2026-11-03",
+    "source": "Owner supplied in project chat; original pixels unchanged",
+    "sha256": "fc45ec6966598f249acc83596d673e733be2cb7c011312875f8e8c5af58e30b8"
   }
 ]

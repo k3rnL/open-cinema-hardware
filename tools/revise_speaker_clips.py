@@ -6,6 +6,7 @@ Speaker blocks are panel-mounted mechanical instances, not main-board pads.
 import ast,json,math,csv,sys
 from pathlib import Path
 import pcbnew as p
+if '--historical-a2' not in sys.argv:raise SystemExit('Historical A2 tool. Use an isolated historical checkout and --historical-a2.')
 if '--rebuild' not in sys.argv:raise SystemExit('Explicit regeneration requires --rebuild; review manual edits first.')
 ROOT=Path(__file__).resolve().parents[1];PROJECT=ROOT/'boards/rear-io';LIB=PROJECT/'OpenCinema_Connectors.pretty'
 tree=ast.parse((ROOT/'tools/generate_mechanical.py').read_text())

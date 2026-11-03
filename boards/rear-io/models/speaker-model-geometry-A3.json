@@ -1,0 +1,21 @@
+{
+  "part": "Dragon City PT-603B",
+  "provenance": "Project reconstruction of manufacturer dwpt603b.pdf, accessed 2026-11-03; not vendor CAD",
+  "status": "mechanical candidate; current rating unconfirmed",
+  "body_count": 22,
+  "min_mm": [
+    -26.009999999999998,
+    -15.019999999999998,
+    -3.42
+  ],
+  "max_mm": [
+    26.009999999999998,
+    15.019999999999998,
+    21.119999999999997
+  ],
+  "simplifications": [
+    "lever profiles and wire openings cosmetic",
+    "ear diameter, rear boss/insulation and pin thickness approximate; no vendor CAD",
+    "no current or attachment qualification"
+  ]
+}

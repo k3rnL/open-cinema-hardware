@@ -1,4 +1,6 @@
-# Speaker clip correction — 2026-11-03
+# Speaker clip correction — A2 history, 2026-11-03
+
+**Superseded:** the owner rejected these downward-tail blocks near the PSU. [A3 uses straight rear-facing terminals](connector-selection-A3.md) and the measured 220 × 35 opening at z34…69. The A2 upper-fixing conflict below is historical.
 
 ## Owner requirement
 
@@ -28,4 +30,4 @@ The width calculation above compares packaged front sizes; flange overlap, setba
 
 ## State of implementation
 
-A2 replaces the six Phoenix instances with two panel-supported KLS mechanical instances and a drawing-derived STEP model. The input PCB is shortened to 99 × 32 mm beside them; all audio-input footprints, positions and optical daughterboards are preserved. Historical A1 exports remain unchanged. The taller opening conflicts with the old upper frame holes, and rear tail/frame clearance is unresolved; see [mechanical notes](rear-io-mechanical.md). No replacement was ordered and no manufacturing files were released.
+A2 replaces the six Phoenix instances with two panel-supported KLS mechanical instances and a drawing-derived STEP model. The input PCB is shortened to 99 × 32 mm beside them; all audio-input footprints, positions and optical daughterboards are preserved. Historical A1 exports remain unchanged. The taller opening conflicts with the old upper frame holes, and rear tail/frame clearance is unresolved; see [mechanical notes](rear-io-mechanical-A2.md). No replacement was ordered and no manufacturing files were released.
