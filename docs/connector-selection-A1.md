@@ -2,6 +2,8 @@
 
 2026-11-03 · units mm · selection for mechanical integration, not production qualification.
 
+**Speaker selection superseded:** the owner rejected Phoenix 1732496 in favour of conventional red/black finger-operated clips. J1–J6 below document historical A1 only. See [correction and candidate references](speaker-clips-correction.md); replacement integration is pending.
+
 The owner requested real parts in the existing 210 × 25 R5 rear opening, six speaker pairs plus audio inputs, and explicitly chose **a vertical main PCB with small optical daughterboards**. Mains inlet/switch remains separate. No parts were purchased in this session.
 
 ## Order references

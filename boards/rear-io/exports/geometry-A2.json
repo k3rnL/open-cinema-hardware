@@ -1,0 +1,29 @@
+{
+  "revision": "A2",
+  "kicad_version": "10.0.5",
+  "sha256": {
+    "boards/rear-io/rear-io.kicad_pcb": "05e1786b94840a0987f3d071fe0d9e5485a50440797d318f6dfcfe7bf7bbb194",
+    "boards/rear-io/models/KLS1-WP-6P-03B.step": "8ae6840007e208eb91514de6a9c730bf7a64d631a667143aa6874e53680c84fd",
+    "boards/optical-input/optical-input.kicad_pcb": "aa8db15598b5d007d8e22a21a659d5ee9d4fa0ead2b4bcc8a3b0ca2efabe951c"
+  },
+  "main_pad_count": 29,
+  "speaker_main_pcb_pads": 0,
+  "checks": [
+    "native KiCad DRC: zero violations with reported default exclusions",
+    "99x32 closed board outline and two closed optical windows",
+    "two six-contact panel assemblies replace all Phoenix instances",
+    "audio input pad counts and model paths preserved",
+    "nominal front envelopes fit 210x35 R5 and do not overlap",
+    "STEP reimport into Fusion:96 solid-body instances"
+  ],
+  "known_conflicts": [
+    "opening top z74 intersects original frame upper D4.5 holes at x+-40,z75",
+    "speaker tails reach z36 below opening bottom39; frame depth/insulation/support require verification"
+  ],
+  "limitations": [
+    "KLS operating current rating unconfirmed",
+    "panel and PCB support, termination and finger/plug service volumes unresolved",
+    "no circuitry or full enclosure interference/thermal test",
+    "frame CAD not modified"
+  ]
+}

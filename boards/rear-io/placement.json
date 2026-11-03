@@ -1,19 +1,24 @@
 {
-  "revision": "A1-connector-fit",
+  "revision": "A2-speaker-clip-fit",
   "units": "mm",
   "board": {
-    "width": 228,
+    "width": 99,
     "height": 32,
     "thickness": 1.6,
+    "left_x": 15,
+    "right_x": 114,
     "top_z": 69,
     "bottom_z": 37,
-    "orientation": "vertical; F.Cu exterior"
+    "orientation": "vertical; F.Cu exterior; audio inputs only"
   },
   "opening": {
     "width": 210,
-    "height": 25,
+    "height": 35,
     "radius": 5,
-    "centre_z": 51.5
+    "centre_z": 56.5,
+    "bottom_z": 39,
+    "top_z": 74,
+    "status": "owner permits taller opening; frame CAD not edited"
   },
   "reference_fixing_points": {
     "source": "Rear Panel v4 Sketch3",
@@ -50,64 +55,24 @@
   },
   "connectors": [
     {
-      "ref": "J1",
-      "label": "SPK 1",
-      "footprint": "Phoenix_1732496",
-      "x": -88,
-      "z": 51.5,
-      "mpn": "1732496",
-      "origin_x": -91.4,
-      "origin_z": 55.5
+      "ref": "SP1",
+      "label": "SPK 1\u20133",
+      "footprint": "KLS_WP_6P_03B_Panel_Assembly",
+      "x": -77,
+      "z": 56.5,
+      "mpn": "L-KLS1-WP-6P-03B-B/R",
+      "origin_x": -77,
+      "origin_z": 56.5
     },
     {
-      "ref": "J2",
-      "label": "SPK 2",
-      "footprint": "Phoenix_1732496",
-      "x": -70,
-      "z": 51.5,
-      "mpn": "1732496",
-      "origin_x": -73.4,
-      "origin_z": 55.5
-    },
-    {
-      "ref": "J3",
-      "label": "SPK 3",
-      "footprint": "Phoenix_1732496",
-      "x": -52,
-      "z": 51.5,
-      "mpn": "1732496",
-      "origin_x": -55.4,
-      "origin_z": 55.5
-    },
-    {
-      "ref": "J4",
-      "label": "SPK 4",
-      "footprint": "Phoenix_1732496",
-      "x": -34,
-      "z": 51.5,
-      "mpn": "1732496",
-      "origin_x": -37.4,
-      "origin_z": 55.5
-    },
-    {
-      "ref": "J5",
-      "label": "SPK 5",
-      "footprint": "Phoenix_1732496",
-      "x": -16,
-      "z": 51.5,
-      "mpn": "1732496",
-      "origin_x": -19.4,
-      "origin_z": 55.5
-    },
-    {
-      "ref": "J6",
-      "label": "SPK 6",
-      "footprint": "Phoenix_1732496",
-      "x": 2,
-      "z": 51.5,
-      "mpn": "1732496",
-      "origin_x": -1.4,
-      "origin_z": 55.5
+      "ref": "SP2",
+      "label": "SPK 4\u20136",
+      "footprint": "KLS_WP_6P_03B_Panel_Assembly",
+      "x": -21,
+      "z": 56.5,
+      "mpn": "L-KLS1-WP-6P-03B-B/R",
+      "origin_x": -21,
+      "origin_z": 56.5
     },
     {
       "ref": "J7",
@@ -150,5 +115,15 @@
       "origin_z": 51.5
     }
   ],
-  "circuit_status": "no nets or tracks, logic/LVDS/power deferred"
+  "circuit_status": "no nets or tracks; input logic/LVDS/power deferred",
+  "speakers": {
+    "status": "mechanical candidate, not electrically qualified",
+    "mount": "connection plate, no attachment to input PCB",
+    "termination": "insulated handwired tails to amplifier proposed; retention and strain relief unresolved",
+    "flange_front_from_pcb_mm": 12.95,
+    "flange_back_from_pcb_mm": 10.45,
+    "main_pcb_pads": 0,
+    "current_rating": "not published in inspected drawing",
+    "colour_mapping": "illustrative black upper/red lower; confirm exact ordering"
+  }
 }

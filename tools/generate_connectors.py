@@ -2,6 +2,8 @@
 """Explicit A1 mechanical rebuild. Requires KiCad 10 pcbnew. Never run over unmerged edits.
 Real pads; no circuit/net assignments. Optical receivers live on daughterboards.
 """
+import sys
+if '--rebuild-historical-a1' not in sys.argv:raise SystemExit('Historical A1 tool; use A2 tools. Explicit --rebuild-historical-a1 required.')
 import ast, json, math, shutil, csv
 from pathlib import Path
 import pcbnew as p

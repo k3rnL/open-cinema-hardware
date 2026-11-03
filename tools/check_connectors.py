@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Inspect saved A1 boards and project-relative models. Does not rebuild or verify electronics."""
+import sys
+if '--check-historical-a1' not in sys.argv:raise SystemExit('Historical A1 tool; use A2 tools. Explicit --check-historical-a1 required.')
 import hashlib,json,math
 from pathlib import Path
 import pcbnew as p

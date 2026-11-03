@@ -1,0 +1,197 @@
+(footprint "KLS_WP_6P_03B_Panel_Assembly"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Panel-supported six-contact red/black clip block. Drawing V1 2025-09-19. Mechanical candidate; no main-PCB pads. Right-angle tails handwired provisionally; current rating unconfirmed.")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "22951ecc-3db2-4ff4-81df-9964b654da74")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "L-KLS1-WP-6P-03B-B/R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb9f8b17-3405-4995-96d6-f3b2bfbd97c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92d46175-28e1-46a0-a722-e948035b580f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebb2aa27-853e-4d6c-95db-dbc5f3bf24fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -26.5 -15.5)
+		(end 26.5 21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f20aebbd-d480-42d9-8891-b5910bdacf22")
+	)
+	(fp_rect
+		(start -22.5 -15)
+		(end 22.5 15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8b500ad5-be2f-49be-a53f-f70e61730c1d")
+	)
+	(fp_rect
+		(start -17 -15)
+		(end -9 -7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1e9e2d8f-b21c-4958-994f-24e0b679939e")
+	)
+	(fp_rect
+		(start -17 7)
+		(end -9 15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8da1b350-f896-4898-b68e-2c2cc0fea8fe")
+	)
+	(fp_rect
+		(start -4 -15)
+		(end 4 -7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aeec5656-2d2b-4a4f-a8cd-3e43d4331176")
+	)
+	(fp_rect
+		(start -4 7)
+		(end 4 15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7d7bab6c-c906-477e-bdc5-fe0787c3de91")
+	)
+	(fp_rect
+		(start 9 -15)
+		(end 17 -7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7e9f7ba1-37b4-4227-b41f-bf3a184266f1")
+	)
+	(fp_rect
+		(start 9 7)
+		(end 17 15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f3f623c9-010e-4404-9145-f82d3a39b50d")
+	)
+	(fp_circle
+		(center -22.5 0)
+		(end -21.25 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5a207c5b-f555-49e8-8490-128c46042908")
+	)
+	(fp_circle
+		(center -22.5 0)
+		(end -19 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "56d3b785-b9ee-4f50-997c-8194f12e8035")
+	)
+	(fp_circle
+		(center 22.5 0)
+		(end 23.75 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3f6e5d50-3513-489c-8f0c-1edc018ae85c")
+	)
+	(fp_circle
+		(center 22.5 0)
+		(end 26 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "828bac28-3166-4fab-a4dd-90f1e81cf3e0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/KLS1-WP-6P-03B.step"
+		(offset
+			(xyz 0 0 12.95)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
