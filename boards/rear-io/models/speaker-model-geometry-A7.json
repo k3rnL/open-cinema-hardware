@@ -1,0 +1,23 @@
+{
+  "part": "Cliff FE6930",
+  "source": "https://www.cliffuk.co.uk/products/springterminals/FE6930.pdf",
+  "drawing_issue": 2,
+  "provenance": "Project reconstruction, not vendor CAD",
+  "body_count": 28,
+  "min_mm": [
+    -32.51,
+    -15.009999999999998,
+    -3.5199999999999996
+  ],
+  "max_mm": [
+    32.51,
+    15.009999999999998,
+    23.52
+  ],
+  "published_rating": "7 A at60 V AC",
+  "limitations": [
+    "lever, entry and rear insulation profiles simplified",
+    "nominal fit model; tolerances and physical sample not qualified",
+    "signal tails solder tags; PCB land pattern is project-derived"
+  ]
+}

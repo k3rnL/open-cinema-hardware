@@ -1,0 +1,9 @@
+{
+  "revision": "A7",
+  "root_bodies": 135,
+  "child_occurrences": 0,
+  "all_solid": true,
+  "cradle_body": "Body1",
+  "cradle_interferences": [],
+  "scope": "support versus modeled connector assembly only, not enclosure/PSU"
+}

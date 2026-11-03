@@ -1,0 +1,83 @@
+{
+  "revision": "A7",
+  "sha256": {
+    "boards/rear-io/rear-io.kicad_pcb": "593f0dbf3f0509724807957490281407938ba42312ecaffa8f6cde3efa67a08e",
+    "boards/rear-io/rear-io.kicad_pro": "732b48743980df1fd93f27bca71280260273c71b2d0bc76aee714178b2cbd4cf",
+    "boards/rear-io/placement.json": "c28cfc8ed0f2370c7ab3e95654a2c6486a21d06133acd7f712c7119c433bf220",
+    "boards/rear-io/OpenCinema_Connectors.pretty/Cliff_FE6930_Straight.kicad_mod": "a3d531676a48fce54d24a4d4b0dd60af2d0204ac54ec10ad5fe2ecc29a43880b",
+    "boards/optical-input/optical-input.kicad_pcb": "658ca1cceba63095b386d9643757f01bb8987a84d5bc285e9d82ea8349affc3d",
+    "boards/rear-io/models/Cliff_FE6930.step": "2b4b7bacf99f5442fcd89967125086a2b98549f4dbad0de72e99fdea2cfbde84",
+    "boards/rear-io/models/optical-cradle-with-fasteners-A6.step": "107627953b0f283e1ed7beb3e01c883fc129ce1c56ebc38eb22546ba2c49d220",
+    "boards/rear-io/models/optical-daughterboard-supported-A6.step": "be8469607dc6ccc8b0ed30fae31606b555bb1422d04a59999d83348b5d1948f8",
+    "boards/rear-io/exports/rear-io-A7-assembly.step": "63fd7fa216a3d48b77f10f6104dc0e0731da36e6eae5d097cf5501e286362c04",
+    "boards/rear-io/exports/rear-io-A7-rigid.step": "b114faf16a3a96e29ffe3df9a467f3d580a7fa2c5e72ed46ef9b2c66f635ccdf",
+    "boards/rear-io/exports/rear-io-A7-rigid.f3d": "4a9fa277029a82e2976abefac1e4d6dc79f49664154e146024e4d8e1a486afdc"
+  },
+  "main_pads": 57,
+  "main_electrical_pads": 45,
+  "main_npth": 12,
+  "all_four_alignment_holes_retained": true,
+  "optical_child_source_unchanged_from_A6": true,
+  "native_drc_main_and_child": "zero violations; no circuit",
+  "fusion": {
+    "revision": "A7",
+    "root_bodies": 135,
+    "child_occurrences": 0,
+    "all_solid": true,
+    "cradle_body": "Body1",
+    "cradle_interferences": [],
+    "scope": "support versus modeled connector assembly only, not enclosure/PSU",
+    "alignment_holes_xz_mm": [
+      [
+        -115,
+        44
+      ],
+      [
+        -115,
+        59
+      ],
+      [
+        115,
+        44
+      ],
+      [
+        115,
+        59
+      ]
+    ],
+    "joint_test": {
+      "type": "rigid",
+      "picked_feature": "HREF1 circular edge",
+      "all_bodies_moved": 135,
+      "single_occurrence_transform_matches_all_body_vertices": true
+    }
+  },
+  "packing": {
+    "revision": "A7",
+    "opening": "220x35 R5, x+/-110,z34..69",
+    "opening_projection_components": [
+      "optical-daughterboard-supported-A6:1+Optical_daughterboard_assembly:1",
+      "RCJ-021:1+SameSky_RCJ-021:1",
+      "10078837-001LF:1+Amphenol_10078837-001LF:1",
+      "Cliff_FE6930:1+Cliff FE6930 - 8 contacts - straight rear tails:1",
+      "optical-daughterboard-supported-A6:2+Optical_daughterboard_assembly:1",
+      "Cliff_FE6930:2+Cliff FE6930 - 8 contacts - straight rear tails:1"
+    ],
+    "outside_opening": [],
+    "speaker_neighbor_interferences": [],
+    "speaker_bbox_candidate_body_pairs_checked": 16,
+    "minimum_nominal_speaker_ear_to_left_opening_mm": 0.5,
+    "nominal_inter_speaker_ear_gap_mm": 1,
+    "scope": "Nominal solids/projection only; no plate setback, plug travel, manufacturing tolerances or enclosure/PSU fit.",
+    "f3d_reimport": {
+      "root_bodies": 135,
+      "child_occurrences": 0,
+      "all_solid": true
+    }
+  },
+  "limitations": [
+    "0.5mm nominal left-ear margin and approximately0.4mm RCA/cradle gap require tolerance review",
+    "sample/slot/attachment qualification pending",
+    "no complete enclosure, load, thermal or electrical validation"
+  ]
+}

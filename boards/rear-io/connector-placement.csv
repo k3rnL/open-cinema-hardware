@@ -1,7 +1,7 @@
 ref,label,footprint,x,z,mpn,origin_x,origin_z
-SP1,SPK 1–3,DragonCity_PT-603B_Straight,-77,52,Dragon City PT-603B,-77,52
-SP2,SPK 4–6,DragonCity_PT-603B_Straight,-21,52,Dragon City PT-603B,-21,52
-J7,OPT 1,Optical_Daughterboard_Assembly,28,50.5,OC-OPTICAL-A1 / FCR684205R,28,50.5
-J8,OPT 2,Optical_Daughterboard_Assembly,48,50.5,OC-OPTICAL-A1 / FCR684205R,48,50.5
-J9,COAX,SameSky_RCJ-021,65,51.5,RCJ-021,65,51.5
-J10,HDMI,Amphenol_10078837-001LF,88,51.5,10078837-001LF,88,51.5
+SP1,SPK 1-4,Cliff_FE6930_Straight,-77,52,Cliff FE6930,-77,52
+SP2,SPK 5-6 + SPARES,Cliff_FE6930_Straight,-11,52,Cliff FE6930,-11,52
+J7,OPT 1,Optical_Daughterboard_Assembly,32,50.5,OC-OPTICAL-A6 / FCR684205R,32,50.5
+J8,OPT 2,Optical_Daughterboard_Assembly,52,50.5,OC-OPTICAL-A6 / FCR684205R,52,50.5
+J9,COAX,SameSky_RCJ-021,69,51.5,RCJ-021,69,51.5
+J10,HDMI,Amphenol_10078837-001LF,91,51.5,10078837-001LF,91,51.5

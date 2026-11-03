@@ -1,0 +1,23 @@
+{
+  "revision": "A7",
+  "opening": "220x35 R5, x+/-110,z34..69",
+  "opening_projection_components": [
+    "optical-daughterboard-supported-A6:1+Optical_daughterboard_assembly:1",
+    "RCJ-021:1+SameSky_RCJ-021:1",
+    "10078837-001LF:1+Amphenol_10078837-001LF:1",
+    "Cliff_FE6930:1+Cliff FE6930 - 8 contacts - straight rear tails:1",
+    "optical-daughterboard-supported-A6:2+Optical_daughterboard_assembly:1",
+    "Cliff_FE6930:2+Cliff FE6930 - 8 contacts - straight rear tails:1"
+  ],
+  "outside_opening": [],
+  "speaker_neighbor_interferences": [],
+  "speaker_bbox_candidate_body_pairs_checked": 16,
+  "minimum_nominal_speaker_ear_to_left_opening_mm": 0.5,
+  "nominal_inter_speaker_ear_gap_mm": 1,
+  "scope": "Nominal solids/projection only; no plate setback, plug travel, manufacturing tolerances or enclosure/PSU fit.",
+  "f3d_reimport": {
+    "root_bodies": 135,
+    "child_occurrences": 0,
+    "all_solid": true
+  }
+}
