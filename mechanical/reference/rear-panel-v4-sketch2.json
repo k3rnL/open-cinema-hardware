@@ -1,0 +1,527 @@
+{
+  "document": "Rear Panel v4",
+  "sketch": "Sketch2",
+  "units": "mm",
+  "captured": "2026-11-03",
+  "origin_world_mm": [
+    0,
+    100,
+    0
+  ],
+  "x_axis_world_mm": [
+    -10,
+    100,
+    0
+  ],
+  "y_axis_world_mm": [
+    0,
+    100,
+    10
+  ],
+  "curves": [
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -118,
+        2,
+        0
+      ],
+      "end_mm": [
+        -118,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -118,
+        0,
+        0
+      ],
+      "end_mm": [
+        118,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        118,
+        0,
+        0
+      ],
+      "end_mm": [
+        118,
+        2,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        118,
+        2,
+        0
+      ],
+      "end_mm": [
+        -118,
+        2,
+        0
+      ]
+    },
+    {
+      "type": "SketchCircle",
+      "construction": false,
+      "center_mm": [
+        125,
+        71,
+        0
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "type": "SketchCircle",
+      "construction": false,
+      "center_mm": [
+        125.000002,
+        15.25,
+        0
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "type": "SketchCircle",
+      "construction": false,
+      "center_mm": [
+        -40,
+        75,
+        0
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "type": "SketchCircle",
+      "construction": false,
+      "center_mm": [
+        40,
+        75,
+        0
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "type": "SketchCircle",
+      "construction": false,
+      "center_mm": [
+        -125.000002,
+        15.25,
+        0
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "type": "SketchCircle",
+      "construction": false,
+      "center_mm": [
+        -125,
+        71,
+        0
+      ],
+      "radius_mm": 2.25
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        -130,
+        4,
+        0
+      ],
+      "end_mm": [
+        -120,
+        4,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        -120,
+        4,
+        0
+      ],
+      "end_mm": [
+        -120,
+        70,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        -120,
+        70,
+        0
+      ],
+      "end_mm": [
+        120,
+        70,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        120,
+        70,
+        0
+      ],
+      "end_mm": [
+        120,
+        4,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        120,
+        4,
+        0
+      ],
+      "end_mm": [
+        130,
+        4,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        130,
+        4,
+        0
+      ],
+      "end_mm": [
+        130,
+        80,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        130,
+        80,
+        0
+      ],
+      "end_mm": [
+        -130,
+        80,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -130,
+        80,
+        0
+      ],
+      "end_mm": [
+        -130,
+        4,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        130,
+        4,
+        0
+      ],
+      "end_mm": [
+        130,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        130,
+        0,
+        0
+      ],
+      "end_mm": [
+        118,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -130,
+        4,
+        0
+      ],
+      "end_mm": [
+        -130,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -130,
+        0,
+        0
+      ],
+      "end_mm": [
+        -118,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        118,
+        2,
+        0
+      ],
+      "end_mm": [
+        118,
+        33,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -118,
+        2,
+        0
+      ],
+      "end_mm": [
+        -118,
+        33,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -118,
+        33,
+        0
+      ],
+      "end_mm": [
+        118,
+        33,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        0,
+        80,
+        0
+      ],
+      "end_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        100,
+        39,
+        0
+      ],
+      "end_mm": [
+        -100,
+        39,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -105,
+        44,
+        0
+      ],
+      "end_mm": [
+        -105,
+        59,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        -100,
+        64,
+        0
+      ],
+      "end_mm": [
+        100,
+        64,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": false,
+      "start_mm": [
+        105,
+        59,
+        0
+      ],
+      "end_mm": [
+        105,
+        44,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        105,
+        39,
+        0
+      ],
+      "end_mm": [
+        -105,
+        64,
+        0
+      ]
+    },
+    {
+      "type": "SketchLine",
+      "construction": true,
+      "start_mm": [
+        -105,
+        39,
+        0
+      ],
+      "end_mm": [
+        105,
+        64,
+        0
+      ]
+    },
+    {
+      "type": "SketchArc",
+      "construction": false,
+      "start_mm": [
+        105,
+        59,
+        0
+      ],
+      "end_mm": [
+        100,
+        64,
+        0
+      ],
+      "center_mm": [
+        100,
+        59,
+        0
+      ],
+      "radius_mm": 5
+    },
+    {
+      "type": "SketchArc",
+      "construction": false,
+      "start_mm": [
+        100,
+        39,
+        0
+      ],
+      "end_mm": [
+        105,
+        44,
+        0
+      ],
+      "center_mm": [
+        100,
+        44,
+        0
+      ],
+      "radius_mm": 5
+    },
+    {
+      "type": "SketchArc",
+      "construction": false,
+      "start_mm": [
+        -105,
+        44,
+        0
+      ],
+      "end_mm": [
+        -100,
+        39,
+        0
+      ],
+      "center_mm": [
+        -100,
+        44,
+        0
+      ],
+      "radius_mm": 5
+    },
+    {
+      "type": "SketchArc",
+      "construction": false,
+      "start_mm": [
+        -100,
+        64,
+        0
+      ],
+      "end_mm": [
+        -105,
+        59,
+        0
+      ],
+      "center_mm": [
+        -100,
+        59,
+        0
+      ],
+      "radius_mm": 5
+    }
+  ]
+}

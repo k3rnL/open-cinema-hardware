@@ -1,0 +1,16 @@
+{
+  "revision": "A0-mechanical",
+  "kicad_version": "10.0.5",
+  "pcb_sha256": "f7d81d0e1b421d021d37eda142d27a5fb8c58701d9d8e6f6130e08a0f1de70ea",
+  "checks": [
+    "228 x 32 mm closed outline",
+    "1.6 mm nominal thickness",
+    "10 padless connector envelopes at specified positions",
+    "6 speaker pairs and 4 audio inputs",
+    "all envelope face corners inside 210 x 25 R5 opening",
+    "no overlapping connector bodies in projection",
+    "4 proposed NPTH mounting holes, diameter 3.2 mm",
+    "no tracks or copper zones"
+  ],
+  "limitations": "Connector dimensions, depth, mating access and complete enclosure fit are unverified. No electrical checks."
+}

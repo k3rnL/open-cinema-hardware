@@ -1,0 +1,1720 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(aux_axis_origin 150 169)
+		(grid_origin 150 117.5)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "speaker_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "1c6f58e3-c5fb-421d-82f7-4b07f98f42c2")
+		(at 80 117.5)
+		(descr "One speaker pair, two spring contacts; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J2"
+			(at 0 -10.4 0)
+			(layer "F.SilkS")
+			(uuid "5ff49cb4-0bbd-4003-8b14-b906205a7f2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SPEAKER_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9aba34ba-2022-48c3-8000-5c71b6fd46ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b271872-1030-4c8b-bb6e-06762458a603")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "683b60e5-94ff-4638-b208-1cc90ccd9d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "45c3854c-5c1c-4ec7-8d58-7b0d444c1829")
+		)
+		(fp_rect
+			(start -7.5 -9.5)
+			(end 7.5 9.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "15e46e5a-2245-47fd-976d-c9f8f14e1bd1")
+		)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f13be05f-f8bb-43da-8d25-7c11dc5846be")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/speaker.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "hdmi_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "1ff0272e-fd60-4d51-8ac8-e340cbe01e55")
+		(at 241 117.5)
+		(descr "HDMI Type A eARC/ARC input; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J10"
+			(at 0 -5.9 0)
+			(layer "F.SilkS")
+			(uuid "a1602b81-f17b-4442-b97e-783d464e9f9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "HDMI_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "758984a4-f6b3-4c4f-8571-a85067cb6a8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "474cb1d3-b881-474c-b233-7bbff912c37b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df82c079-91f4-47bd-8877-37adb4dfed26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -9 -4.5)
+			(end 9 4.5)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2852b73c-6b06-49dc-b3dd-9e156c19970a")
+		)
+		(fp_rect
+			(start -9.5 -5)
+			(end 9.5 5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a15f5d7d-d9a2-4b52-9707-bb6f8c1e2d52")
+		)
+		(fp_rect
+			(start -9 -4.5)
+			(end 9 4.5)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "61aab812-c41e-4932-90e4-8e7a9e00bfb2")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/hdmi.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "speaker_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "20cbc96b-99a7-4f98-9296-e2d42ab816e0")
+		(at 134 117.5)
+		(descr "One speaker pair, two spring contacts; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J5"
+			(at 0 -10.4 0)
+			(layer "F.SilkS")
+			(uuid "6938e316-a491-49a6-ac94-57464142a79a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SPEAKER_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ec5fb60-35ed-44fb-ba20-20ecfbdb8a32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f3ffb60-adff-4de5-ad02-c09a6d5491fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f80984f6-c465-4f4c-9283-a4cbf749ca0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c016c19c-10a6-4ba2-8aa0-a74a4567b922")
+		)
+		(fp_rect
+			(start -7.5 -9.5)
+			(end 7.5 9.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5563bab6-eefd-4169-86d7-bc83327d4e54")
+		)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "8a6c6152-9b47-45ad-8982-cddbf541ab82")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/speaker.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "OpenCinema_Mechanical:Mount_M3_Proposed"
+		(layer "F.Cu")
+		(uuid "27ae0d01-46da-4fad-89bc-6d8ba5837437")
+		(at 259 105)
+		(property "Reference" "H2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a5b82d5-9280-472b-a486-36d03d85fd04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3 PROPOSED"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e427295-7e5b-4e97-b8e5-4dea3cef193e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "addce468-4eb0-4fc3-93e0-3c9c67d65926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e9b1972-87d3-4bd7-be45-462dc2b21516")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a1fc38ee-363d-4cbc-b5e1-de88d93abc65")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "213d61f8-5bdc-4217-9092-3d4f10024b67")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu")
+			(uuid "a6ec9788-c273-4309-8b0e-c722f545468f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "speaker_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "2dcb6c93-75ea-40fc-8a95-bdfb55036522")
+		(at 152 117.5)
+		(descr "One speaker pair, two spring contacts; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J6"
+			(at 0 -10.4 0)
+			(layer "F.SilkS")
+			(uuid "f716552c-7616-4439-8591-985df5a2e541")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SPEAKER_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "697af3ec-9fde-4fe2-a316-f559a68c9398")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00ac23e1-6d69-4458-931e-6b1b7ce753ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bafbfcad-a9d0-4232-830d-3eee335f0e87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "5cdb7e37-113f-42d3-97ca-37e154836b74")
+		)
+		(fp_rect
+			(start -7.5 -9.5)
+			(end 7.5 9.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "68c43598-ec3c-41d2-8bec-2c3923eb9972")
+		)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "67b0cbb4-b844-4760-a75c-e4c46daa3e83")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/speaker.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "speaker_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "31c468bc-f587-4280-b487-f7c114a88ba7")
+		(at 116 117.5)
+		(descr "One speaker pair, two spring contacts; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J4"
+			(at 0 -10.4 0)
+			(layer "F.SilkS")
+			(uuid "4ebbbeb3-408a-48aa-a4ae-047910a8504a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SPEAKER_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09bc24d5-dc28-47fb-b1f3-937183583f94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf67d3dc-c3e8-4608-a4c7-9c11904d9576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a835f228-b3fc-4ef4-875d-fa941f840b91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "e35c5727-6c33-4530-8135-99944021cebd")
+		)
+		(fp_rect
+			(start -7.5 -9.5)
+			(end 7.5 9.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9d19d963-c98f-488a-8fcc-8bb6e800ec1b")
+		)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b2bddd75-8016-4aac-872f-1d9b587e6256")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/speaker.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "OpenCinema_Mechanical:Mount_M3_Proposed"
+		(layer "F.Cu")
+		(uuid "34c59d6b-e13f-4702-8bb9-c472538e0fb3")
+		(at 41 127)
+		(property "Reference" "H3"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "042202c5-4064-4ae5-85c9-aaf91e00c028")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3 PROPOSED"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e582ccad-f104-45b4-bcc3-4f421bbd13c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79c0199a-668c-453c-b5a1-1b4ab6b8d21d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0c17c83-709a-4f8e-ba04-f3147f53e498")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "09c9f7b3-e3ea-4b0c-b93a-b745398af8c4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c30f64b2-39bb-4d26-9fce-a91202520564")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu")
+			(uuid "51c1391a-af7a-477d-9729-74e6058a7082")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "optical_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "3711cafd-b495-47af-a170-8e972bb68314")
+		(at 198 117.5)
+		(descr "TOSLINK receiver; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J8"
+			(at 0 -8.4 0)
+			(layer "F.SilkS")
+			(uuid "005f6665-9053-4341-9629-79cf78c4c8f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OPTICAL_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47d7f87c-5cb9-4154-a95d-a98ab6f005fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0f4749a-fadf-4b3b-8e06-4742f24b8fbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d8092ca-1176-48ba-80e4-d8fbc985120e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6c2e77b9-2e35-4986-b3ec-9096f057b2e0")
+		)
+		(fp_rect
+			(start -7.5 -7.5)
+			(end 7.5 7.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "792ed74b-9575-48f4-b4e7-a4d87091158a")
+		)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4f9859e8-375c-4510-96ce-ee37512d2b0a")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/optical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "coax_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "3f4b4823-c63a-4bf0-8547-94f3715912c1")
+		(at 218 117.5)
+		(descr "RCA coaxial SPDIF input; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J9"
+			(at 0 -7.4 0)
+			(layer "F.SilkS")
+			(uuid "54eda7d4-09d7-403f-81a9-fae16a244456")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "COAX_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebc0444d-6cbf-4604-9929-ee91164955de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "927585c6-1656-49a1-992e-05ae52f94e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d84a561f-bbbe-4283-a10b-a33c22795f87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6 -6)
+			(end 6 6)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "60908f25-9bbd-4ae1-a79c-1cf56f03eb2a")
+		)
+		(fp_rect
+			(start -6.5 -6.5)
+			(end 6.5 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5323b65f-1114-49aa-876b-815b2d6d5123")
+		)
+		(fp_rect
+			(start -6 -6)
+			(end 6 6)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "47cfd7db-bda7-4cbb-bcfd-a3ada41e9024")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/coax.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "speaker_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "49cac50b-3b38-47ce-9ab9-c2c52422fae7")
+		(at 98 117.5)
+		(descr "One speaker pair, two spring contacts; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J3"
+			(at 0 -10.4 0)
+			(layer "F.SilkS")
+			(uuid "caf21f1a-1038-45b4-817f-38cdaf74a813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SPEAKER_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a8bf2f7-ce9a-4975-85df-5b04d134b779")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "771e874e-be99-44ed-8b95-96efa34dc161")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "256a851c-1e05-47f4-86b8-5bf6e25266d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "62827235-d10a-4e15-a5c9-a44003c484df")
+		)
+		(fp_rect
+			(start -7.5 -9.5)
+			(end 7.5 9.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "343e1eeb-a557-4ee5-ad7f-9be48fc31789")
+		)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e904677d-8040-4edc-8612-376ad331244f")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/speaker.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "speaker_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "4f33c9b2-d5a3-4807-90e5-cb488bd96164")
+		(at 62 117.5)
+		(descr "One speaker pair, two spring contacts; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J1"
+			(at 0 -10.4 0)
+			(layer "F.SilkS")
+			(uuid "d27ff0bf-c675-45d6-97d5-ebc851b5c425")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SPEAKER_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ec58d53-40f7-4bb0-b3b7-7ddcff12d47e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84ef705f-2521-46a5-b864-27acbf04f276")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee8c9b2-9c00-4fda-8341-81377821ef03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "60ceba7f-0808-40a8-a480-c54d5e09b6a1")
+		)
+		(fp_rect
+			(start -7.5 -9.5)
+			(end 7.5 9.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6a8245b1-7082-4491-a06a-0d620b756eaa")
+		)
+		(fp_rect
+			(start -7 -9)
+			(end 7 9)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "eb47f05a-b3cd-4be6-9998-ae6c925a03e4")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/speaker.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "OpenCinema_Mechanical:Mount_M3_Proposed"
+		(layer "F.Cu")
+		(uuid "55faedb0-68f3-48c9-ab68-3f8302e39329")
+		(at 259 127)
+		(property "Reference" "H4"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5461572f-773e-47f5-8a15-53725a7d9bee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3 PROPOSED"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a59b99a-6d26-4b1b-8ce4-cb0157f5b039")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc85d4fe-5596-4d0a-a347-82f2c5d46892")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb6e7154-6d51-49ce-8cb0-c4ee2df63001")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1ac490da-3a1c-4141-83d1-0a97d28ab693")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "245464c4-3707-4770-a8e5-cb9d924b7e28")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu")
+			(uuid "aac40749-600b-4045-981d-3862ebd0029f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "optical_ENVELOPE"
+		(layer "F.Cu")
+		(uuid "58cfd685-5423-46d2-9ec8-dfd9833596a2")
+		(at 178 117.5)
+		(descr "TOSLINK receiver; placeholder; NO PADS; NOT FOR FABRICATION")
+		(property "Reference" "J7"
+			(at 0 -8.4 0)
+			(layer "F.SilkS")
+			(uuid "7b844ef6-ee57-4b1d-8944-accabb449a45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OPTICAL_ENVELOPE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c55762c-3b8a-4554-9023-a18d772ef8eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2b2625c-6af4-442a-a133-9f4d7bbffd47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc85fa8e-9b63-47c3-9453-17bc47df2771")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "32310de0-1715-4ffd-a421-ae4da58c3f35")
+		)
+		(fp_rect
+			(start -7.5 -7.5)
+			(end 7.5 7.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4571aaa3-4dd6-4041-b715-553b6ae53a66")
+		)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0952810c-c79a-402f-aff7-c06305c1ecca")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/optical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "OpenCinema_Mechanical:Mount_M3_Proposed"
+		(layer "F.Cu")
+		(uuid "713fc16e-1d8e-4242-a5f8-3507c4712e79")
+		(at 41 105)
+		(property "Reference" "H1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8cae29bc-f201-404a-a7f4-de99b5ab9cb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3 PROPOSED"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91affa8c-6e92-4b93-8812-a73cfcb8f81a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8932fea2-422a-4065-83c0-dea60e256dcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a712c722-fb73-4151-8dab-5a4e6a337338")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6a0f9845-560c-48d7-9aea-dec9939de518")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b6f135bb-5799-4a1e-a166-b4eda621b4be")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu")
+			(uuid "6c82f399-418a-4c27-8b27-1084906a1ced")
+		)
+		(embedded_fonts no)
+	)
+	(gr_arc
+		(start 45 110)
+		(mid 46.464466 106.464466)
+		(end 50 105)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "33e71f68-07d8-4360-abd1-633c4931d3fe")
+	)
+	(gr_line
+		(start 45 125)
+		(end 45 110)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "bd0f3dda-f7a1-4c60-beae-d779b44e4e81")
+	)
+	(gr_line
+		(start 50 105)
+		(end 250 105)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fe2fb3b9-d74f-4403-9824-5697e877577a")
+	)
+	(gr_arc
+		(start 50 130)
+		(mid 46.464466 128.535533)
+		(end 45 125)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "960df100-b72b-40a3-9126-75ee7fedb1dc")
+	)
+	(gr_arc
+		(start 250 105)
+		(mid 253.535533 106.464466)
+		(end 255 110)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2d75d011-cb37-407f-b26f-18b3919f2ed4")
+	)
+	(gr_line
+		(start 250 130)
+		(end 50 130)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a2d60345-404a-4d05-a221-3668247cc148")
+	)
+	(gr_line
+		(start 255 110)
+		(end 255 125)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4ab9b075-fd5d-4803-b702-24e49354beb0")
+	)
+	(gr_arc
+		(start 255 125)
+		(mid 253.535533 128.535533)
+		(end 250 130)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6d341e1f-b77f-4f03-92c0-38d3d4f71a07")
+	)
+	(gr_arc
+		(start 36 102)
+		(mid 36.585786 100.585786)
+		(end 38 100)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "999b771d-02ed-43e5-bf39-48ea8e99bf33")
+	)
+	(gr_line
+		(start 36 130)
+		(end 36 102)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b511b76c-1402-44ec-8c28-27c24d8bf6d3")
+	)
+	(gr_line
+		(start 38 100)
+		(end 262 100)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ff2d9bda-aa54-4199-bc45-292da002c2b6")
+	)
+	(gr_arc
+		(start 38 132)
+		(mid 36.585786 131.414213)
+		(end 36 130)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "04cfe066-9f0c-40fe-a1af-07d36711d29c")
+	)
+	(gr_arc
+		(start 262 100)
+		(mid 263.414213 100.585786)
+		(end 264 102)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "178ddd60-358f-455d-802e-0b0a8ef8afe2")
+	)
+	(gr_line
+		(start 262 132)
+		(end 38 132)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6a0c7f3e-64e2-426e-8a04-5f86d4b268ec")
+	)
+	(gr_line
+		(start 264 102)
+		(end 264 130)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1fee7217-19b2-4832-bc64-371aa25269b8")
+	)
+	(gr_arc
+		(start 264 130)
+		(mid 263.414213 131.414213)
+		(end 262 132)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "60e3d55a-96d2-456a-aac1-455d178f36ca")
+	)
+	(gr_text "MECHANICAL DRAFT - NO CIRCUIT"
+		(at 202 103 0)
+		(layer "F.SilkS")
+		(uuid "35c04915-25b4-49ba-ad63-85034bd38307")
+		(effects
+			(font
+				(size 1.05 1.05)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SPK 1"
+		(at 62 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "06ef4789-67ba-4852-96ec-f84561bbb7f1")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SPK 2"
+		(at 80 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "f656ec5f-f1ea-4a30-a55e-8d33465a1491")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SPK 3"
+		(at 98 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "23e4bca0-281a-4b1c-be81-01a2cd5dc3b9")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SPK 4"
+		(at 116 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "2de19aa7-d5f5-4147-be6d-a638ec6ebd1c")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SPK 5"
+		(at 134 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "5145efb2-922e-4b33-a67c-2040f6743d39")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "SPK 6"
+		(at 152 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "2d01d008-33d6-41ed-85f7-006305f5ea1a")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "OPT 1"
+		(at 178 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "e192d729-e625-4239-b1eb-39dd32e22d54")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "OPT 2"
+		(at 198 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "6f9cd331-ac36-458f-b056-7d10ba67c57d")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "COAX"
+		(at 218 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "d61af9af-ff56-4d3b-95ea-f541dd37d5ce")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "HDMI"
+		(at 241 129.699999 0)
+		(layer "F.SilkS")
+		(uuid "858d51b2-a930-4b2b-bcee-22f4a89f263b")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "OPEN CINEMA / REAR I-O / A0"
+		(at 98 103 0)
+		(layer "F.SilkS")
+		(uuid "811c66c5-c7ef-455a-9bf9-acd93a5d984e")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "PROPOSED PCB 228 x 32 x 1.6 mm / 4x DIA 3.2 / DO NOT FABRICATE"
+		(at 150 139 0)
+		(layer "Dwgs.User")
+		(uuid "f1769b15-9265-449b-bb6f-a680f9df2e1c")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "210 x 25 R5 FRAME OPENING (reference only)"
+		(at 150 96 0)
+		(layer "Dwgs.User")
+		(uuid "23e02ee7-1c61-4c0c-910d-979b7114123c")
+		(effects
+			(font
+				(size 1.3 1.3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "EXTERIOR REAR VIEW - CONNECTOR FACES TOWARD VIEWER"
+		(at 150 136 0)
+		(layer "Dwgs.User")
+		(uuid "942f9b1f-a0b0-4297-81a7-2f457753d7b4")
+		(effects
+			(font
+				(size 1.3 1.3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

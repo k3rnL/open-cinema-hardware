@@ -1,0 +1,7 @@
+* text=auto
+*.png binary
+# Preserve native exporter formatting in CAD/review artifacts.
+*.step -whitespace
+*.svg -whitespace
+*.dxf -whitespace
+boards/rear-io/exports/** linguist-generated=true

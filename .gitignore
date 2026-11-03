@@ -1,0 +1,12 @@
+.DS_Store
+*.kicad_prl
+*.kicad_pcb.lck
+*.kicad_sch.lck
+~*.lck
+*-backups/
+*.bak
+*.bak_*
+*.lck
+__pycache__/
+fp-info-cache
+*.zip

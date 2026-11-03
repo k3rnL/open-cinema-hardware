@@ -1,0 +1,26 @@
+{
+  "revision": "A0-mechanical",
+  "units": "mm",
+  "coordinate_system": "Exterior rear view: x right, z up; origin at panel bottom centre",
+  "board": {"width": 228, "height": 32, "thickness": 1.6, "corner_radius": 2, "top_z": 69, "status": "proposed"},
+  "opening": {"width": 210, "height": 25, "radius": 5, "centre_z": 51.5, "status": "measured from Rear Panel v4 / Sketch2"},
+  "mounting_holes": {"diameter": 3.2, "positions_xz": [[-109, 64], [109, 64], [-109, 42], [109, 42]], "status": "proposed PCB holes, not existing frame fixings"},
+  "connector_envelopes": {
+    "speaker": {"width": 14, "height": 18, "depth": 20, "description": "One speaker pair, two spring contacts; placeholder"},
+    "optical": {"width": 14, "height": 14, "depth": 20, "description": "TOSLINK receiver; placeholder"},
+    "coax": {"width": 12, "height": 12, "depth": 20, "description": "RCA coaxial SPDIF input; placeholder"},
+    "hdmi": {"width": 18, "height": 9, "depth": 20, "description": "HDMI Type A eARC/ARC input; placeholder"}
+  },
+  "connectors": [
+    {"ref": "J1", "label": "SPK 1", "type": "speaker", "x": -88, "z": 51.5},
+    {"ref": "J2", "label": "SPK 2", "type": "speaker", "x": -70, "z": 51.5},
+    {"ref": "J3", "label": "SPK 3", "type": "speaker", "x": -52, "z": 51.5},
+    {"ref": "J4", "label": "SPK 4", "type": "speaker", "x": -34, "z": 51.5},
+    {"ref": "J5", "label": "SPK 5", "type": "speaker", "x": -16, "z": 51.5},
+    {"ref": "J6", "label": "SPK 6", "type": "speaker", "x": 2, "z": 51.5},
+    {"ref": "J7", "label": "OPT 1", "type": "optical", "x": 28, "z": 51.5},
+    {"ref": "J8", "label": "OPT 2", "type": "optical", "x": 48, "z": 51.5},
+    {"ref": "J9", "label": "COAX", "type": "coax", "x": 68, "z": 51.5},
+    {"ref": "J10", "label": "HDMI", "type": "hdmi", "x": 91, "z": 51.5}
+  ]
+}
