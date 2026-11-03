@@ -1,0 +1,463 @@
+{
+  "revision": "A8",
+  "footprints": 10,
+  "electrical_pads": 45,
+  "npth": 10,
+  "all_pad_centers_on_board": true,
+  "all_models_resolved": true,
+  "nets_assigned": 0,
+  "tracks": 0,
+  "drc_violations": 0,
+  "pads": [
+    {
+      "ref": "H2",
+      "number": "",
+      "x": -110.0,
+      "depth": 30.0,
+      "drill_mm": 3.0,
+      "npth": true
+    },
+    {
+      "ref": "H1",
+      "number": "",
+      "x": -110.0,
+      "depth": 12.0,
+      "drill_mm": 3.0,
+      "npth": true
+    },
+    {
+      "ref": "J10",
+      "number": "1",
+      "x": 93.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "2",
+      "x": 93.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "3",
+      "x": 92.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "4",
+      "x": 92.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "5",
+      "x": 91.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "6",
+      "x": 91.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "7",
+      "x": 90.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "8",
+      "x": 90.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "9",
+      "x": 89.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "10",
+      "x": 89.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "11",
+      "x": 88.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "12",
+      "x": 88.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "13",
+      "x": 87.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "14",
+      "x": 87.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "15",
+      "x": 86.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "16",
+      "x": 86.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "17",
+      "x": 85.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "18",
+      "x": 85.25,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "19",
+      "x": 84.75,
+      "depth": 7.700000000000003,
+      "drill_mm": 0.0,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "SH",
+      "x": 81.15,
+      "depth": 1.7999999999999972,
+      "drill_mm": 1.3,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "SH",
+      "x": 81.75,
+      "depth": 6.700000000000003,
+      "drill_mm": 1.3,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "SH",
+      "x": 96.25,
+      "depth": 6.700000000000003,
+      "drill_mm": 1.3,
+      "npth": false
+    },
+    {
+      "ref": "J10",
+      "number": "SH",
+      "x": 96.85,
+      "depth": 1.7999999999999972,
+      "drill_mm": 1.3,
+      "npth": false
+    },
+    {
+      "ref": "H3",
+      "number": "",
+      "x": 110.0,
+      "depth": 12.0,
+      "drill_mm": 3.0,
+      "npth": true
+    },
+    {
+      "ref": "J8",
+      "number": "",
+      "x": 48.599999999999994,
+      "depth": 11.099999999999994,
+      "drill_mm": 2.0,
+      "npth": true
+    },
+    {
+      "ref": "J8",
+      "number": "",
+      "x": 44.0,
+      "depth": 5.099999999999994,
+      "drill_mm": 2.0,
+      "npth": true
+    },
+    {
+      "ref": "J8",
+      "number": "",
+      "x": 39.400000000000006,
+      "depth": 11.099999999999994,
+      "drill_mm": 2.0,
+      "npth": true
+    },
+    {
+      "ref": "J8",
+      "number": "1",
+      "x": 46.540000000000006,
+      "depth": 9.0,
+      "drill_mm": 0.8,
+      "npth": false
+    },
+    {
+      "ref": "J8",
+      "number": "2",
+      "x": 44.0,
+      "depth": 9.0,
+      "drill_mm": 0.8,
+      "npth": false
+    },
+    {
+      "ref": "J8",
+      "number": "3",
+      "x": 41.459999999999994,
+      "depth": 9.0,
+      "drill_mm": 0.8,
+      "npth": false
+    },
+    {
+      "ref": "J9",
+      "number": "1",
+      "x": 64.0,
+      "depth": 7.0,
+      "drill_mm": 1.7,
+      "npth": false
+    },
+    {
+      "ref": "J9",
+      "number": "2",
+      "x": 69.0,
+      "depth": 7.0,
+      "drill_mm": 2.6,
+      "npth": false
+    },
+    {
+      "ref": "J9",
+      "number": "2",
+      "x": 64.0,
+      "depth": 2.5,
+      "drill_mm": 2.6,
+      "npth": false
+    },
+    {
+      "ref": "J9",
+      "number": "2",
+      "x": 59.0,
+      "depth": 7.0,
+      "drill_mm": 2.6,
+      "npth": false
+    },
+    {
+      "ref": "J7",
+      "number": "",
+      "x": 29.599999999999994,
+      "depth": 11.099999999999994,
+      "drill_mm": 2.0,
+      "npth": true
+    },
+    {
+      "ref": "J7",
+      "number": "",
+      "x": 25.0,
+      "depth": 5.099999999999994,
+      "drill_mm": 2.0,
+      "npth": true
+    },
+    {
+      "ref": "J7",
+      "number": "",
+      "x": 20.400000000000006,
+      "depth": 11.099999999999994,
+      "drill_mm": 2.0,
+      "npth": true
+    },
+    {
+      "ref": "J7",
+      "number": "1",
+      "x": 27.540000000000006,
+      "depth": 9.0,
+      "drill_mm": 0.8,
+      "npth": false
+    },
+    {
+      "ref": "J7",
+      "number": "2",
+      "x": 25.0,
+      "depth": 9.0,
+      "drill_mm": 0.8,
+      "npth": false
+    },
+    {
+      "ref": "J7",
+      "number": "3",
+      "x": 22.459999999999994,
+      "depth": 9.0,
+      "drill_mm": 0.8,
+      "npth": false
+    },
+    {
+      "ref": "SP2",
+      "number": "1",
+      "x": -5.0,
+      "depth": 3.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP2",
+      "number": "2",
+      "x": -5.0,
+      "depth": 8.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP2",
+      "number": "3",
+      "x": -18.0,
+      "depth": 3.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP2",
+      "number": "4",
+      "x": -18.0,
+      "depth": 8.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP2",
+      "number": "5",
+      "x": -31.0,
+      "depth": 3.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP2",
+      "number": "6",
+      "x": -31.0,
+      "depth": 8.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "H4",
+      "number": "",
+      "x": 110.0,
+      "depth": 30.0,
+      "drill_mm": 3.0,
+      "npth": true
+    },
+    {
+      "ref": "SP1",
+      "number": "1",
+      "x": -62.0,
+      "depth": 3.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP1",
+      "number": "2",
+      "x": -62.0,
+      "depth": 8.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP1",
+      "number": "3",
+      "x": -75.0,
+      "depth": 3.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP1",
+      "number": "4",
+      "x": -75.0,
+      "depth": 8.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP1",
+      "number": "5",
+      "x": -88.0,
+      "depth": 3.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    },
+    {
+      "ref": "SP1",
+      "number": "6",
+      "x": -88.0,
+      "depth": 8.799999999999997,
+      "drill_mm": 2.2,
+      "npth": false
+    }
+  ],
+  "sha256": {
+    "boards/rear-io/rear-io.kicad_pcb": "3c37f837fc464e4c3b83596c678ecc29128d9efb228c7fdef9567f9b5ee3e3f7",
+    "boards/rear-io/placement.json": "4926d470450f9cc56e5e05b6620dd2fc0136b7792d90608eaaa9dc40e4f187dc",
+    "boards/rear-io/exports/rear-io-A8-assembly.step": "b8c178cb700b12888f7fda5bf36b32c78a7d8f1c4dbf9df4ea7af2b4f1f29835",
+    "boards/rear-io/exports/rear-io-A8-board-only.step": "da42265af4bba974ee9fe1531411428b584d9ccde714d742ac05f118c9f5658d",
+    "boards/rear-io/exports/rear-io-A8-board-rigid.step": "a054ddd2d4dc77c051a7ae21a3fe434d19f5590dff66af25f15e8ddd78a3fac6",
+    "boards/rear-io/exports/rear-io-A8-connection-plate.step": "86661122e5b833d0ae23ed14b12aad572aff685a8ec1c9bb1cf511590de47f99",
+    "boards/rear-io/exports/rear-io-A8-legacy-frame.step": "45d9d8b354df8805298c917a25d47287b64ea7ed830cefd4f0996a58c05d82e2",
+    "boards/rear-io/exports/rear-io-A8-rigid.step": "a9f6f65158c37f78e7b2006892447b938003a451d5aa1b0910fcfaeaf9f01bb4"
+  }
+}

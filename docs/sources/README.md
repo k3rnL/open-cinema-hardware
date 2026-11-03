@@ -12,3 +12,7 @@ Copyright KiCad library contributors. [Library license](KiCad-library-LICENSE.md
 ## Project-created material
 
 RCA, HDMI, optical receiver and assembled optical STEP models are drawing-derived project work, with the simplifications documented in connector-selection-A1.md. No vendor CAD agreement was accepted or vendor download claimed for these files. Their Fusion construction source is retained in `tools/build_connector_models_fusion.py`; it takes an explicit `MODEL_OUTPUT_DIR` and uses a temporary unsaved design.
+
+## A8 HDMI library assets
+
+`HDMI_A_Amphenol_10029449-x01xLF_Horizontal.kicad_mod` and the corresponding STEP model were copied from the installed KiCad 10 libraries. Copyright KiCad library contributors; [CC BY-SA 4.0 with KiCad library exception](KiCad-library-LICENSE.md). The footprint library ID and model path were made project-relative; the manufacturer land geometry and STEP were retained. Upstream: [footprints](https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Video.pretty), [3D library](https://gitlab.com/kicad/libraries/kicad-packages3D/-/tree/master/Connector_Video.3dshapes).

@@ -1,0 +1,130 @@
+(footprint "SameSky_RCJ_011_Horizontal_A8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Same Sky RCJ-01 drawing 2026-08-12 p2: D1.7 signal, three D2.6 shell holes, 10mm shell pitch and4.5mm offset. Body shoulder Y-4; mating face Y-12.")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c03c0ea4-1fb0-4bfc-aafb-ae1f7aa74ac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "SameSky_RCJ_011_Horizontal_A8"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08185884-657e-48e8-96eb-983833c15389")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ee72080-0ed1-47ee-84de-5455605ace2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "675f3096-0e34-4d28-a101-39ea7a61115f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7 -12.5)
+		(end 7 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "571153df-b9b4-4bc7-ac56-ef1416649f85")
+	)
+	(fp_rect
+		(start -5.5 -4)
+		(end 5.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "75e95cb7-f556-4dee-a4f8-771ff067267d")
+	)
+	(fp_rect
+		(start -4.15 -12)
+		(end 4.15 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9fe63e70-8275-4257-8500-235e455cd16a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff00f607-b571-47b9-a636-95c8a2b38921")
+	)
+	(pad "2" thru_hole circle
+		(at -5 0)
+		(size 3.6 3.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c9ec320-61bf-43fc-b07b-a2cb0eaa1a6f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -4.5)
+		(size 3.6 3.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11c10fa6-ef60-4b2a-b9ea-793c6f4907eb")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 3.6 3.6)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51d15bee-32fc-479a-97fa-2d671a2ef05e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/RCJ-011_A8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,50 +1,42 @@
 # Open Cinema Hardware
 
-Editable hardware for [Open Cinema](https://github.com/k3rnL/open-cinema). The [resources repository](https://github.com/k3rnL/open-cinema-resources) owns searchable knowledge and decision history.
+Editable hardware for [Open Cinema](https://github.com/k3rnL/open-cinema). The [resources repository](https://github.com/k3rnL/open-cinema-resources) holds searchable knowledge and decision history.
 
-## Rear connector fit study — A7
+## A8: horizontal connector fit study
 
-A7 selects two **Cliff FE6930** blocks: six working speaker pairs plus two spares, rated 7 A by Cliff. The bolted optical cradle, vertical PCB, 220 ×35 mm R5 opening and four Ø3 alignment holes are retained. New **single-component Fusion integration files** keep the complete assembly together.
+All six speaker pairs, two optical receivers, coaxial RCA and HDMI are directly soldered to one horizontal PCB. The board sits above the connectors with its component side facing downward, so the solder tails point upward. Optical daughterboards and their cradle are no longer needed.
 
-![A7 assembly](boards/rear-io/exports/rear-io-A7-oblique.png)
+![Installed A8 study](boards/rear-io/exports/rear-io-A8-installed-oblique.png)
 
-## Use these files for enclosure placement
+**Fit study only:** the right-angle KLS speaker blocks have an unverified operating-current rating and purchase route. The recessed RCA needs a cable-fit check. Do not treat these as approved production parts or final plate cutouts.
 
-- **[A7 rigid Fusion file (.f3d)](boards/rear-io/exports/rear-io-A7-rigid.f3d)**
-- **[A7 rigid STEP](boards/rear-io/exports/rear-io-A7-rigid.step)**
-- [Import/joint instructions and optical mounting](docs/assembly-and-optical-support-A7.md)
+## Files to use
 
-These files contain one component with 135 solid bodies. A rigid joint to an alignment hole was tested to move all 135 together. Disable **Ground to Parent** on the inserted unit if Fusion enables it. The [raw KiCad STEP](boards/rear-io/exports/rear-io-A7-assembly.step) retains independent components and is for inspection, not rigid placement.
+- [Rigid Fusion assembly (.f3d)](boards/rear-io/exports/rear-io-A8-rigid.f3d)
+- [Rigid STEP assembly](boards/rear-io/exports/rear-io-A8-rigid.step)
+- [PCB and connectors only, oriented rigid STEP](boards/rear-io/exports/rear-io-A8-board-rigid.step)
+- [Editable KiCad project](boards/rear-io/rear-io.kicad_pro)
+- [Dimensions, connector references, sourcing, limitations and checks](docs/horizontal-assembly-A8.md)
 
-## Optical support
+The full assembly contains one component with 70 solid bodies, including a provisional connection plate and two support brackets. Four Ø3 reference holes remain at x±115, z44/59 mm. A rigid joint to one hole moved all 70 bodies together; disable **Ground to Parent** before aligning it. The raw KiCad STEP retains independent components and native board coordinates.
 
-![Cradle from inside; main PCB hidden](boards/rear-io/exports/optical-support-A6-inside.png)
+The PCB is nominally 228 ×39.8 ×1.6 mm. The connector seating surface is z67 mm above the enclosure floor. KiCad DRC passes with zero violations. Copies of the current rear frame and PSU show no modeled collision, with 2 mm minimum assembly-to-PSU clearance; this is not thermal or tolerance qualification. The temporary fit test used copies; the subsequent authorized live integration is recorded below.
 
-Four M2 screws attach the shared cradle to the carrier; two screws hold each optical PCB, and each socket's mounting lug is bolted to the upper bridge. [Cradle STEP](boards/rear-io/models/optical-cradle-A6.step) and [STL](boards/rear-io/models/optical-cradle-A6.stl) are included for a prototype manufacturing quote. JLC3DP PA12 is a candidate process, separate from JLCPCB assembly. Temperature, cable loads, fit tolerances and full enclosure clearance are unverified.
+## Candidate parts
 
-## Connectors and supply
-
-| Qty | Interface | Reference / sourcing status |
+| Qty | Interface | Reference |
 | --- | --- | --- |
-| 2 | Eight-contact red/black speaker block | **Cliff FE6930**, 7 A at 60 V AC — DigiKey **4654-FE6930-ND**; external purchase allowed; sample/footprint qualification pending |
-| 2 | Optical receiver | Cliff **FCR684205R / ORJ5** — distributor stock found; JLC Global Sourcing or external purchase |
-| 1 | Coaxial S/PDIF RCA | Same Sky **RCJ-021** — JLC **C4992555**, zero public stock; distributor stock found |
-| 1 | Vertical HDMI Type A | Amphenol **10078837-001LF** — JLC **C7159430**,2400 shown in stock on2026-11-03 |
+| 2 | Three speaker pairs per block | KLS **L-KLS1-WP-6P-03B-B/R** — current rating and supply unresolved |
+| 2 | Optical | Cliff **FCR684205R**, directly on the main PCB |
+| 1 | Coaxial RCA | Same Sky **RCJ-011**, JLC C4992678 |
+| 1 | HDMI A | Amphenol **10029449-001RLF**, JLC C428493 listing; stock unconfirmed |
 
-JLCPCB is preferred; the owner allows pre-order/Global Sourcing and external suppliers for difficult parts. **The BOM is not fully qualified or order-ready.** [Exact links, checks and limits](docs/sourcing-A7.md).
+JLCPCB remains preferred; pre-order/Global Sourcing and external suppliers are allowed. The BOM is not order-ready. A connector does not establish ARC/eARC support. No schematic, nets, routing, decoding, LVDS or speaker-current distribution has been added; keep mains separate and preserve independent speaker returns.
 
-## Editable design and verification
+## History and reproducibility
 
-Open [rear-io.kicad_pro](boards/rear-io/rear-io.kicad_pro) in KiCad10. The 228×32×1.6mm body has four alignment tabs,238mm overall width. Optical receiver pads are on the separate [optical-input boards](boards/optical-input). Connector models are project reconstructions from drawings, not vendor CAD.
+A7's vertical FE6930 design and exports remain available in [Git history](https://github.com/k3rnL/open-cinema-hardware/tree/eae54aa79c94255bdad5aaae5bf087d2b4166b0e). Older generators must not be run over current manual edits. A8 sources, rebuild instructions and check evidence are linked in [the A8 record](docs/horizontal-assembly-A8.md).
 
-- [PCB-only STEP](boards/rear-io/exports/rear-io-A7-board-only.step) · [outline DXF](boards/rear-io/exports/rear-io-A7-outline.dxf) · [layout SVG](boards/rear-io/exports/rear-io-A7-layout.svg)
-- [Mechanical coordinates](docs/rear-io-mechanical.md) · [A7 verification and hashes](docs/verification-A7.md)
-- [Speaker geometry](docs/connector-selection-A7.md) · [Audio-input references](docs/connector-selection-A1.md)
+No project hardware license has been selected. Redistributed KiCad library assets retain their [attribution and license](docs/sources/README.md).
 
-**Mechanical prototype only:** no schematic, nets, tracks, decoding, LVDS, daughterboard wiring or speaker-current distribution. Main/child DRC and modeled cradle interference checks pass within that limited scope. No plate cut file or complete-enclosure fit release exists. Do not common the sixteen speaker contacts by assumption.
-
-Keep this checkout beside `open-cinema-resources`; use its memory skill. All model paths are project-relative. `tools/export_review.py` exports saved A7 boards, and `tools/check_connectors_A7.py` checks them. Older A0–A6 files remain historical; do not use old generators over current work.
-
-## License
-
-No project hardware license has been selected. Rights remain with contributors. Historical Phoenix files retain their [KiCad attribution](docs/sources/README.md).
+Fusion cloud status: the open linked source shows A8, but its save remains pending at v2. Parent v3 and Home Cinema v8 saved. See the [integration status](docs/horizontal-assembly-A8.md#live-fusion-integration-status--2026-11-03) before reopening or replacing cloud files.

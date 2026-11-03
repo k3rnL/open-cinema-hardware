@@ -1,31 +1,30 @@
 {
-  "revision": "A7-Cliff-FE6930-eight-pairs",
+  "revision": "A8-horizontal-fit",
+  "status": "mechanical experiment; speaker current rating and exact purchasing route unverified",
   "units": "mm",
   "board": {
     "width": 228,
-    "height": 32,
+    "depth": 39.8,
+    "front_edge_setback": 0.2,
     "thickness": 1.6,
-    "left_x": -114,
-    "right_x": 114,
-    "top_z": 69,
-    "bottom_z": 37,
-    "orientation": "vertical; F.Cu exterior; straight speaker pins through board",
-    "overall_width_including_alignment_tabs": 238,
-    "alignment_tab_left_x": -119,
-    "outline_note": "228x32 body plus four R4 tabs, centres x+/-115,z44/59; overall238x32",
-    "alignment_tab_right_x": 119
+    "connector_seating_height": 67,
+    "orientation": "horizontal, connector side downward"
+  },
+  "datum": {
+    "inner_connection_plate_y": 0,
+    "assumed_plate_thickness": 1.5,
+    "frame_outer_plane_in_enclosure_y": 102,
+    "native_step_transform": "X=-Xraw,Y=Yraw,Z=68.595-Zraw; maps F.Cu seating surface to z67"
   },
   "opening": {
     "width": 220,
     "height": 35,
     "radius": 5,
-    "centre_z": 51.5,
     "bottom_z": 34,
-    "top_z": 69,
-    "status": "measured read-only from updated owner Sketch3"
+    "top_z": 69
   },
-  "reference_fixing_points": {
-    "source": "Owner Sketch3 left pair plus explicit owner request to mirror on both sides",
+  "psu_top_z": 35,
+  "alignment_holes": {
     "diameter": 3,
     "positions_xz": [
       [
@@ -45,185 +44,99 @@
         59
       ]
     ],
-    "status": "four actual D3 NPTH alignment holes, two per side; provisional mounting",
-    "references": [
-      "HREF1",
-      "HREF2",
-      "HREF3",
-      "HREF4"
-    ],
-    "alignment_tabs": {
-      "radius": 4,
-      "leftmost_x": -119,
-      "nominal_radial_material_around_hole": 2.5,
-      "rightmost_x": 119
-    }
-  },
-  "optical_clearance_windows": {
-    "centres_x": [
-      32,
-      52
-    ],
-    "bottom_z": 39.9,
-    "top_z": 64,
-    "width": 17,
-    "radius": 0.5
-  },
-  "daughterboard": {
-    "width": 16,
-    "depth": 24,
-    "thickness": 1.6,
-    "pcb_top_z": 44.5,
-    "mounting": "two M2 screws per board; shared insulating cradle; receiver mounting lugs also bolted to cradle",
-    "connection": "deferred; no interboard header selected",
-    "mounting_holes_local_xy": [
-      [
-        -5,
-        12
-      ],
-      [
-        5,
-        12
-      ]
-    ]
+    "location": "two provisional support brackets; retained vertical axes"
   },
   "connectors": [
     {
       "ref": "SP1",
-      "label": "SPK 1-4",
-      "footprint": "Cliff_FE6930_Straight",
-      "x": -77,
-      "z": 52,
-      "mpn": "Cliff FE6930",
-      "origin_x": -77,
-      "origin_z": 52
+      "label": "3 speaker pairs - candidate",
+      "footprint": "KLS1_WP_6P_03B_Horizontal_A8",
+      "rear_x": -75,
+      "depth": 0,
+      "angle": 0,
+      "mpn": "L-KLS1-WP-6P-03B-B/R"
     },
     {
       "ref": "SP2",
-      "label": "SPK 5-6 + SPARES",
-      "footprint": "Cliff_FE6930_Straight",
-      "x": -11,
-      "z": 52,
-      "mpn": "Cliff FE6930",
-      "origin_x": -11,
-      "origin_z": 52
+      "label": "3 speaker pairs - candidate",
+      "footprint": "KLS1_WP_6P_03B_Horizontal_A8",
+      "rear_x": -18,
+      "depth": 0,
+      "angle": 0,
+      "mpn": "L-KLS1-WP-6P-03B-B/R"
     },
     {
       "ref": "J7",
-      "label": "OPT 1",
-      "footprint": "Optical_Daughterboard_Assembly",
-      "x": 32,
-      "z": 50.5,
-      "mpn": "OC-OPTICAL-A6 / FCR684205R",
-      "origin_x": 32,
-      "origin_z": 50.5
+      "label": "Optical",
+      "footprint": "Cliff_FCR684205R",
+      "rear_x": 25,
+      "depth": 9,
+      "angle": 0,
+      "mpn": "FCR684205R"
     },
     {
       "ref": "J8",
-      "label": "OPT 2",
-      "footprint": "Optical_Daughterboard_Assembly",
-      "x": 52,
-      "z": 50.5,
-      "mpn": "OC-OPTICAL-A6 / FCR684205R",
-      "origin_x": 52,
-      "origin_z": 50.5
+      "label": "Optical",
+      "footprint": "Cliff_FCR684205R",
+      "rear_x": 44,
+      "depth": 9,
+      "angle": 0,
+      "mpn": "FCR684205R"
     },
     {
       "ref": "J9",
-      "label": "COAX",
-      "footprint": "SameSky_RCJ-021",
-      "x": 69,
-      "z": 51.5,
-      "mpn": "RCJ-021",
-      "origin_x": 69,
-      "origin_z": 51.5
+      "label": "Coax",
+      "footprint": "SameSky_RCJ_011_Horizontal_A8",
+      "rear_x": 64,
+      "depth": 7,
+      "angle": 0,
+      "mpn": "RCJ-011"
     },
     {
       "ref": "J10",
       "label": "HDMI",
-      "footprint": "Amphenol_10078837-001LF",
-      "x": 91,
-      "z": 51.5,
-      "mpn": "10078837-001LF",
-      "origin_x": 91,
-      "origin_z": 51.5
+      "footprint": "HDMI_A_Amphenol_10029449-x01xLF_Horizontal",
+      "rear_x": 89,
+      "depth": 2.7,
+      "angle": 180,
+      "mpn": "10029449-001RLF"
+    },
+    {
+      "ref": "H1",
+      "label": "PCB mounting reference",
+      "footprint": "MountingHole_D3_Reference_A8",
+      "rear_x": -110,
+      "depth": 12,
+      "angle": 0,
+      "mpn": "D3 reference"
+    },
+    {
+      "ref": "H2",
+      "label": "PCB mounting reference",
+      "footprint": "MountingHole_D3_Reference_A8",
+      "rear_x": -110,
+      "depth": 30,
+      "angle": 0,
+      "mpn": "D3 reference"
+    },
+    {
+      "ref": "H3",
+      "label": "PCB mounting reference",
+      "footprint": "MountingHole_D3_Reference_A8",
+      "rear_x": 110,
+      "depth": 12,
+      "angle": 0,
+      "mpn": "D3 reference"
+    },
+    {
+      "ref": "H4",
+      "label": "PCB mounting reference",
+      "footprint": "MountingHole_D3_Reference_A8",
+      "rear_x": 110,
+      "depth": 30,
+      "angle": 0,
+      "mpn": "D3 reference"
     }
   ],
-  "circuit_status": "no nets or tracks; input logic/LVDS/power and speaker harness deferred",
-  "speakers": {
-    "status": "owner accepted FE6930; nominal fit model; production qualification pending",
-    "quantity": 2,
-    "contacts_per_block": 8,
-    "working_pairs": 6,
-    "spare_pairs": 2,
-    "mount": "straight rear solder tags through vertical PCB; four component fixing holes reserved",
-    "main_pcb_signal_pads": 16,
-    "main_pcb_component_mounting_holes": 4,
-    "overall_width_per_block": 65,
-    "flange_width": 58,
-    "body_front_height": 30,
-    "tail_direction": "normal to rear face; no downward extension",
-    "tail_projection_behind_pcb_seating_plane": 3.5,
-    "hole_pattern": "13mm column pitch,18.6+/-1mm row spacing; numbering follows front-view drawing",
-    "drills": "provisional plated slots2.2x3.2; pads3.6x4.6; component fixing D3.2, pitch58",
-    "current_rating": "manufacturer7 A at60 V AC",
-    "colour_mapping": "R B B R in each row; pair contacts1+/2-,4+/3-,5+/6-,8+/7-",
-    "pair_assignment": {
-      "SP1": [
-        "1/2 = channel1",
-        "4/3 = channel2",
-        "5/6 = channel3",
-        "8/7 = channel4"
-      ],
-      "SP2": [
-        "1/2 = channel5",
-        "4/3 = channel6",
-        "5/6 = spare1",
-        "8/7 = spare2"
-      ]
-    },
-    "electrical_status": "no nets; all16 contacts independent; spare assignment provisional"
-  },
-  "optical_support": {
-    "reference": "OC-OPTICAL-CRADLE-A6",
-    "status": "modeled prototype proposal; JLC3DP PA12 quotation and thermal/load tests pending",
-    "main_holes_xz": [
-      [
-        20,
-        42
-      ],
-      [
-        20,
-        62
-      ],
-      [
-        64,
-        42
-      ],
-      [
-        64,
-        62
-      ]
-    ],
-    "main_drills": 2.2,
-    "printed_clearance_drills": 2.4,
-    "minimum_z": 39.0,
-    "maximum_inward_depth_from_main_front": 16.85,
-    "receiver_lug_centres_xz": [
-      [
-        32,
-        60.5
-      ],
-      [
-        52,
-        60.5
-      ]
-    ],
-    "sourcing": "custom part separate from JLCPCB PCBA; fasteners separate JLCMC sourcing pending",
-    "translation_from_A6_mm": [
-      4,
-      0,
-      0
-    ]
-  }
+  "circuit_status": "no nets, tracks, or decoding; eight spare contacts not needed: six speaker pairs total"
 }

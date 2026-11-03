@@ -1,0 +1,29 @@
+{
+  "KLS1-WP-6P-03B_horizontal_A8": {
+    "bodies": 19,
+    "min_mm": [
+      -26.009999999999998,
+      -9.520000000000001,
+      -5.520000000000003
+    ],
+    "max_mm": [
+      26.009999999999998,
+      11.419999999999998,
+      30.019999999999996
+    ]
+  },
+  "RCJ-011_A8": {
+    "bodies": 7,
+    "min_mm": [
+      -5.67,
+      -2.51,
+      -4.0200000000000005
+    ],
+    "max_mm": [
+      5.67,
+      12.02,
+      12.019999999999996
+    ]
+  },
+  "provenance": "Project reconstructions, not vendor CAD. KLS V1 2025-09-19; Same Sky RCJ-01 2026-08-12 p2. Cosmetic shapes approximate."
+}

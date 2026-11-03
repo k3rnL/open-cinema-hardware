@@ -1,0 +1,48 @@
+{
+  "revision": "A8",
+  "root_bodies": 70,
+  "child_occurrences": 0,
+  "all_solid": true,
+  "context": "read-only copies from Home Cinema v7; no enclosure changes",
+  "psu_bbox_mm": {
+    "min": [
+      -116.00000000000001,
+      -82.99999999999999,
+      2.0
+    ],
+    "max": [
+      115.99999999999997,
+      -1.999999999999993,
+      35.00000000000001
+    ]
+  },
+  "support_plate_frame_psu_interferences": [],
+  "minimum_psu_clearance_mm": 1.999999999999993,
+  "nearest_body": "A8 PROVISIONAL connection plate",
+  "lid_height_assumption_mm": 80,
+  "max_assembly_z_mm": 72.5,
+  "limitations": [
+    "Nominal reconstructed bodies, not tolerance/thermal qualification",
+    "External cable mating bodies not modeled",
+    "KLS speaker current rating unverified"
+  ],
+  "alignment_holes_xz": [
+    [
+      -115,
+      44
+    ],
+    [
+      -115,
+      59
+    ],
+    [
+      115,
+      44
+    ],
+    [
+      115,
+      59
+    ]
+  ],
+  "rigid_joint_all_bodies_moved": 70
+}
