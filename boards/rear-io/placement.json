@@ -1,5 +1,5 @@
 {
-  "revision": "A5-both-side-alignment",
+  "revision": "A6-supported-optics",
   "units": "mm",
   "board": {
     "width": 228,
@@ -74,8 +74,18 @@
     "depth": 24,
     "thickness": 1.6,
     "pcb_top_z": 44.5,
-    "mounting": "undecided; physically supported independently of main PCB",
-    "connection": "deferred; no interboard header selected"
+    "mounting": "two M2 screws per board; shared insulating cradle; receiver mounting lugs also bolted to cradle",
+    "connection": "deferred; no interboard header selected",
+    "mounting_holes_local_xy": [
+      [
+        -5,
+        12
+      ],
+      [
+        5,
+        12
+      ]
+    ]
   },
   "connectors": [
     {
@@ -104,7 +114,7 @@
       "footprint": "Optical_Daughterboard_Assembly",
       "x": 28,
       "z": 50.5,
-      "mpn": "OC-OPTICAL-A1 / FCR684205R",
+      "mpn": "OC-OPTICAL-A6 / FCR684205R",
       "origin_x": 28,
       "origin_z": 50.5
     },
@@ -114,7 +124,7 @@
       "footprint": "Optical_Daughterboard_Assembly",
       "x": 48,
       "z": 50.5,
-      "mpn": "OC-OPTICAL-A1 / FCR684205R",
+      "mpn": "OC-OPTICAL-A6 / FCR684205R",
       "origin_x": 48,
       "origin_z": 50.5
     },
@@ -152,5 +162,42 @@
     "drills": "signal D2.2 project allowance, component fix D3.2 based on panel drawing; confirm before production",
     "current_rating": "not published in inspected drawing",
     "colour_mapping": "illustrative black upper/red lower; verify supplied variant"
+  },
+  "optical_support": {
+    "reference": "OC-OPTICAL-CRADLE-A6",
+    "status": "modeled prototype proposal; JLC3DP PA12 quotation and thermal/load tests pending",
+    "main_holes_xz": [
+      [
+        16,
+        42
+      ],
+      [
+        16,
+        62
+      ],
+      [
+        60,
+        42
+      ],
+      [
+        60,
+        62
+      ]
+    ],
+    "main_drills": 2.2,
+    "printed_clearance_drills": 2.4,
+    "minimum_z": 39.0,
+    "maximum_inward_depth_from_main_front": 16.85,
+    "receiver_lug_centres_xz": [
+      [
+        28,
+        60.5
+      ],
+      [
+        48,
+        60.5
+      ]
+    ],
+    "sourcing": "custom part separate from JLCPCB PCBA; fasteners separate JLCMC sourcing pending"
   }
 }

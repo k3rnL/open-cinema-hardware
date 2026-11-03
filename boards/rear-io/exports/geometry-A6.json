@@ -1,0 +1,57 @@
+{
+  "revision": "A6",
+  "sha256": {
+    "boards/rear-io/rear-io.kicad_pcb": "421fc95ce19f0e77ae0f16ce449f29ac0e30ebf576cf26bc067a5043b1081974",
+    "boards/optical-input/optical-input.kicad_pcb": "658ca1cceba63095b386d9643757f01bb8987a84d5bc285e9d82ea8349affc3d",
+    "boards/rear-io/models/optical-cradle-A6.step": "30cd7ea3e5478c670cbbf5d1892471bd47638601a4b18b8e0344fb80ed790951",
+    "boards/rear-io/models/optical-cradle-with-fasteners-A6.step": "107627953b0f283e1ed7beb3e01c883fc129ce1c56ebc38eb22546ba2c49d220",
+    "boards/rear-io/models/optical-daughterboard-supported-A6.step": "be8469607dc6ccc8b0ed30fae31606b555bb1422d04a59999d83348b5d1948f8",
+    "boards/rear-io/exports/rear-io-A6-rigid.step": "975b1085b9b61b65a43f812d6e9373f846806b6617f1ad107ccec25892274b7a",
+    "boards/rear-io/exports/rear-io-A6-rigid.f3d": "ba2f14962068546f5a89a6bb85abe12f5e58721e3c30ff86d79c8f5b4e1af1be"
+  },
+  "main_pads": 53,
+  "main_electrical_pads": 41,
+  "main_npth": 12,
+  "daughterboard_mounting_npth": 2,
+  "all_four_alignment_holes_retained": true,
+  "speaker_rca_hdmi_footprints_unchanged_from_A3": true,
+  "native_drc_main_and_child": "zero violations; no nets/circuit",
+  "fusion": {
+    "revision": "A6",
+    "root_bodies": 123,
+    "child_occurrences": 0,
+    "all_solid": true,
+    "cradle_body": "Body1",
+    "cradle_interferences": [],
+    "scope": "support versus modeled connector assembly only, not enclosure/PSU",
+    "alignment_holes_xz_mm": [
+      [
+        -115,
+        44
+      ],
+      [
+        -115,
+        59
+      ],
+      [
+        115,
+        44
+      ],
+      [
+        115,
+        59
+      ]
+    ],
+    "joint_test": {
+      "type": "rigid",
+      "picked_feature": "HREF1 circular edge",
+      "all_bodies_moved": 123,
+      "single_occurrence_transform_matches_all_body_vertices": true
+    }
+  },
+  "limitations": [
+    "prototype support; no load/thermal/tolerance/enclosure qualification",
+    "speaker exact supply/rating and footprint unresolved",
+    "no circuit, wiring or production release"
+  ]
+}

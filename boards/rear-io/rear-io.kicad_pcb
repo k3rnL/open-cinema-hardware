@@ -149,6 +149,187 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "M2_support"
+		(layer "F.Cu")
+		(uuid "2bfb05c4-bb2d-434c-a07f-04d64780311f")
+		(at 210 127)
+		(property "Reference" "HOPT3"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "320809da-ec50-4a86-a3cd-63eb44153fd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2 clearance / support"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ff1c032-20ed-4bd1-bbe2-d9bebd03ac80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4bc809c-8a3e-43ea-8a7c-3840d1cb4470")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f540d840-768e-4e38-b8d1-7c44612dd205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "34fb017f-970b-4412-b688-95b6c7ac041f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "M2_support"
+		(layer "F.Cu")
+		(uuid "35d2786c-1002-4b47-be14-87ff788714dc")
+		(at 166 107)
+		(property "Reference" "HOPT2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2cb0d720-2b3a-4e25-b963-cf22a8f5198a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2 clearance / support"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6e733b9-1f80-44cf-b2ce-794d8b327297")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61c64c72-d1f6-4a40-b0be-9493e44a4b5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77e2c398-af7a-4295-b929-ff4488a13eea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4c5ea919-4bda-40cb-847b-91019091a23a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "378fe35a-00df-4435-abc8-6b46c8c4856a")
+		(at 188 117.5)
+		(property "Reference" "CRADLE1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8987888c-0fd0-49fa-803b-ba4f2fb4c3c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OC-OPTICAL-CRADLE-A6"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b53d422f-b889-467a-b56f-4dce802f660b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "063d9f77-66ce-4be3-8d62-97615130d7d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e681b21-be28-45cc-be5d-9a1da154a72c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/optical-cradle-with-fasteners-A6.step"
+			(offset
+				(xyz -38 -51.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Optical_Daughterboard_Assembly"
 		(layer "F.Cu")
 		(uuid "46a22673-6533-4cdf-96f3-abd8b552949e")
@@ -165,7 +346,7 @@
 				)
 			)
 		)
-		(property "Value" "OC-OPTICAL-A1 / FCR684205R"
+		(property "Value" "OC-OPTICAL-A6 / FCR684205R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -223,7 +404,7 @@
 			(uuid "bd7e9575-4859-4d34-bebf-c072391ce379")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/optical-daughterboard-assembly.step"
+		(model "${KIPRJMOD}/models/optical-daughterboard-supported-A6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -547,7 +728,7 @@
 				)
 			)
 		)
-		(property "Value" "OC-OPTICAL-A1 / FCR684205R"
+		(property "Value" "OC-OPTICAL-A6 / FCR684205R"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -605,7 +786,7 @@
 			(uuid "e1b62594-f144-4c6e-8636-fa16fb4a43bb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/optical-daughterboard-assembly.step"
+		(model "${KIPRJMOD}/models/optical-daughterboard-supported-A6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -737,6 +918,65 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "M2_support"
+		(layer "F.Cu")
+		(uuid "75617785-aa31-4336-bbc0-c8d1cb163387")
+		(at 210 107)
+		(property "Reference" "HOPT4"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4da9180b-aabd-48e6-864c-07d6d736263d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2 clearance / support"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d361e6f9-79d6-4112-9e9e-ddb9873939da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f80c265-46e5-4c85-80ca-29a32f818392")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c69db0fd-8b1c-4dab-8241-5a336d5d22ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "54c48cbd-5f04-4476-9abb-fd6fc33a8488")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "DragonCity_PT-603B_Straight"
 		(layer "F.Cu")
@@ -1325,6 +1565,65 @@
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(uuid "fcb3ab35-0454-4ebb-9f61-dfe3d046012e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "M2_support"
+		(layer "F.Cu")
+		(uuid "8e98968f-6aa4-42ac-9b5b-01d698cf7933")
+		(at 166 127)
+		(property "Reference" "HOPT1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "493154d4-26e4-4bc7-9998-c3e3506113b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2 clearance / support"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c92176fa-3dcf-4e82-9479-3e9af16a7fe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "595fc0a1-0e47-4dbd-95c4-1efb468663e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83ad889f-96f3-45b0-89ff-632fc77902a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7accf6db-ef79-4225-9b99-cafed2dace3f")
 		)
 		(embedded_fonts no)
 	)
@@ -1987,7 +2286,7 @@
 			)
 		)
 	)
-	(gr_text "OPEN CINEMA / A5"
+	(gr_text "OPEN CINEMA / A6"
 		(at 92 102.3 0)
 		(layer "F.SilkS")
 		(uuid "e006ee2b-a7ce-4772-8c5e-731a1c21255c")

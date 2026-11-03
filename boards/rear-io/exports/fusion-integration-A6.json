@@ -1,0 +1,33 @@
+{
+  "revision": "A6",
+  "root_bodies": 123,
+  "child_occurrences": 0,
+  "all_solid": true,
+  "cradle_body": "Body1",
+  "cradle_interferences": [],
+  "scope": "support versus modeled connector assembly only, not enclosure/PSU",
+  "alignment_holes_xz_mm": [
+    [
+      -115,
+      44
+    ],
+    [
+      -115,
+      59
+    ],
+    [
+      115,
+      44
+    ],
+    [
+      115,
+      59
+    ]
+  ],
+  "joint_test": {
+    "type": "rigid",
+    "picked_feature": "HREF1 circular edge",
+    "all_bodies_moved": 123,
+    "single_occurrence_transform_matches_all_body_vertices": true
+  }
+}
