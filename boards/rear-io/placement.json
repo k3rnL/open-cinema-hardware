@@ -1,5 +1,5 @@
 {
-  "revision": "A3-straight-speaker-clips",
+  "revision": "A4-alignment-holes",
   "units": "mm",
   "board": {
     "width": 228,
@@ -9,7 +9,10 @@
     "right_x": 114,
     "top_z": 69,
     "bottom_z": 37,
-    "orientation": "vertical; F.Cu exterior; straight speaker pins through board"
+    "orientation": "vertical; F.Cu exterior; straight speaker pins through board",
+    "overall_width_including_alignment_tabs": 233,
+    "alignment_tab_left_x": -119,
+    "outline_note": "228x32 body plus two left D-shaped R4 alignment tabs, centre x-115,z44/59; overall233x32"
   },
   "opening": {
     "width": 220,
@@ -33,7 +36,16 @@
         59
       ]
     ],
-    "status": "reference only; no frame fixing drills"
+    "status": "two actual D3 NPTH alignment holes; provisional mounting, no fastener chosen",
+    "references": [
+      "HREF1",
+      "HREF2"
+    ],
+    "alignment_tabs": {
+      "radius": 4,
+      "leftmost_x": -119,
+      "nominal_radial_material_around_hole": 2.5
+    }
   },
   "optical_clearance_windows": {
     "centres_x": [

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Check saved A3 fit-study geometry and native DRC evidence, not electronics."""
 from pathlib import Path
-import re,json,math,hashlib
+import re,json,math,hashlib,sys
+if '--historical-a3' not in sys.argv:raise SystemExit('Historical A3 checker. Use check_connectors_A4.py for the current model.')
 r=Path(__file__).resolve().parents[1];project=r/'boards/rear-io';file=project/'rear-io.kicad_pcb'
 source=file.read_text()
 def parse(s):

@@ -5,6 +5,7 @@ Requires --rebuild. No circuitry. Footprint drill/pad choices are provisional.
 import ast,json,math,csv,sys
 from pathlib import Path
 import pcbnew as p
+if '--historical-a3' not in sys.argv:raise SystemExit('Historical A3 rebuild would remove alignment holes. Use an isolated checkout with --historical-a3.')
 if '--rebuild' not in sys.argv:raise SystemExit('Use --rebuild only after reviewing manual changes.')
 ROOT=Path(__file__).resolve().parents[1];PROJECT=ROOT/'boards/rear-io';LIB=PROJECT/'OpenCinema_Connectors.pretty'
 tree=ast.parse((ROOT/'tools/generate_mechanical.py').read_text())

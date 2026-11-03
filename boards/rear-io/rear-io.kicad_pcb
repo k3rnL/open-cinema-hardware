@@ -175,6 +175,66 @@
 			)
 		)
 	)
+	(footprint "OpenCinema_Connectors:AlignmentHole_D3_Reference"
+		(layer "F.Cu")
+		(uuid "5fcdd875-83c7-40f4-a164-02a517ae96d2")
+		(at 35 110)
+		(descr "D3 non-plated alignment reference hole; provisional mounting, no fastener selected.")
+		(property "Reference" "HREF2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05a79a32-1d4b-491e-bc95-bc006668cbf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D3 ALIGNMENT ONLY"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3eaa3084-6f61-4821-84b9-af1ea4bc7a7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e95f59c-8c98-4ac6-81ea-46c0e4ba8f6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e15f56-730b-4fe5-bf6f-925e19ec5310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "85aa317f-2080-4ff8-b8a5-a4bb21ba75a2")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "DragonCity_PT-603B_Straight"
 		(layer "F.Cu")
 		(uuid "6be9a59f-52fa-427a-a93f-30a8f33fa08a")
@@ -1148,6 +1208,66 @@
 			)
 		)
 	)
+	(footprint "OpenCinema_Connectors:AlignmentHole_D3_Reference"
+		(layer "F.Cu")
+		(uuid "e70b56a7-51fa-4aec-a312-e6e58530f961")
+		(at 35 125)
+		(descr "D3 non-plated alignment reference hole; provisional mounting, no fastener selected.")
+		(property "Reference" "HREF1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bd80f359-6b55-45fd-8764-f13979abbb15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D3 ALIGNMENT ONLY"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8173579-7241-44b4-b3fb-1693bbda1e65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2aea9dcf-95cc-411c-95ce-1eeaff975b6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "723684e6-8e2b-47fb-9bc1-b4e6ea1faad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3bf61751-a1a4-45c5-aaee-1eee8a7c6deb")
+		)
+		(embedded_fonts no)
+	)
 	(gr_circle
 		(center 35 110)
 		(end 36.5 110)
@@ -1254,6 +1374,48 @@
 		(layer "Dwgs.User")
 		(uuid "a9ffdc5e-45c2-4598-8d0d-f2704389c45d")
 	)
+	(gr_line
+		(start 35 106)
+		(end 36 106)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f5f084f3-9c71-4a62-9421-aa8288cb43ce")
+	)
+	(gr_arc
+		(start 35 114)
+		(mid 31 110)
+		(end 35 106)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8dde24b5-fbd5-43ce-bb01-c6ce7338c27b")
+	)
+	(gr_line
+		(start 35 121)
+		(end 36 121)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9c4eb383-2773-42c2-b958-219f9b63acfe")
+	)
+	(gr_arc
+		(start 35 129)
+		(mid 31 125)
+		(end 35 121)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f99ca28d-59eb-4bf6-8c61-0cabdfe0f0c2")
+	)
 	(gr_arc
 		(start 36 102)
 		(mid 36.585786 100.585786)
@@ -1263,17 +1425,57 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6bda8d6b-1968-403c-b0cd-d6a8acbf3d32")
+		(uuid "3e9d0e5c-1a36-4160-9e35-1512176c8263")
 	)
 	(gr_line
-		(start 36 130)
+		(start 36 106)
 		(end 36 102)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "5825cfbd-d54b-4d68-95da-9495488d2895")
+		(uuid "be43ac12-b76c-46d3-a084-e22eca707dae")
+	)
+	(gr_line
+		(start 36 114)
+		(end 35 114)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d751f54-b784-49db-9bfe-597739653859")
+	)
+	(gr_line
+		(start 36 121)
+		(end 36 114)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "321c6504-477d-4e3d-8e2f-a14b87e135e1")
+	)
+	(gr_line
+		(start 36 129)
+		(end 35 129)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2367ed68-2663-4f24-830b-03e4e4bf490a")
+	)
+	(gr_line
+		(start 36 130)
+		(end 36 129)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "221a8d60-85ef-490f-b69b-c200c8e54d58")
 	)
 	(gr_line
 		(start 38 100)
@@ -1283,18 +1485,18 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "abc75199-24a4-4da6-9a71-75e0088c6039")
+		(uuid "6e966c2b-35c8-48d5-b6a4-ac4e6b674517")
 	)
 	(gr_arc
 		(start 38 132)
-		(mid 36.585786 131.414213)
+		(mid 36.585786 131.414214)
 		(end 36 130)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1a8069f0-1f4c-480a-8f16-c9cadb8655de")
+		(uuid "faa8ae15-168a-4c76-a99e-71ccbc18f0ce")
 	)
 	(gr_arc
 		(start 169.5 105.5)
@@ -1466,14 +1668,14 @@
 	)
 	(gr_arc
 		(start 262 100)
-		(mid 263.414213 100.585786)
+		(mid 263.414214 100.585786)
 		(end 264 102)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9f3f4954-2ff7-4e88-8f0a-56fbf7bc48fc")
+		(uuid "c134112f-fe5c-4b7e-b9f7-44381bcf6bcc")
 	)
 	(gr_line
 		(start 262 132)
@@ -1483,7 +1685,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ab02bc83-ab52-44e1-8cb8-21e3eaad1930")
+		(uuid "150a8541-b7a2-4432-b82c-018f017a4c9c")
 	)
 	(gr_line
 		(start 264 102)
@@ -1493,18 +1695,18 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "cbc033b2-a776-46a0-9788-4257a7dc32f7")
+		(uuid "cab4f928-e05a-4c53-b9f7-8c603ebc23d9")
 	)
 	(gr_arc
 		(start 264 130)
-		(mid 263.414213 131.414213)
+		(mid 263.414214 131.414214)
 		(end 262 132)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "517dbd82-8363-432d-b276-c73f05a339dc")
+		(uuid "88733ba3-5634-4f26-9930-6c270f71814f")
 	)
 	(gr_text "SPK 1–3"
 		(at 73 130.5 0)
@@ -1583,7 +1785,7 @@
 			)
 		)
 	)
-	(gr_text "OPEN CINEMA / A3"
+	(gr_text "OPEN CINEMA / A4"
 		(at 92 102.3 0)
 		(layer "F.SilkS")
 		(uuid "e006ee2b-a7ce-4772-8c5e-731a1c21255c")
@@ -1594,7 +1796,7 @@
 			)
 		)
 	)
-	(gr_text "REFERENCE FIXINGS x-115,z44/59 D3 / NO FRAME DRILLS"
+	(gr_text "ALIGNMENT HOLES x-115,z44/59 D3 / PROVISIONAL"
 		(at 150 141 0)
 		(layer "Dwgs.User")
 		(uuid "b5700c35-021d-465a-b481-e1a48a12d258")
@@ -1627,7 +1829,7 @@
 			)
 		)
 	)
-	(gr_text "OPEN CINEMA A3 / STRAIGHT REAR-TAIL SPEAKER CLIPS"
+	(gr_text "OPEN CINEMA A4 / ALIGNMENT HOLES"
 		(at 150 91 0)
 		(layer "Dwgs.User")
 		(uuid "381ce0e7-65d7-4c87-92da-2b2465bba192")

@@ -1,0 +1,84 @@
+{
+  "revision": "A4",
+  "body_count": 102,
+  "all_solid": true,
+  "scope": "Standalone STEP import and alignment-hole cylinder checks, not full enclosure interference",
+  "exports": {
+    "board-only": {
+      "body_count": 1,
+      "all_solid": true,
+      "alignment_hole_cylinders": [
+        {
+          "centre_xy_mm": [
+            -115.0,
+            44.0
+          ],
+          "diameter_mm": 3.0,
+          "axis": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "edge_count": 2
+        },
+        {
+          "centre_xy_mm": [
+            -115.0,
+            59.0
+          ],
+          "diameter_mm": 3.0,
+          "axis": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "edge_count": 2
+        }
+      ],
+      "bounds": {
+        "min_mm": [
+          -119.0,
+          37.0,
+          0.0
+        ],
+        "max_mm": [
+          114.0,
+          69.0,
+          1.5100000000000002
+        ]
+      }
+    },
+    "assembly": {
+      "body_count": 102,
+      "all_solid": true,
+      "alignment_hole_cylinders": [
+        {
+          "centre_xy_mm": [
+            -115.0,
+            44.0
+          ],
+          "diameter_mm": 3.0,
+          "axis": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "edge_count": 2
+        },
+        {
+          "centre_xy_mm": [
+            -115.0,
+            59.0
+          ],
+          "diameter_mm": 3.0,
+          "axis": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "edge_count": 2
+        }
+      ]
+    }
+  }
+}

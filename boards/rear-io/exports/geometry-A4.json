@@ -1,0 +1,113 @@
+{
+  "revision": "A4",
+  "kicad_version": "10.0.5",
+  "sha256": {
+    "boards/rear-io/rear-io.kicad_pcb": "42aa6de48a48c8792078a329b21d38980e9d177b9ee7bd3a9aa73b3e798349ae",
+    "boards/rear-io/models/DragonCity_PT-603B.step": "ac17fb3bdb9dd309eef143da45c69bcfeafcca5ffa29ed0c1b736220e8993a1f",
+    "boards/optical-input/optical-input.kicad_pcb": "aa8db15598b5d007d8e22a21a659d5ee9d4fa0ead2b4bcc8a3b0ca2efabe951c"
+  },
+  "electrical_pads": 41,
+  "component_mounting_npth": 4,
+  "alignment_npth": 2,
+  "speaker_pads": 12,
+  "checks": [
+    "native KiCad DRC zero violations under recorded defaults",
+    "228x32 body with R4 alignment tabs (233x32 overall) and two closed optical windows",
+    "two straight-tail six-contact footprints; no A1/A2 speaker instances",
+    "13x19.5 speaker pin grid and model positions match",
+    "speaker model height30; rear tails3.4; no below-body tail extension",
+    "front envelopes fit measured 220x35 R5 opening without overlap",
+    "actual D3 NPTH holes at owner reference positions x-115,z44/59, supported by R4 tabs; connector footprints unchanged",
+    "project-relative model paths resolve"
+  ],
+  "step_import": {
+    "revision": "A4",
+    "body_count": 102,
+    "all_solid": true,
+    "scope": "Standalone STEP import and alignment-hole cylinder checks, not full enclosure interference",
+    "exports": {
+      "board-only": {
+        "body_count": 1,
+        "all_solid": true,
+        "alignment_hole_cylinders": [
+          {
+            "centre_xy_mm": [
+              -115.0,
+              44.0
+            ],
+            "diameter_mm": 3.0,
+            "axis": [
+              -0.0,
+              0.0,
+              -1.0
+            ],
+            "edge_count": 2
+          },
+          {
+            "centre_xy_mm": [
+              -115.0,
+              59.0
+            ],
+            "diameter_mm": 3.0,
+            "axis": [
+              -0.0,
+              0.0,
+              -1.0
+            ],
+            "edge_count": 2
+          }
+        ],
+        "bounds": {
+          "min_mm": [
+            -119.0,
+            37.0,
+            0.0
+          ],
+          "max_mm": [
+            114.0,
+            69.0,
+            1.5100000000000002
+          ]
+        }
+      },
+      "assembly": {
+        "body_count": 102,
+        "all_solid": true,
+        "alignment_hole_cylinders": [
+          {
+            "centre_xy_mm": [
+              -115.0,
+              44.0
+            ],
+            "diameter_mm": 3.0,
+            "axis": [
+              -0.0,
+              0.0,
+              -1.0
+            ],
+            "edge_count": 2
+          },
+          {
+            "centre_xy_mm": [
+              -115.0,
+              59.0
+            ],
+            "diameter_mm": 3.0,
+            "axis": [
+              -0.0,
+              0.0,
+              -1.0
+            ],
+            "edge_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "signal drill diameter, pin thickness/numbering, ear envelope and component mounting clearance are project assumptions",
+    "manufacturer current rating and small-quantity supply unconfirmed",
+    "4mm board-bottom to old PSU-top in projection is not full clearance validation",
+    "support, harness, plate stack, electrical and thermal qualification deferred"
+  ]
+}
