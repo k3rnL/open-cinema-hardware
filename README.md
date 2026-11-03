@@ -2,6 +2,10 @@
 
 Editable hardware for [Open Cinema](https://github.com/k3rnL/open-cinema). The [resources repository](https://github.com/k3rnL/open-cinema-resources) holds searchable knowledge and decision history.
 
+## A10: electrical draft in a separate project
+
+[Start with A10](boards/rear-io-A10/README.md): editable schematic, chip sourcing, two static review passes and rigid STEP/F3D exports. Optical/coax selection and LVDS circuitry are drafted. **HDMI/eARC is unresolved, the PCB is unrouted, and this is not ready to order.** A9 below remains the historical mechanical baseline; its manually modified project file is preserved.
+
 ## A9: horizontal PCB and connectors only
 
 All six speaker pairs, two optical receivers, coaxial RCA and HDMI are directly soldered to one horizontal PCB. The board sits above the connectors with its component side facing downward, so the solder tails point upward. Optical daughterboards and their cradle are no longer needed.

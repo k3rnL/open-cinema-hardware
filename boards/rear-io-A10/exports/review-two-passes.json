@@ -1,0 +1,49 @@
+{
+  "revision": "A10 draft",
+  "date": "2026-11-03",
+  "kicad": "10.0.5",
+  "pass_1": {
+    "scope": "Schematic topology plus ERC; independent datasheet pin transcription in this reviewer",
+    "status": "pass for implemented draft sections only",
+    "erc_violations": 0,
+    "checked": [
+      "CS8416 TSSOP pins / 0x20 straps / 47k software-mode strap",
+      "Optical supply/OUT/GND and AC coupling",
+      "75-ohm coax termination and input AC coupling",
+      "3k + 22nF branch and parallel 1nF PLL topology",
+      "5V to 3.3V regulator pin map",
+      "Both mux banks and both LVDS drivers / six pair polarities",
+      "Boot-disabled controls and separate speaker returns"
+    ],
+    "not_implemented": [
+      "HDMI/eARC electrical circuit and firmware",
+      "Coax/HDMI ESD qualification and chassis bond network",
+      "Future HAT and production harness"
+    ],
+    "bench_tests_run": false
+  },
+  "pass_2": {
+    "scope": "PCB versus exported schematic; placement/holes/models; routing deliberately absent",
+    "status": "pass for nominal unrouted placement only",
+    "footprints": 62,
+    "electrical_pad_keys": 275,
+    "resolved_model_links": 56,
+    "drc_geometry_violations": 0,
+    "unrouted_connections": 186,
+    "tracks": 0,
+    "copper_layers": 4,
+    "mounting_holes_retained": true,
+    "physical_prototype_tested": false
+  },
+  "source_sha256": {
+    "OpenCinema_A10.kicad_sym": "3638fdbae044598aaa8c5b573761c4beb6e3c904aa9b50786d1c4501ba866d37",
+    "power-control.kicad_sch": "f8980cf5660aa3ecffaf2b8a9f253a9055b111fb0787dad5e6b6eaf1388f1008",
+    "rear-io-A10.kicad_pcb": "dd7558209b5707548cb8115f294484d5432cc22d89a55a710113849080a5079f",
+    "rear-io-A10.kicad_pro": "aebdcf76e7d018ff988aa20e34d69805304b1dcfbfd7bc2ffb358fe1d78d45d4",
+    "rear-io-A10.kicad_sch": "74111460daf0cecf34b70225da987c4b8137bfb3919c04c72522c796a577f265",
+    "selection-lvds.kicad_sch": "ded46c763fcf62ee2144fc3cf100e847a94f1e135c832c03996efa6442c34493",
+    "spdif.kicad_sch": "7c76270560a2f31b42a7006a524ca02f22683bbbaaa5bc9355b7a6a7501abce6",
+    "speakers-hdmi.kicad_sch": "ce53509ce46039abb59a17f091b4aa7de4d3875bf5d08bd3200f6859cdd36a2d"
+  },
+  "overall_release_status": "BLOCKED / NOT FOR FABRICATION; review passes do not validate unresolved sections"
+}

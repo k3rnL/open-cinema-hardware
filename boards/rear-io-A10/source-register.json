@@ -1,0 +1,35 @@
+{
+  "access_date": "2026-11-03",
+  "datasheets": {
+    "cs8416": {
+      "url": "https://statics.cirrus.com/pubs/proDatasheet/CS8416_DS578F5.pdf",
+      "used_for": "DS578F5; pins pp12-13; typical circuit p20; reset p22; serial port pp24-26,41-42; inputs pp27,50-51; I2C pp11,35; PLL p55; K ordering p60",
+      "sha256": "2bd423f47c687c10e8e5f074f1bb71cbc644f28cb7776f992aa3872ffce42737"
+    },
+    "mux": {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc157a.pdf",
+      "used_for": "SCAS292S; PW pinout/function table p3; electrical timing tables",
+      "sha256": "d53b84ce1043e9eff2b01679a029be52b444f0cd2e1d942a002a4ff029698097"
+    },
+    "lvds-tx": {
+      "url": "https://www.ti.com/lit/ds/symlink/ds90lv047a.pdf",
+      "used_for": "SNLS044D; PW pinout p3; electrical pp4-7; layout pp16-17",
+      "sha256": "ed31d28c7fa80b5a62ba0897122baec7fab0bc4e574c580aa8f1b2c7efad9ff4"
+    },
+    "lvds-rx": {
+      "url": "https://www.ti.com/lit/ds/symlink/ds90lv048a.pdf",
+      "used_for": "SNLS045C; future HAT candidate, not placed",
+      "sha256": "59aca1e089c7c4a42565be34eea5ae7089c25ab854b138e92b9c2f9817cadd4c"
+    },
+    "ldo": {
+      "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "used_for": "SBVS320D; DBV pinout p3; recommended conditions and thermal pp4-5; application section",
+      "sha256": "96e2706d4b13656d2d550fdbb5be9861c56b058822109bb39a906d4ad1beb019"
+    },
+    "optical": {
+      "url": "https://www.cliffuk.co.uk/products/optical/FCR684205R.pdf",
+      "used_for": "Version2.0 2023-06-29; pinout p3; electrical p4; 100nF and30pF requirements p7",
+      "sha256": "59c25d7f71fa019de4ca9df4cb5366d1e573120baf0109039e4c359a702744d4"
+    }
+  }
+}
