@@ -26,3 +26,7 @@ A10 uses KiCad 10 package/connector/passive footprints and copied STEP models fr
 A11 additionally uses KiCad10 footprints/STEP models from Package_QFP, Package_SON, Oscillator and the Bourns SRN4018 inductor library, plus the existing passive/header packages. Copyright KiCad library contributors; the same CC BY-SA4.0 library exception linked above applies. Project symbols are authored from the manufacturer pin tables, not copied from third-party designs. [A11 source register](../../boards/rear-io-A11/source-register.json) records the public references and available local file hashes. Datasheets are linked, not redistributed.
 
 A11 normalizes the upstream oscillator STEP file-name header to its basename, removing the original author workstation path; the DATA/geometry section and attribution are unchanged.
+
+## A12 routing assets
+
+A12 reuses the attributed A11/connector assets and adds KiCad library `Diode_SMD:D_SOD-523` / `D_SOD-523.step` for the TI coax ESD candidate. Existing KiCad library licensing applies. Samtec headers retain generic KiCad envelope models, explicitly distinguished from vendor CAD. New sources and calculator assumptions are recorded in `boards/rear-io-A12/source-register.json` and its manufacturing-review/stackup.md. No new vendor PDFs are redistributed.

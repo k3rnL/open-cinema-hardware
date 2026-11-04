@@ -1,0 +1,4335 @@
+{
+  "revision": "A12-draft",
+  "parts": [
+    {
+      "sheet": "power-control",
+      "ref": "U6",
+      "key": "LDOW",
+      "value": "TLV75533PDRVR",
+      "nets": {
+        "6": "+5V_IN",
+        "3": "GND",
+        "4": "+5V_IN",
+        "1": "+3V3",
+        "2": null,
+        "5": null,
+        "7": "GND"
+      },
+      "x": 105.41,
+      "y": 54.61,
+      "bx": 95.0,
+      "by": 129.0,
+      "angle": 0.0,
+      "mpn": "TLV75533PDRVR",
+      "source": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "dnp": false,
+      "fp": "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "uuid": "7f3e937a-a364-5779-b4ec-35503322644c"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "J21",
+      "key": "CON2",
+      "value": "5V regulated input",
+      "nets": {
+        "1": "+5V_IN",
+        "2": "GND"
+      },
+      "x": 39.37,
+      "y": 54.61,
+      "bx": 102.0,
+      "by": 136.0,
+      "angle": 90.0,
+      "mpn": "TSW-102-07-G-S",
+      "source": "https://www.samtec.com/products/tsw-102-07-g-s",
+      "dnp": false,
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "uuid": "ad395edf-47f2-5194-b795-1a9ee7e25a79"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "J20",
+      "key": "CON12",
+      "value": "PI CONTROL / NOT PI PINOUT",
+      "nets": {
+        "1": "GND",
+        "2": "I2C_SDA",
+        "3": "GND",
+        "4": "I2C_SCL",
+        "5": "CS_RESET_N",
+        "6": "CS_INT",
+        "7": "ADV_INT",
+        "8": "HDMI_5V_EN",
+        "9": "LVDS_EN",
+        "10": "CS_RMCK_MON",
+        "11": "GND",
+        "12": "CS_RERR"
+      },
+      "x": 270.51,
+      "y": 64.77,
+      "bx": 113.0,
+      "by": 137.0,
+      "angle": 90.0,
+      "mpn": "TSW-106-07-G-D",
+      "source": "https://www.samtec.com/products/tsw-106-07-g-d",
+      "dnp": false,
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical",
+      "uuid": "26ea46ab-5bb1-5bb4-bf3d-2c2fee64a2e5"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "#FLG1",
+      "key": "PWR_FLAG",
+      "value": "POWER PROVIDED",
+      "nets": {
+        "1": "+5V_IN"
+      },
+      "x": 340.36,
+      "y": 100.33,
+      "bx": null,
+      "by": null,
+      "angle": 0,
+      "mpn": "POWER PROVIDED",
+      "source": "",
+      "dnp": false,
+      "fp": "",
+      "uuid": "3d770403-13a8-5119-b2b7-85251d428033"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "#FLG2",
+      "key": "PWR_FLAG",
+      "value": "POWER PROVIDED",
+      "nets": {
+        "1": "GND"
+      },
+      "x": 340.36,
+      "y": 134.62,
+      "bx": null,
+      "by": null,
+      "angle": 0,
+      "mpn": "POWER PROVIDED",
+      "source": "",
+      "dnp": false,
+      "fp": "",
+      "uuid": "ebabe360-8675-53e2-8551-2b521964e06a"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "#FLG3",
+      "key": "PWR_FLAG",
+      "value": "POWER PROVIDED",
+      "nets": {
+        "1": "+3V3_A"
+      },
+      "x": 340.36,
+      "y": 170.18,
+      "bx": null,
+      "by": null,
+      "angle": 0,
+      "mpn": "POWER PROVIDED",
+      "source": "",
+      "dnp": false,
+      "fp": "",
+      "uuid": "1cf3ac0a-c89f-59eb-8d72-df5a16f5aeac"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "C1",
+      "key": "C",
+      "value": "4.7uF",
+      "nets": {
+        "1": "+5V_IN",
+        "2": "GND"
+      },
+      "x": 64.77,
+      "y": 110.49,
+      "bx": 98.0,
+      "by": 129.0,
+      "angle": 180.0,
+      "mpn": "CL10A475KO8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "cd0a363c-5b11-5e62-88e6-55e8ae2b1ddd"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "C2",
+      "key": "C",
+      "value": "4.7uF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 139.7,
+      "y": 110.49,
+      "bx": 92.0,
+      "by": 129.0,
+      "angle": 0.0,
+      "mpn": "CL10A475KO8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "2b95974e-4509-5e31-a7d2-bae28129a894"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "C3",
+      "key": "C",
+      "value": "10uF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 214.63,
+      "y": 110.49,
+      "bx": 92.0,
+      "by": 132.0,
+      "angle": 0.0,
+      "mpn": "CL10A106KP8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "99f736f5-7759-5f50-8ac5-558ea6f35019"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "R1",
+      "key": "R",
+      "value": "4.7k",
+      "nets": {
+        "1": "I2C_SDA",
+        "2": "+3V3"
+      },
+      "x": 69.85,
+      "y": 154.94,
+      "bx": 131.0,
+      "by": 135.0,
+      "angle": 0.0,
+      "mpn": "RC0603FR-074K7L",
+      "source": "",
+      "dnp": true,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "71ca1f7e-997d-57fd-b1c6-c8cde7e26cb1"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "R2",
+      "key": "R",
+      "value": "4.7k",
+      "nets": {
+        "1": "I2C_SCL",
+        "2": "+3V3"
+      },
+      "x": 160.02,
+      "y": 154.94,
+      "bx": 131.0,
+      "by": 137.0,
+      "angle": 0.0,
+      "mpn": "RC0603FR-074K7L",
+      "source": "",
+      "dnp": true,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "43176140-df76-5ba8-b45f-a160effa5667"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "R3",
+      "key": "R",
+      "value": "10k",
+      "nets": {
+        "1": "CS_RESET_N",
+        "2": "GND"
+      },
+      "x": 69.85,
+      "y": 190.5,
+      "bx": 113.25,
+      "by": 131.0,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0710KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "58a3fc78-2bca-59f6-b1e9-64797621af2b"
+    },
+    {
+      "sheet": "power-control",
+      "ref": "R6",
+      "key": "R",
+      "value": "10k",
+      "nets": {
+        "1": "LVDS_EN",
+        "2": "GND"
+      },
+      "x": 340.36,
+      "y": 190.5,
+      "bx": 130.5,
+      "by": 117.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0710KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "b7df475e-7bff-54e0-86c7-be4035bf6227"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "U1",
+      "key": "CS8416K",
+      "value": "CS8416K-CZZR",
+      "nets": {
+        "1": "RX_ARC",
+        "2": "RX_COAX",
+        "3": "RX_OPT2",
+        "4": "RX_OPT1",
+        "5": "RXN_AC",
+        "6": "+3V3_A",
+        "7": "GND",
+        "8": "PLL_FILT",
+        "9": "CS_RESET_N",
+        "10": "GND",
+        "11": "GND",
+        "12": "GND",
+        "13": "GND",
+        "14": "AD0_STRAP",
+        "15": "AD1_STRAP",
+        "16": "I2C_SCL",
+        "17": "I2C_SDA",
+        "18": "AD2_STRAP",
+        "19": "CS_RERR",
+        "20": "CS_INT",
+        "21": "+3V3",
+        "22": "GND",
+        "23": "+3V3",
+        "24": "CS_RMCK_MON",
+        "25": "GND",
+        "26": "SPDIF_D0",
+        "27": "SPDIF_BCLK",
+        "28": "SPDIF_LRCLK"
+      },
+      "x": 240.03,
+      "y": 85.09,
+      "bx": 119.0,
+      "by": 124.0,
+      "angle": 0.0,
+      "mpn": "CS8416K-CZZR",
+      "source": "https://statics.cirrus.com/pubs/proDatasheet/CS8416_DS578F5.pdf",
+      "dnp": false,
+      "fp": "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm",
+      "uuid": "c3956c11-c042-5bb2-9f24-782196ce4353"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "J7",
+      "key": "OPT",
+      "value": "FCR684205R",
+      "nets": {
+        "1": "OPT1_OUT",
+        "2": "GND",
+        "3": "+3V3"
+      },
+      "x": 39.37,
+      "y": 44.45,
+      "bx": 125.0,
+      "by": 109.0,
+      "angle": 0.0,
+      "mpn": "FCR684205R",
+      "source": "",
+      "dnp": false,
+      "fp": "OpenCinema_Connectors:Cliff_FCR684205R",
+      "uuid": "1529eb06-80bf-5d80-8cb5-fc5eb9033b8b"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C11",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "OPT1_OUT",
+        "2": "RX_OPT1"
+      },
+      "x": 39.37,
+      "y": 80.01,
+      "bx": 122.5,
+      "by": 114.5,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "5814c2ee-59b8-5d9a-a13c-626f58e324a1"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C13",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 39.37,
+      "y": 110.49,
+      "bx": 130.0,
+      "by": 114.5,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "f8c57770-14c4-5d4a-8271-a33d8a117d10"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C15",
+      "key": "C",
+      "value": "30pF C0G",
+      "nets": {
+        "1": "OPT1_OUT",
+        "2": "GND"
+      },
+      "x": 39.37,
+      "y": 139.7,
+      "bx": 120.0,
+      "by": 116.5,
+      "angle": 0.0,
+      "mpn": "CL10C300JB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "bd183b2a-44d9-54af-9617-b9dbc7a4161b"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "J8",
+      "key": "OPT",
+      "value": "FCR684205R",
+      "nets": {
+        "1": "OPT2_OUT",
+        "2": "GND",
+        "3": "+3V3"
+      },
+      "x": 110.49,
+      "y": 44.45,
+      "bx": 106.0,
+      "by": 109.0,
+      "angle": 0.0,
+      "mpn": "FCR684205R",
+      "source": "",
+      "dnp": false,
+      "fp": "OpenCinema_Connectors:Cliff_FCR684205R",
+      "uuid": "fd2a7e1e-8ec9-5bb0-b0b2-62d68fa345e0"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C12",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "OPT2_OUT",
+        "2": "RX_OPT2"
+      },
+      "x": 110.49,
+      "y": 80.01,
+      "bx": 106.0,
+      "by": 114.5,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "a1021328-ede1-50b3-aceb-f92e24d33cfe"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C14",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 110.49,
+      "y": 110.49,
+      "bx": 111.0,
+      "by": 114.5,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "95506182-809e-553e-9031-77411cb98652"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C16",
+      "key": "C",
+      "value": "30pF C0G",
+      "nets": {
+        "1": "OPT2_OUT",
+        "2": "GND"
+      },
+      "x": 110.49,
+      "y": 139.7,
+      "bx": 101.0,
+      "by": 115.0,
+      "angle": 0.0,
+      "mpn": "CL10C300JB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "c545aaa8-95fe-512a-9806-f016e5257942"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "J9",
+      "key": "RCA",
+      "value": "RCJ-011",
+      "nets": {
+        "1": "COAX_IN",
+        "2": "GND"
+      },
+      "x": 39.37,
+      "y": 185.42000000000002,
+      "bx": 86.0,
+      "by": 107.0,
+      "angle": 0.0,
+      "mpn": "RCJ-011",
+      "source": "",
+      "dnp": false,
+      "fp": "OpenCinema_Connectors:SameSky_RCJ_011_Horizontal_A8",
+      "uuid": "866dd3bb-c5e1-5ee9-9faf-ba74e6c48a1b"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "R10",
+      "key": "R",
+      "value": "75R 1%",
+      "nets": {
+        "1": "COAX_IN",
+        "2": "GND"
+      },
+      "x": 105.41,
+      "y": 185.42000000000002,
+      "bx": 88.0,
+      "by": 113.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0775RL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "5c60ba6b-4617-5a66-99c1-c8a60b68ea87"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C17",
+      "key": "C",
+      "value": "10nF",
+      "nets": {
+        "1": "COAX_IN",
+        "2": "RX_COAX"
+      },
+      "x": 105.41,
+      "y": 214.63,
+      "bx": 92.0,
+      "by": 113.5,
+      "angle": 0.0,
+      "mpn": "CL10B103KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "ac40d3fe-0da8-59c3-a265-ba7751050211"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C18",
+      "key": "C",
+      "value": "10nF",
+      "nets": {
+        "1": "RXN_AC",
+        "2": "GND"
+      },
+      "x": 185.42000000000002,
+      "y": 214.63,
+      "bx": 113.5,
+      "by": 122.5,
+      "angle": 180.0,
+      "mpn": "CL10B103KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "07e81a34-ce87-563e-b6ff-d8ca29e38d25"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "FB1",
+      "key": "FB",
+      "value": "600R @100MHz",
+      "nets": {
+        "1": "+3V3",
+        "2": "+3V3_A"
+      },
+      "x": 309.88,
+      "y": 144.78,
+      "bx": 110.0,
+      "by": 127.0,
+      "angle": 0.0,
+      "mpn": "BLM18AG601SN1D",
+      "source": "",
+      "dnp": false,
+      "fp": "Inductor_SMD:L_0603_1608Metric",
+      "uuid": "3b1ac872-db03-50a1-9333-9809b41df982"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C19",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "+3V3_A",
+        "2": "GND"
+      },
+      "x": 234.95000000000002,
+      "y": 144.78,
+      "bx": 113.5,
+      "by": 124.5,
+      "angle": 180.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "038d7672-2e8b-5b7a-9669-904190a34685"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C20",
+      "key": "C",
+      "value": "10uF",
+      "nets": {
+        "1": "+3V3_A",
+        "2": "GND"
+      },
+      "x": 234.95000000000002,
+      "y": 170.18,
+      "bx": 110.0,
+      "by": 124.5,
+      "angle": 0.0,
+      "mpn": "CL10A106KP8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "d6eb28f4-1bf7-505f-b19a-f4d376271206"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C21",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 309.88,
+      "y": 170.18,
+      "bx": 124.5,
+      "by": 123.0,
+      "angle": 180.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "41762657-084e-5880-af2a-3e84586449df"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C22",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 309.88,
+      "y": 195.58,
+      "bx": 124.5,
+      "by": 125.0,
+      "angle": 180.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "104dbe10-a6db-5fa6-807c-105a97a901a3"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C23",
+      "key": "C",
+      "value": "1nF C0G",
+      "nets": {
+        "1": "PLL_FILT",
+        "2": "GND"
+      },
+      "x": 234.95000000000002,
+      "y": 195.58,
+      "bx": 113.5,
+      "by": 126.5,
+      "angle": 180.0,
+      "mpn": "CL10C102JB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "edf9bb81-04f3-5c7d-b01d-f63c7531d532"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "C24",
+      "key": "C",
+      "value": "22nF X7R",
+      "nets": {
+        "1": "PLL_RC",
+        "2": "GND"
+      },
+      "x": 234.95000000000002,
+      "y": 219.71,
+      "bx": 110.0,
+      "by": 131.0,
+      "angle": 180.0,
+      "mpn": "CL10B223KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "d1aceaf8-2616-5127-9e4b-791d2157bc77"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "R11",
+      "key": "R",
+      "value": "3k 1%",
+      "nets": {
+        "1": "PLL_FILT",
+        "2": "PLL_RC"
+      },
+      "x": 309.88,
+      "y": 219.71,
+      "bx": 113.5,
+      "by": 128.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-073KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "54df0948-832e-5025-b5f7-35b2bbd157ba"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "R12",
+      "key": "R",
+      "value": "47k",
+      "nets": {
+        "1": "SPDIF_D0",
+        "2": "+3V3"
+      },
+      "x": 39.37,
+      "y": 250.19,
+      "bx": 125.0,
+      "by": 119.0,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0747KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "a039c626-6294-5794-9be6-eada9dd6206d"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "R13",
+      "key": "R",
+      "value": "47k",
+      "nets": {
+        "1": "AD2_STRAP",
+        "2": "GND"
+      },
+      "x": 124.46000000000001,
+      "y": 250.19,
+      "bx": 124.0,
+      "by": 131.0,
+      "angle": 90.0,
+      "mpn": "RC0603FR-0747KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "4082ba38-4033-5f35-a8dd-b09514b8c277"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "R14",
+      "key": "R",
+      "value": "10k",
+      "nets": {
+        "1": "AD0_STRAP",
+        "2": "GND"
+      },
+      "x": 209.55,
+      "y": 250.19,
+      "bx": 116.0,
+      "by": 131.0,
+      "angle": 90.0,
+      "mpn": "RC0603FR-0710KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "bc0feff5-e9a5-5493-a08c-490a32bb2ce3"
+    },
+    {
+      "sheet": "spdif",
+      "ref": "R15",
+      "key": "R",
+      "value": "10k",
+      "nets": {
+        "1": "AD1_STRAP",
+        "2": "GND"
+      },
+      "x": 294.64,
+      "y": 250.19,
+      "bx": 120.0,
+      "by": 131.0,
+      "angle": 90.0,
+      "mpn": "RC0603FR-0710KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "cbabee1f-13c3-55ec-8f88-4d92bbb1ce2b"
+    },
+    {
+      "sheet": "selection-lvds",
+      "ref": "U4",
+      "key": "LVDS",
+      "value": "DS90LV047ATMTC/NOPB",
+      "nets": {
+        "1": "LVDS_EN",
+        "8": "GND",
+        "4": "+3V3",
+        "5": "GND",
+        "2": "SPDIF_BCLK",
+        "3": "SPDIF_LRCLK",
+        "6": "SPDIF_D0",
+        "7": "GND",
+        "15": "LVDS_BCLK_P",
+        "16": "LVDS_BCLK_N",
+        "14": "LVDS_LRCLK_P",
+        "13": "LVDS_LRCLK_N",
+        "11": "LVDS_D0_P",
+        "12": "LVDS_D0_N",
+        "10": null,
+        "9": null
+      },
+      "x": 134.62,
+      "y": 80.01,
+      "bx": 136.0,
+      "by": 121.0,
+      "angle": 0.0,
+      "mpn": "DS90LV047ATMTC/NOPB",
+      "source": "https://www.ti.com/lit/ds/symlink/ds90lv047a.pdf",
+      "dnp": false,
+      "fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "uuid": "8c84c573-2af8-5604-8344-9e67962e1ce6"
+    },
+    {
+      "sheet": "selection-lvds",
+      "ref": "J22",
+      "key": "CON20",
+      "value": "3 LVDS PAIRS / PROVISIONAL",
+      "nets": {
+        "1": "LVDS_BCLK_P",
+        "2": "LVDS_BCLK_N",
+        "3": "GND",
+        "4": "GND",
+        "5": "LVDS_LRCLK_P",
+        "6": "LVDS_LRCLK_N",
+        "7": "LVDS_D0_P",
+        "8": "LVDS_D0_N",
+        "9": "GND",
+        "10": "GND",
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": "GND",
+        "16": "GND",
+        "17": null,
+        "18": null,
+        "19": "GND",
+        "20": "GND"
+      },
+      "x": 279.4,
+      "y": 80.01,
+      "bx": 145.0,
+      "by": 114.0,
+      "angle": 0.0,
+      "mpn": "TSW-110-07-G-D",
+      "source": "https://www.samtec.com/products/tsw-110-07-g-d",
+      "dnp": false,
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical",
+      "uuid": "fb804997-3f8f-5625-a981-31d34b5a1fb8"
+    },
+    {
+      "sheet": "selection-lvds",
+      "ref": "C32",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 134.62,
+      "y": 139.7,
+      "bx": 130.5,
+      "by": 121.0,
+      "angle": -90.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "c1f59d93-41ef-5046-8e8f-0b5b6dac967a"
+    },
+    {
+      "sheet": "speakers",
+      "ref": "SP1",
+      "key": "SPEAKER",
+      "value": "KLS1-WP-6P-03B / UNQUALIFIED",
+      "nets": {
+        "1": "SPK1_N",
+        "2": "SPK1_P",
+        "3": "SPK2_N",
+        "4": "SPK2_P",
+        "5": "SPK3_N",
+        "6": "SPK3_P"
+      },
+      "x": 64.77,
+      "y": 54.61,
+      "bx": 225.0,
+      "by": 100.0,
+      "angle": 0.0,
+      "mpn": "L-KLS1-WP-6P-03B-B/R",
+      "source": "",
+      "dnp": false,
+      "fp": "OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8",
+      "uuid": "f25b70de-d1a2-51a0-a0de-598937b9e446"
+    },
+    {
+      "sheet": "speakers",
+      "ref": "J31",
+      "key": "WIRE6",
+      "value": "AMP WIRE SOLDER PADS",
+      "nets": {
+        "1": "SPK1_N",
+        "2": "SPK1_P",
+        "3": "SPK2_N",
+        "4": "SPK2_P",
+        "5": "SPK3_N",
+        "6": "SPK3_P"
+      },
+      "x": 180.34,
+      "y": 54.61,
+      "bx": 211.5,
+      "by": 123.0,
+      "angle": 0.0,
+      "mpn": "PCB_SOLDER_PADS_1SQMM",
+      "source": "",
+      "dnp": false,
+      "fp": "Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm",
+      "uuid": "ddefb86a-e94e-5ff8-92dc-304d88db4234"
+    },
+    {
+      "sheet": "speakers",
+      "ref": "SP2",
+      "key": "SPEAKER",
+      "value": "KLS1-WP-6P-03B / UNQUALIFIED",
+      "nets": {
+        "1": "SPK4_N",
+        "2": "SPK4_P",
+        "3": "SPK5_N",
+        "4": "SPK5_P",
+        "5": "SPK6_N",
+        "6": "SPK6_P"
+      },
+      "x": 64.77,
+      "y": 134.62,
+      "bx": 168.0,
+      "by": 100.0,
+      "angle": 0.0,
+      "mpn": "L-KLS1-WP-6P-03B-B/R",
+      "source": "",
+      "dnp": false,
+      "fp": "OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8",
+      "uuid": "5aef6de9-8763-53e2-987b-482e26b352eb"
+    },
+    {
+      "sheet": "speakers",
+      "ref": "J32",
+      "key": "WIRE6",
+      "value": "AMP WIRE SOLDER PADS",
+      "nets": {
+        "1": "SPK4_N",
+        "2": "SPK4_P",
+        "3": "SPK5_N",
+        "4": "SPK5_P",
+        "5": "SPK6_N",
+        "6": "SPK6_P"
+      },
+      "x": 180.34,
+      "y": 134.62,
+      "bx": 154.5,
+      "by": 123.0,
+      "angle": 0.0,
+      "mpn": "PCB_SOLDER_PADS_1SQMM",
+      "source": "",
+      "dnp": false,
+      "fp": "Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm",
+      "uuid": "69d88255-d7dd-5dce-9ad4-d7fcf105356c"
+    },
+    {
+      "sheet": "arc-receiver",
+      "ref": "U7",
+      "key": "ADV7511",
+      "value": "ADV7511KSTZ / ARC candidate",
+      "nets": {
+        "1": "+1V8_D",
+        "19": "+1V8_D",
+        "49": "+1V8_D",
+        "76": "+1V8_D",
+        "77": "+1V8_D",
+        "24": "+1V8_D",
+        "25": "+1V8_D",
+        "29": "+1V8_A",
+        "34": "+1V8_A",
+        "41": "+1V8_A",
+        "21": "+1V8_P",
+        "26": "+1V8_P",
+        "47": "+3V3",
+        "18": "GND",
+        "20": "GND",
+        "22": "GND",
+        "23": "GND",
+        "27": "GND",
+        "31": "GND",
+        "37": "GND",
+        "44": "GND",
+        "75": "GND",
+        "99": "GND",
+        "100": "GND",
+        "28": "ADV_REXT",
+        "30": "HDMI_HPD_HEAC_N",
+        "38": "ADV_PD",
+        "45": "ADV_INT",
+        "46": "ARC_SPDIF",
+        "48": "HDMI_CEC",
+        "50": "CEC_CLK",
+        "51": "ADV_HEAC_N",
+        "52": "ADV_HEAC_P",
+        "53": "HDMI_DDC_SCL",
+        "54": "HDMI_DDC_SDA",
+        "55": "I2C_SCL",
+        "56": "I2C_SDA",
+        "32": null,
+        "33": null,
+        "35": null,
+        "36": null,
+        "39": null,
+        "40": null,
+        "42": null,
+        "43": null,
+        "2": "GND",
+        "3": "GND",
+        "4": "GND",
+        "5": "GND",
+        "6": "GND",
+        "7": "GND",
+        "8": "GND",
+        "9": "GND",
+        "10": "GND",
+        "11": "GND",
+        "12": "GND",
+        "13": "GND",
+        "14": "GND",
+        "15": "GND",
+        "16": "GND",
+        "17": "GND",
+        "79": "GND",
+        "97": "GND",
+        "98": "GND",
+        "57": "GND",
+        "58": "GND",
+        "59": "GND",
+        "60": "GND",
+        "61": "GND",
+        "62": "GND",
+        "63": "GND",
+        "64": "GND",
+        "65": "GND",
+        "66": "GND",
+        "67": "GND",
+        "68": "GND",
+        "69": "GND",
+        "70": "GND",
+        "71": "GND",
+        "72": "GND",
+        "73": "GND",
+        "74": "GND",
+        "78": "GND",
+        "80": "GND",
+        "81": "GND",
+        "82": "GND",
+        "83": "GND",
+        "84": "GND",
+        "85": "GND",
+        "86": "GND",
+        "87": "GND",
+        "88": "GND",
+        "89": "GND",
+        "90": "GND",
+        "91": "GND",
+        "92": "GND",
+        "93": "GND",
+        "94": "GND",
+        "95": "GND",
+        "96": "GND"
+      },
+      "x": 204.47,
+      "y": 110.49,
+      "bx": 61.0,
+      "by": 124.0,
+      "angle": 90.0,
+      "mpn": "ADV7511KSTZ",
+      "source": "https://www.analog.com/media/en/technical-documentation/user-guides/ADV7511_Hardware_Users_Guide.pdf",
+      "dnp": false,
+      "fp": "Package_QFP:LQFP-100_14x14mm_P0.5mm",
+      "uuid": "eccd00fa-5838-5114-9ec6-6326772705e6"
+    },
+    {
+      "sheet": "arc-receiver",
+      "ref": "R40",
+      "key": "R",
+      "value": "887R 1%",
+      "nets": {
+        "1": "ADV_REXT",
+        "2": "GND"
+      },
+      "x": 80.01,
+      "y": 209.55,
+      "bx": 75.25,
+      "by": 130.0,
+      "angle": 0.0,
+      "mpn": "RC0603FR-07887RL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "0570fff8-d817-5605-a15e-237acde4e339"
+    },
+    {
+      "sheet": "arc-receiver",
+      "ref": "R41",
+      "key": "R",
+      "value": "2k 1%",
+      "nets": {
+        "1": "ADV_PD",
+        "2": "GND"
+      },
+      "x": 180.34,
+      "y": 209.55,
+      "bx": 75.0,
+      "by": 124.25,
+      "angle": 0.0,
+      "mpn": "RC0603FR-072KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "131f0859-ba0f-52e8-b881-5e6a7307468c"
+    },
+    {
+      "sheet": "arc-receiver",
+      "ref": "R42",
+      "key": "R",
+      "value": "2k 1%",
+      "nets": {
+        "1": "ADV_INT",
+        "2": "+3V3"
+      },
+      "x": 279.4,
+      "y": 209.55,
+      "bx": 75.25,
+      "by": 115.0,
+      "angle": 0.0,
+      "mpn": "RC0603FR-072KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "a052e8b3-4786-552c-bf4d-4f02a15c6223"
+    },
+    {
+      "sheet": "arc-receiver",
+      "ref": "Y1",
+      "key": "OSC",
+      "value": "12 MHz / ASV-12.000MHZ-E-T",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND",
+        "3": "CEC_CLK_RAW",
+        "4": "+3V3"
+      },
+      "x": 80.01,
+      "y": 59.69,
+      "bx": 81.0,
+      "by": 117.0,
+      "angle": 0.0,
+      "mpn": "ASV-12.000MHZ-E-T",
+      "source": "https://abracon.com/Oscillators/ASV.pdf",
+      "dnp": false,
+      "fp": "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm",
+      "uuid": "bbc0ae88-a7ca-5e71-ad17-b6634ecc7190"
+    },
+    {
+      "sheet": "arc-receiver",
+      "ref": "R43",
+      "key": "R",
+      "value": "33R",
+      "nets": {
+        "1": "CEC_CLK_RAW",
+        "2": "CEC_CLK"
+      },
+      "x": 80.01,
+      "y": 105.41,
+      "bx": 86.75,
+      "by": 115.25,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0733RL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "411d871c-480f-543d-ba1f-947824061c4c"
+    },
+    {
+      "sheet": "arc-receiver",
+      "ref": "C40",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 80.01,
+      "y": 139.7,
+      "bx": 84.0,
+      "by": 121.25,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "a1a69aa6-f35e-523d-ae57-dc31b2066523"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "J10",
+      "key": "HDMI",
+      "value": "10029449-001RLF / ARC ONLY",
+      "nets": {
+        "1": null,
+        "2": "GND",
+        "3": null,
+        "4": null,
+        "5": "GND",
+        "6": null,
+        "7": null,
+        "8": "GND",
+        "9": null,
+        "10": null,
+        "11": "GND",
+        "12": null,
+        "13": "HDMI_CEC",
+        "14": "HDMI_HEAC_P",
+        "15": "HDMI_DDC_SCL",
+        "16": "HDMI_DDC_SDA",
+        "17": "GND",
+        "18": "HDMI_5V",
+        "19": "HDMI_HPD_HEAC_N",
+        "SH": "CHASSIS_HDMI"
+      },
+      "x": 69.85,
+      "y": 64.77,
+      "bx": 61.0,
+      "by": 102.7,
+      "angle": 180.0,
+      "mpn": "10029449-001RLF",
+      "source": "",
+      "dnp": false,
+      "fp": "OpenCinema_Connectors:HDMI_A_Amphenol_10029449-x01xLF_Horizontal",
+      "uuid": "754eea26-5ecd-5400-acbf-dfb1b8394bbb"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "C41",
+      "key": "C",
+      "value": "1uF 16V",
+      "nets": {
+        "1": "HDMI_HEAC_P",
+        "2": "ADV_HEAC_P"
+      },
+      "x": 190.5,
+      "y": 44.45,
+      "bx": 65.5,
+      "by": 113.5,
+      "angle": -90.0,
+      "mpn": "CL10B105KO8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "26ee84a2-7fbc-5838-91a0-c27fa7d360b6"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "C42",
+      "key": "C",
+      "value": "1uF 16V",
+      "nets": {
+        "1": "HDMI_HPD_HEAC_N",
+        "2": "ADV_HEAC_N"
+      },
+      "x": 190.5,
+      "y": 80.01,
+      "bx": 68.0,
+      "by": 113.5,
+      "angle": -90.0,
+      "mpn": "CL10B105KO8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "19a2cb96-3a46-5b92-89e1-e9c6df3c801f"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R44",
+      "key": "R",
+      "value": "49.9R 1%",
+      "nets": {
+        "1": "ADV_HEAC_P",
+        "2": "+1V8_D"
+      },
+      "x": 309.88,
+      "y": 44.45,
+      "bx": 72.0,
+      "by": 112.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0749R9L",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "7a0e5b88-4206-5023-95ce-b2edcd40702a"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R45",
+      "key": "R",
+      "value": "49.9R 1%",
+      "nets": {
+        "1": "ADV_HEAC_N",
+        "2": "+1V8_D"
+      },
+      "x": 309.88,
+      "y": 80.01,
+      "bx": 72.0,
+      "by": 114.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0749R9L",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "9a94331e-0a2f-5ecf-a22f-8fe615437aa7"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R46",
+      "key": "R",
+      "value": "10k",
+      "nets": {
+        "1": "HDMI_HPD_HEAC_N",
+        "2": "GND"
+      },
+      "x": 190.5,
+      "y": 115.57000000000001,
+      "bx": 75.25,
+      "by": 111.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0710KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "fec87218-1f22-5060-bc63-de16691ef8a3"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R47",
+      "key": "R",
+      "value": "2k 1%",
+      "nets": {
+        "1": "HDMI_DDC_SCL",
+        "2": "HDMI_5V"
+      },
+      "x": 309.88,
+      "y": 115.57000000000001,
+      "bx": 78.5,
+      "by": 111.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-072KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "9e8c9b89-6d21-52da-b9b7-482923661b41"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R48",
+      "key": "R",
+      "value": "2k 1%",
+      "nets": {
+        "1": "HDMI_DDC_SDA",
+        "2": "HDMI_5V"
+      },
+      "x": 309.88,
+      "y": 144.78,
+      "bx": 75.25,
+      "by": 113.25,
+      "angle": 0.0,
+      "mpn": "RC0603FR-072KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "5f031805-ff11-5b32-99bc-f08e777a1b38"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R49",
+      "key": "R",
+      "value": "27k 1%",
+      "nets": {
+        "1": "+3V3",
+        "2": "CEC_PULLUP_A"
+      },
+      "x": 69.85,
+      "y": 144.78,
+      "bx": 45.5,
+      "by": 116.0,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0727KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "5f03b248-d866-58dd-9cca-5663de1d8ba3"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "D1",
+      "key": "DIO",
+      "value": "BAS116,215",
+      "nets": {
+        "1": "CEC_PULLUP_A",
+        "2": null,
+        "3": "HDMI_CEC"
+      },
+      "x": 69.85,
+      "y": 180.34,
+      "bx": 49.0,
+      "by": 112.5,
+      "angle": 0.0,
+      "mpn": "BAS116,215",
+      "source": "https://assets.nexperia.com/documents/data-sheet/BAS116.pdf",
+      "dnp": false,
+      "fp": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "d5e88a89-f9cc-58c1-bfeb-5b3baee7ef44"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R50",
+      "key": "R",
+      "value": "33R",
+      "nets": {
+        "1": "ARC_SPDIF",
+        "2": "ARC_SPDIF_SER"
+      },
+      "x": 190.5,
+      "y": 180.34,
+      "bx": 75.5,
+      "by": 121.5,
+      "angle": 0.0,
+      "mpn": "RC0603FR-0733RL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "47b67065-8541-5edb-974d-b82b874a8ea7"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "C43",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "ARC_SPDIF_SER",
+        "2": "RX_ARC"
+      },
+      "x": 309.88,
+      "y": 180.34,
+      "bx": 114.0,
+      "by": 118.0,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "5f91ab71-3014-5576-ba1f-223848fafa76"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "R51",
+      "key": "R",
+      "value": "0R / chassis bond DNP",
+      "nets": {
+        "1": "CHASSIS_HDMI",
+        "2": "GND"
+      },
+      "x": 69.85,
+      "y": 234.95000000000002,
+      "bx": 45.25,
+      "by": 111.5,
+      "angle": 0.0,
+      "mpn": "RC0603JR-070RL",
+      "source": "",
+      "dnp": true,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "1be9b959-9c7a-530a-be18-5483b082ccc0"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "U10",
+      "key": "ESD4",
+      "value": "TPD4E05U06DQAR",
+      "nets": {
+        "1": "HDMI_HEAC_P",
+        "2": "HDMI_HPD_HEAC_N",
+        "4": "HDMI_DDC_SCL",
+        "5": "HDMI_DDC_SDA",
+        "3": "GND",
+        "8": "GND",
+        "6": null,
+        "7": null,
+        "9": null,
+        "10": null
+      },
+      "x": 190.5,
+      "y": 234.95000000000002,
+      "bx": 61.5,
+      "by": 112.25,
+      "angle": 0.0,
+      "mpn": "TPD4E05U06DQAR",
+      "source": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+      "dnp": false,
+      "fp": "Package_SON:USON-10_2.5x1.0mm_P0.5mm",
+      "uuid": "a0eb2aee-9dc9-5179-af02-45d575e00f20"
+    },
+    {
+      "sheet": "arc-connector",
+      "ref": "U11",
+      "key": "ESD4",
+      "value": "TPD4E05U06DQAR",
+      "nets": {
+        "1": "HDMI_CEC",
+        "2": "HDMI_5V",
+        "4": null,
+        "5": null,
+        "3": "GND",
+        "8": "GND",
+        "6": null,
+        "7": null,
+        "9": null,
+        "10": null
+      },
+      "x": 309.88,
+      "y": 234.95000000000002,
+      "bx": 57.0,
+      "by": 112.25,
+      "angle": 0.0,
+      "mpn": "TPD4E05U06DQAR",
+      "source": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+      "dnp": false,
+      "fp": "Package_SON:USON-10_2.5x1.0mm_P0.5mm",
+      "uuid": "bd0bba8e-d8e1-5420-95da-1c3b6bf50f7b"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "U8",
+      "key": "LDOW",
+      "value": "TLV75518PDRVR",
+      "nets": {
+        "6": "+3V3",
+        "4": "+3V3",
+        "3": "GND",
+        "7": "GND",
+        "1": "+1V8_RAW",
+        "2": null,
+        "5": null
+      },
+      "x": 69.85,
+      "y": 49.53,
+      "bx": 86.0,
+      "by": 136.0,
+      "angle": 0.0,
+      "mpn": "TLV75518PDRVR",
+      "source": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "dnp": false,
+      "fp": "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "uuid": "549bf354-b5b8-5a53-ace0-f143192efc46"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "C44",
+      "key": "C",
+      "value": "4.7uF",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 190.5,
+      "y": 49.53,
+      "bx": 90.0,
+      "by": 136.0,
+      "angle": 180.0,
+      "mpn": "CL10A475KO8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "b063e9d6-de82-5897-b9d3-b34b4dc2ce92"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "C45",
+      "key": "C",
+      "value": "4.7uF",
+      "nets": {
+        "1": "+1V8_RAW",
+        "2": "GND"
+      },
+      "x": 309.88,
+      "y": 49.53,
+      "bx": 82.0,
+      "by": 136.0,
+      "angle": 0.0,
+      "mpn": "CL10A475KO8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "f61652c2-c14f-5540-b486-edc420820f62"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "L1",
+      "key": "L",
+      "value": "10uH / SRN4018-100M",
+      "nets": {
+        "1": "+1V8_RAW",
+        "2": "+1V8_D"
+      },
+      "x": 69.85,
+      "y": 95.25,
+      "bx": 80.0,
+      "by": 125.5,
+      "angle": 0.0,
+      "mpn": "SRN4018-100M",
+      "source": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "dnp": false,
+      "fp": "Inductor_SMD:L_Bourns-SRN4018",
+      "uuid": "7f41f43d-bc63-5330-b07c-3d4d930470d7"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "C46",
+      "key": "C",
+      "value": "10uF",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 190.5,
+      "y": 95.25,
+      "bx": 85.0,
+      "by": 125.5,
+      "angle": 0.0,
+      "mpn": "CL10A106KP8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "bc315c23-ce01-5ec0-a022-1629b84390f6"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "#FLG10",
+      "key": "PWR_FLAG",
+      "value": "FILTERED SUPPLY",
+      "nets": {
+        "1": "+1V8_D"
+      },
+      "x": 309.88,
+      "y": 95.25,
+      "bx": null,
+      "by": null,
+      "angle": 0,
+      "mpn": "FILTERED SUPPLY",
+      "source": "",
+      "dnp": false,
+      "fp": "",
+      "uuid": "0bb00692-a02a-5417-981e-ed3edf42859c"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "L2",
+      "key": "L",
+      "value": "10uH / SRN4018-100M",
+      "nets": {
+        "1": "+1V8_RAW",
+        "2": "+1V8_A"
+      },
+      "x": 69.85,
+      "y": 144.78,
+      "bx": 80.0,
+      "by": 131.0,
+      "angle": 0.0,
+      "mpn": "SRN4018-100M",
+      "source": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "dnp": false,
+      "fp": "Inductor_SMD:L_Bourns-SRN4018",
+      "uuid": "4a2387b3-19d5-5c56-b3d3-c4802a3aedb3"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "C47",
+      "key": "C",
+      "value": "10uF",
+      "nets": {
+        "1": "+1V8_A",
+        "2": "GND"
+      },
+      "x": 190.5,
+      "y": 144.78,
+      "bx": 85.0,
+      "by": 131.0,
+      "angle": 0.0,
+      "mpn": "CL10A106KP8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "b608275c-a4c1-5b66-a520-1619c9f755c0"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "#FLG11",
+      "key": "PWR_FLAG",
+      "value": "FILTERED SUPPLY",
+      "nets": {
+        "1": "+1V8_A"
+      },
+      "x": 309.88,
+      "y": 144.78,
+      "bx": null,
+      "by": null,
+      "angle": 0,
+      "mpn": "FILTERED SUPPLY",
+      "source": "",
+      "dnp": false,
+      "fp": "",
+      "uuid": "80baa32c-a183-5c42-9dae-5f30a6120469"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "L3",
+      "key": "L",
+      "value": "10uH / SRN4018-100M",
+      "nets": {
+        "1": "+1V8_RAW",
+        "2": "+1V8_P"
+      },
+      "x": 69.85,
+      "y": 195.58,
+      "bx": 76.0,
+      "by": 136.0,
+      "angle": 0.0,
+      "mpn": "SRN4018-100M",
+      "source": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "dnp": false,
+      "fp": "Inductor_SMD:L_Bourns-SRN4018",
+      "uuid": "58e67538-3bf5-545a-a115-37ec953195d2"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "C48",
+      "key": "C",
+      "value": "10uF",
+      "nets": {
+        "1": "+1V8_P",
+        "2": "GND"
+      },
+      "x": 190.5,
+      "y": 195.58,
+      "bx": 81.0,
+      "by": 138.0,
+      "angle": 0.0,
+      "mpn": "CL10A106KP8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "c2d9882e-0b47-5ff4-b795-0a7ce952a3b9"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "#FLG12",
+      "key": "PWR_FLAG",
+      "value": "FILTERED SUPPLY",
+      "nets": {
+        "1": "+1V8_P"
+      },
+      "x": 309.88,
+      "y": 195.58,
+      "bx": null,
+      "by": null,
+      "angle": 0,
+      "mpn": "FILTERED SUPPLY",
+      "source": "",
+      "dnp": false,
+      "fp": "",
+      "uuid": "ddbd7672-67cc-502e-b547-297a116ee6a3"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C50",
+      "key": "C",
+      "value": "100nF / U7 pin 1",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 59.69,
+      "y": 54.61,
+      "bx": 55.0,
+      "by": 134.75,
+      "angle": -90.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "2bd13867-c574-570e-b6b0-15245bd66c17"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C51",
+      "key": "C",
+      "value": "100nF / U7 pin 19",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 154.94,
+      "y": 54.61,
+      "bx": 62.5,
+      "by": 134.75,
+      "angle": -90.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "a125fabf-eb0e-5657-8d01-2b60f9c87fa0"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C52",
+      "key": "C",
+      "value": "100nF / U7 pin 49",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 250.19,
+      "y": 54.61,
+      "bx": 72.0,
+      "by": 117.0,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "7fea2618-6cbf-5d68-9b03-14041a4cca49"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C53",
+      "key": "C",
+      "value": "100nF / U7 pin 76",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 345.44,
+      "y": 54.61,
+      "bx": 50.0,
+      "by": 117.2,
+      "angle": 180.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "6889e849-6e10-5227-b12c-0585789787e0"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C54",
+      "key": "C",
+      "value": "100nF / U7 pin 77",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 59.69,
+      "y": 105.41,
+      "bx": 50.0,
+      "by": 119.5,
+      "angle": 180.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "54882028-6b76-55db-9eb6-28b389c61dba"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C55",
+      "key": "C",
+      "value": "100nF / U7 pin 24",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 154.94,
+      "y": 105.41,
+      "bx": 67.2,
+      "by": 134.75,
+      "angle": -90.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "19ff7fc7-9bef-548c-8d83-8df09962013c"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C56",
+      "key": "C",
+      "value": "100nF / U7 pin 25",
+      "nets": {
+        "1": "+1V8_D",
+        "2": "GND"
+      },
+      "x": 250.19,
+      "y": 105.41,
+      "bx": 69.5,
+      "by": 134.75,
+      "angle": -90.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "e42cc303-715f-501e-abd3-fe546e9822c5"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C57",
+      "key": "C",
+      "value": "100nF / U7 pin 29",
+      "nets": {
+        "1": "+1V8_A",
+        "2": "GND"
+      },
+      "x": 345.44,
+      "y": 105.41,
+      "bx": 72.0,
+      "by": 128.5,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "0c6bea4b-31db-5e41-809d-447a0ba63f06"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C58",
+      "key": "C",
+      "value": "100nF / U7 pin 34",
+      "nets": {
+        "1": "+1V8_A",
+        "2": "GND"
+      },
+      "x": 59.69,
+      "y": 154.94,
+      "bx": 72.0,
+      "by": 126.0,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "940c3a21-cd81-5392-a73c-b740188d1f46"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C59",
+      "key": "C",
+      "value": "100nF / U7 pin 41",
+      "nets": {
+        "1": "+1V8_A",
+        "2": "GND"
+      },
+      "x": 154.94,
+      "y": 154.94,
+      "bx": 72.0,
+      "by": 122.5,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "d3a7477c-65b2-599c-9d6e-7e6c19349ba7"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C60",
+      "key": "C",
+      "value": "100nF / U7 pin 21",
+      "nets": {
+        "1": "+1V8_P",
+        "2": "GND"
+      },
+      "x": 250.19,
+      "y": 154.94,
+      "bx": 65.0,
+      "by": 134.75,
+      "angle": -90.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "09363bbc-1bfe-59ec-8d67-636cfee0b851"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C61",
+      "key": "C",
+      "value": "100nF / U7 pin 26",
+      "nets": {
+        "1": "+1V8_P",
+        "2": "GND"
+      },
+      "x": 345.44,
+      "y": 154.94,
+      "bx": 72.0,
+      "by": 131.0,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "6d50ac2a-551b-5c8a-a443-eb521dc9f878"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C62",
+      "key": "C",
+      "value": "100nF / U7 pin 47",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "x": 59.69,
+      "y": 204.47,
+      "bx": 72.0,
+      "by": 119.5,
+      "angle": 0.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "d19d50c8-429d-54ca-b95b-779a5b5fdf6c"
+    },
+    {
+      "sheet": "arc-power",
+      "ref": "U9",
+      "key": "SW5V",
+      "value": "TPS2553DBVR",
+      "nets": {
+        "1": "+5V_IN",
+        "2": "GND",
+        "3": "HDMI_5V_EN",
+        "4": "HDMI_5V_FAULT_N",
+        "5": "HDMI_ILIM",
+        "6": "HDMI_5V"
+      },
+      "x": 69.85,
+      "y": 250.19,
+      "bx": 95.0,
+      "by": 120.0,
+      "angle": 0.0,
+      "mpn": "TPS2553DBVR",
+      "source": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+      "dnp": false,
+      "fp": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "bcc84cf2-7264-5205-b70d-0d288c266e5e"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "R52",
+      "key": "R",
+      "value": "226k 1%",
+      "nets": {
+        "1": "HDMI_ILIM",
+        "2": "GND"
+      },
+      "x": 59.69,
+      "y": 255.27,
+      "bx": 99.0,
+      "by": 121.5,
+      "angle": 180.0,
+      "mpn": "RC0603FR-07226KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "8f2c6e17-d372-5bb9-863f-1355f8b71c27"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "R53",
+      "key": "R",
+      "value": "10k",
+      "nets": {
+        "1": "HDMI_5V_EN",
+        "2": "GND"
+      },
+      "x": 154.94,
+      "y": 255.27,
+      "bx": 92.0,
+      "by": 123.0,
+      "angle": 90.0,
+      "mpn": "RC0603FR-0710KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "5e0e5ee0-abb8-51ed-98b3-e7ac61d5de1f"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "R54",
+      "key": "R",
+      "value": "10k",
+      "nets": {
+        "1": "HDMI_5V_FAULT_N",
+        "2": "+3V3"
+      },
+      "x": 250.19,
+      "y": 255.27,
+      "bx": 99.0,
+      "by": 124.0,
+      "angle": 90.0,
+      "mpn": "RC0603FR-0710KL",
+      "source": "",
+      "dnp": false,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "a4f3d9a0-6a0f-5109-b382-24c233e446aa"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C63",
+      "key": "C",
+      "value": "1uF 16V",
+      "nets": {
+        "1": "+5V_IN",
+        "2": "GND"
+      },
+      "x": 154.94,
+      "y": 204.47,
+      "bx": 91.0,
+      "by": 119.0,
+      "angle": 0.0,
+      "mpn": "CL10B105KO8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "994a41a4-9386-5945-9ac2-4816021bbc16"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "C64",
+      "key": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "HDMI_5V",
+        "2": "GND"
+      },
+      "x": 250.19,
+      "y": 204.47,
+      "bx": 99.0,
+      "by": 119.0,
+      "angle": 180.0,
+      "mpn": "CL10B104KB8NNNC",
+      "source": "",
+      "dnp": false,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "9e2cc4da-67bc-5f5f-ab62-7cdaa8f05549"
+    },
+    {
+      "sheet": "arc-decoupling",
+      "ref": "J24",
+      "key": "CON2",
+      "value": "HDMI POWER FAULT / GND",
+      "nets": {
+        "1": "HDMI_5V_FAULT_N",
+        "2": "GND"
+      },
+      "x": 345.44,
+      "y": 209.55,
+      "bx": 102.0,
+      "by": 132.0,
+      "angle": 90.0,
+      "mpn": "TSW-102-07-G-S",
+      "source": "https://www.samtec.com/products/tsw-102-07-g-s",
+      "dnp": false,
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "uuid": "c6d33d84-e8b4-5d4c-acb3-7dd5a8c06b11"
+    },
+    {
+      "ref": "D2",
+      "value": "TPD1E10B06DYAR",
+      "mpn": "TPD1E10B06DYAR",
+      "fp": "Diode_SMD:D_SOD-523",
+      "sheet": "spdif",
+      "key": "D_TVS",
+      "dnp": false,
+      "source": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+      "nets": {
+        "1": "COAX_IN",
+        "2": "GND"
+      },
+      "x": 40.64,
+      "y": 226.06,
+      "bx": 90.0,
+      "by": 116.5,
+      "angle": 0.0,
+      "uuid": "646e2291-78f4-52d9-9867-3e4013ef3de3"
+    }
+  ],
+  "pin_definitions": {
+    "R": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -5.08,
+          "y": 0.0,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": 5.08,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Resistor_SMD:R_0603_1608Metric",
+      "kind": "resistor"
+    },
+    "C": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -5.08,
+          "y": 0.0,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": 5.08,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Capacitor_SMD:C_0603_1608Metric",
+      "kind": "capacitor"
+    },
+    "FB": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -5.08,
+          "y": 0.0,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": 5.08,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Inductor_SMD:L_0603_1608Metric",
+      "kind": "resistor"
+    },
+    "PWR_FLAG": {
+      "pins": {
+        "1": {
+          "name": "POWER",
+          "type": "power_out",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        }
+      },
+      "h": 5.08,
+      "fp": "",
+      "kind": "box"
+    },
+    "LDO": {
+      "pins": {
+        "1": {
+          "name": "IN",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 2.54,
+          "angle": 0
+        },
+        "3": {
+          "name": "EN",
+          "type": "input",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -2.54,
+          "angle": 0
+        },
+        "5": {
+          "name": "OUT",
+          "type": "power_out",
+          "x": 15.24,
+          "y": 1.27,
+          "angle": 180
+        },
+        "4": {
+          "name": "NC",
+          "type": "no_connect",
+          "x": 15.24,
+          "y": -1.27,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "kind": "box"
+    },
+    "CS8416K": {
+      "pins": {
+        "4": {
+          "name": "RXP0",
+          "type": "input",
+          "x": -15.24,
+          "y": 16.51,
+          "angle": 0
+        },
+        "3": {
+          "name": "RXP1",
+          "type": "input",
+          "x": -15.24,
+          "y": 13.970000000000002,
+          "angle": 0
+        },
+        "2": {
+          "name": "RXP2",
+          "type": "input",
+          "x": -15.24,
+          "y": 11.430000000000001,
+          "angle": 0
+        },
+        "1": {
+          "name": "RXP3",
+          "type": "input",
+          "x": -15.24,
+          "y": 8.89,
+          "angle": 0
+        },
+        "10": {
+          "name": "RXP4",
+          "type": "input",
+          "x": -15.24,
+          "y": 6.350000000000001,
+          "angle": 0
+        },
+        "11": {
+          "name": "RXP5",
+          "type": "input",
+          "x": -15.24,
+          "y": 3.8100000000000023,
+          "angle": 0
+        },
+        "12": {
+          "name": "RXP6",
+          "type": "input",
+          "x": -15.24,
+          "y": 1.2700000000000014,
+          "angle": 0
+        },
+        "13": {
+          "name": "RXP7",
+          "type": "input",
+          "x": -15.24,
+          "y": -1.2699999999999996,
+          "angle": 0
+        },
+        "5": {
+          "name": "RXN",
+          "type": "input",
+          "x": -15.24,
+          "y": -3.8099999999999987,
+          "angle": 0
+        },
+        "6": {
+          "name": "VA",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -6.349999999999998,
+          "angle": 0
+        },
+        "23": {
+          "name": "VD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -8.889999999999997,
+          "angle": 0
+        },
+        "21": {
+          "name": "VL",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -11.43,
+          "angle": 0
+        },
+        "7": {
+          "name": "AGND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -13.969999999999999,
+          "angle": 0
+        },
+        "22": {
+          "name": "DGND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -16.51,
+          "angle": 0
+        },
+        "28": {
+          "name": "OLRCK",
+          "type": "bidirectional",
+          "x": 15.24,
+          "y": 16.51,
+          "angle": 180
+        },
+        "27": {
+          "name": "OSCLK",
+          "type": "bidirectional",
+          "x": 15.24,
+          "y": 13.970000000000002,
+          "angle": 180
+        },
+        "26": {
+          "name": "SDOUT",
+          "type": "output",
+          "x": 15.24,
+          "y": 11.430000000000001,
+          "angle": 180
+        },
+        "24": {
+          "name": "RMCK",
+          "type": "output",
+          "x": 15.24,
+          "y": 8.89,
+          "angle": 180
+        },
+        "25": {
+          "name": "OMCK",
+          "type": "input",
+          "x": 15.24,
+          "y": 6.350000000000001,
+          "angle": 180
+        },
+        "20": {
+          "name": "GPO0",
+          "type": "output",
+          "x": 15.24,
+          "y": 3.8100000000000023,
+          "angle": 180
+        },
+        "19": {
+          "name": "GPO1",
+          "type": "output",
+          "x": 15.24,
+          "y": 1.2700000000000014,
+          "angle": 180
+        },
+        "18": {
+          "name": "AD2/GPO2",
+          "type": "bidirectional",
+          "x": 15.24,
+          "y": -1.2699999999999996,
+          "angle": 180
+        },
+        "17": {
+          "name": "SDA",
+          "type": "bidirectional",
+          "x": 15.24,
+          "y": -3.8099999999999987,
+          "angle": 180
+        },
+        "16": {
+          "name": "SCL",
+          "type": "input",
+          "x": 15.24,
+          "y": -6.349999999999998,
+          "angle": 180
+        },
+        "15": {
+          "name": "AD1",
+          "type": "input",
+          "x": 15.24,
+          "y": -8.889999999999997,
+          "angle": 180
+        },
+        "14": {
+          "name": "AD0",
+          "type": "input",
+          "x": 15.24,
+          "y": -11.43,
+          "angle": 180
+        },
+        "9": {
+          "name": "RST_N",
+          "type": "input",
+          "x": 15.24,
+          "y": -13.969999999999999,
+          "angle": 180
+        },
+        "8": {
+          "name": "FILT",
+          "type": "passive",
+          "x": 15.24,
+          "y": -16.51,
+          "angle": 180
+        }
+      },
+      "h": 19.05,
+      "fp": "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm",
+      "kind": "box"
+    },
+    "MUX": {
+      "pins": {
+        "2": {
+          "name": "1A",
+          "type": "input",
+          "x": -15.24,
+          "y": 8.89,
+          "angle": 0
+        },
+        "3": {
+          "name": "1B",
+          "type": "input",
+          "x": -15.24,
+          "y": 6.3500000000000005,
+          "angle": 0
+        },
+        "5": {
+          "name": "2A",
+          "type": "input",
+          "x": -15.24,
+          "y": 3.8100000000000005,
+          "angle": 0
+        },
+        "6": {
+          "name": "2B",
+          "type": "input",
+          "x": -15.24,
+          "y": 1.2700000000000005,
+          "angle": 0
+        },
+        "11": {
+          "name": "3A",
+          "type": "input",
+          "x": -15.24,
+          "y": -1.2699999999999996,
+          "angle": 0
+        },
+        "10": {
+          "name": "3B",
+          "type": "input",
+          "x": -15.24,
+          "y": -3.8099999999999987,
+          "angle": 0
+        },
+        "14": {
+          "name": "4A",
+          "type": "input",
+          "x": -15.24,
+          "y": -6.35,
+          "angle": 0
+        },
+        "13": {
+          "name": "4B",
+          "type": "input",
+          "x": -15.24,
+          "y": -8.89,
+          "angle": 0
+        },
+        "4": {
+          "name": "1Y",
+          "type": "output",
+          "x": 15.24,
+          "y": 8.89,
+          "angle": 180
+        },
+        "7": {
+          "name": "2Y",
+          "type": "output",
+          "x": 15.24,
+          "y": 6.3500000000000005,
+          "angle": 180
+        },
+        "9": {
+          "name": "3Y",
+          "type": "output",
+          "x": 15.24,
+          "y": 3.8100000000000005,
+          "angle": 180
+        },
+        "12": {
+          "name": "4Y",
+          "type": "output",
+          "x": 15.24,
+          "y": 1.2700000000000005,
+          "angle": 180
+        },
+        "1": {
+          "name": "SEL",
+          "type": "input",
+          "x": 15.24,
+          "y": -1.2699999999999996,
+          "angle": 180
+        },
+        "15": {
+          "name": "G_N",
+          "type": "input",
+          "x": 15.24,
+          "y": -3.8099999999999987,
+          "angle": 180
+        },
+        "16": {
+          "name": "VCC",
+          "type": "power_in",
+          "x": 15.24,
+          "y": -6.35,
+          "angle": 180
+        },
+        "8": {
+          "name": "GND",
+          "type": "power_in",
+          "x": 15.24,
+          "y": -8.89,
+          "angle": 180
+        }
+      },
+      "h": 11.43,
+      "fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "kind": "box"
+    },
+    "LVDS": {
+      "pins": {
+        "2": {
+          "name": "DIN1",
+          "type": "input",
+          "x": -15.24,
+          "y": 8.89,
+          "angle": 0
+        },
+        "3": {
+          "name": "DIN2",
+          "type": "input",
+          "x": -15.24,
+          "y": 6.3500000000000005,
+          "angle": 0
+        },
+        "6": {
+          "name": "DIN3",
+          "type": "input",
+          "x": -15.24,
+          "y": 3.8100000000000005,
+          "angle": 0
+        },
+        "7": {
+          "name": "DIN4",
+          "type": "input",
+          "x": -15.24,
+          "y": 1.2700000000000005,
+          "angle": 0
+        },
+        "1": {
+          "name": "EN",
+          "type": "input",
+          "x": -15.24,
+          "y": -1.2699999999999996,
+          "angle": 0
+        },
+        "8": {
+          "name": "EN_N",
+          "type": "input",
+          "x": -15.24,
+          "y": -3.8099999999999987,
+          "angle": 0
+        },
+        "4": {
+          "name": "VCC",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -6.35,
+          "angle": 0
+        },
+        "5": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -8.89,
+          "angle": 0
+        },
+        "15": {
+          "name": "D1+",
+          "type": "output",
+          "x": 15.24,
+          "y": 8.89,
+          "angle": 180
+        },
+        "16": {
+          "name": "D1-",
+          "type": "output",
+          "x": 15.24,
+          "y": 6.3500000000000005,
+          "angle": 180
+        },
+        "14": {
+          "name": "D2+",
+          "type": "output",
+          "x": 15.24,
+          "y": 3.8100000000000005,
+          "angle": 180
+        },
+        "13": {
+          "name": "D2-",
+          "type": "output",
+          "x": 15.24,
+          "y": 1.2700000000000005,
+          "angle": 180
+        },
+        "11": {
+          "name": "D3+",
+          "type": "output",
+          "x": 15.24,
+          "y": -1.2699999999999996,
+          "angle": 180
+        },
+        "12": {
+          "name": "D3-",
+          "type": "output",
+          "x": 15.24,
+          "y": -3.8099999999999987,
+          "angle": 180
+        },
+        "10": {
+          "name": "D4+",
+          "type": "output",
+          "x": 15.24,
+          "y": -6.35,
+          "angle": 180
+        },
+        "9": {
+          "name": "D4-",
+          "type": "output",
+          "x": 15.24,
+          "y": -8.89,
+          "angle": 180
+        }
+      },
+      "h": 11.43,
+      "fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "kind": "box"
+    },
+    "OPT": {
+      "pins": {
+        "3": {
+          "name": "VCC",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 1.27,
+          "angle": 0
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -1.27,
+          "angle": 0
+        },
+        "1": {
+          "name": "OUT",
+          "type": "output",
+          "x": 15.24,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "OpenCinema_Connectors:Cliff_FCR684205R",
+      "kind": "box"
+    },
+    "RCA": {
+      "pins": {
+        "2": {
+          "name": "SHIELD",
+          "type": "passive",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        },
+        "1": {
+          "name": "CENTRE",
+          "type": "passive",
+          "x": 15.24,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "OpenCinema_Connectors:SameSky_RCJ_011_Horizontal_A8",
+      "kind": "box"
+    },
+    "SPEAKER": {
+      "pins": {
+        "1": {
+          "name": "SPK1-",
+          "type": "passive",
+          "x": -15.24,
+          "y": 6.35,
+          "angle": 0
+        },
+        "2": {
+          "name": "SPK1+",
+          "type": "passive",
+          "x": -15.24,
+          "y": 3.8099999999999996,
+          "angle": 0
+        },
+        "3": {
+          "name": "SPK2-",
+          "type": "passive",
+          "x": -15.24,
+          "y": 1.2699999999999996,
+          "angle": 0
+        },
+        "4": {
+          "name": "SPK2+",
+          "type": "passive",
+          "x": -15.24,
+          "y": -1.2700000000000005,
+          "angle": 0
+        },
+        "5": {
+          "name": "SPK3-",
+          "type": "passive",
+          "x": -15.24,
+          "y": -3.8100000000000005,
+          "angle": 0
+        },
+        "6": {
+          "name": "SPK3+",
+          "type": "passive",
+          "x": -15.24,
+          "y": -6.35,
+          "angle": 0
+        }
+      },
+      "h": 8.89,
+      "fp": "OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8",
+      "kind": "box"
+    },
+    "HDMI": {
+      "pins": {
+        "1": {
+          "name": "PIN1",
+          "type": "passive",
+          "x": -15.24,
+          "y": 11.43,
+          "angle": 0
+        },
+        "2": {
+          "name": "PIN2",
+          "type": "passive",
+          "x": -15.24,
+          "y": 8.89,
+          "angle": 0
+        },
+        "3": {
+          "name": "PIN3",
+          "type": "passive",
+          "x": -15.24,
+          "y": 6.35,
+          "angle": 0
+        },
+        "4": {
+          "name": "PIN4",
+          "type": "passive",
+          "x": -15.24,
+          "y": 3.8099999999999996,
+          "angle": 0
+        },
+        "5": {
+          "name": "PIN5",
+          "type": "passive",
+          "x": -15.24,
+          "y": 1.2699999999999996,
+          "angle": 0
+        },
+        "6": {
+          "name": "PIN6",
+          "type": "passive",
+          "x": -15.24,
+          "y": -1.2699999999999996,
+          "angle": 0
+        },
+        "7": {
+          "name": "PIN7",
+          "type": "passive",
+          "x": -15.24,
+          "y": -3.8100000000000005,
+          "angle": 0
+        },
+        "8": {
+          "name": "PIN8",
+          "type": "passive",
+          "x": -15.24,
+          "y": -6.350000000000001,
+          "angle": 0
+        },
+        "9": {
+          "name": "PIN9",
+          "type": "passive",
+          "x": -15.24,
+          "y": -8.89,
+          "angle": 0
+        },
+        "10": {
+          "name": "PIN10",
+          "type": "passive",
+          "x": -15.24,
+          "y": -11.43,
+          "angle": 0
+        },
+        "11": {
+          "name": "PIN11",
+          "type": "passive",
+          "x": 15.24,
+          "y": 11.43,
+          "angle": 180
+        },
+        "12": {
+          "name": "PIN12",
+          "type": "passive",
+          "x": 15.24,
+          "y": 8.89,
+          "angle": 180
+        },
+        "13": {
+          "name": "PIN13",
+          "type": "passive",
+          "x": 15.24,
+          "y": 6.35,
+          "angle": 180
+        },
+        "14": {
+          "name": "PIN14",
+          "type": "passive",
+          "x": 15.24,
+          "y": 3.8099999999999996,
+          "angle": 180
+        },
+        "15": {
+          "name": "PIN15",
+          "type": "passive",
+          "x": 15.24,
+          "y": 1.2699999999999996,
+          "angle": 180
+        },
+        "16": {
+          "name": "PIN16",
+          "type": "passive",
+          "x": 15.24,
+          "y": -1.2699999999999996,
+          "angle": 180
+        },
+        "17": {
+          "name": "PIN17",
+          "type": "passive",
+          "x": 15.24,
+          "y": -3.8100000000000005,
+          "angle": 180
+        },
+        "18": {
+          "name": "PIN18",
+          "type": "passive",
+          "x": 15.24,
+          "y": -6.350000000000001,
+          "angle": 180
+        },
+        "19": {
+          "name": "PIN19",
+          "type": "passive",
+          "x": 15.24,
+          "y": -8.89,
+          "angle": 180
+        },
+        "SH": {
+          "name": "SHELL",
+          "type": "passive",
+          "x": 15.24,
+          "y": -11.43,
+          "angle": 180
+        }
+      },
+      "h": 13.97,
+      "fp": "OpenCinema_Connectors:HDMI_A_Amphenol_10029449-x01xLF_Horizontal",
+      "kind": "box"
+    },
+    "CON2": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": 15.24,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "kind": "box"
+    },
+    "CON12": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -15.24,
+          "y": 6.35,
+          "angle": 0
+        },
+        "3": {
+          "name": "3",
+          "type": "passive",
+          "x": -15.24,
+          "y": 3.8099999999999996,
+          "angle": 0
+        },
+        "5": {
+          "name": "5",
+          "type": "passive",
+          "x": -15.24,
+          "y": 1.2699999999999996,
+          "angle": 0
+        },
+        "7": {
+          "name": "7",
+          "type": "passive",
+          "x": -15.24,
+          "y": -1.2700000000000005,
+          "angle": 0
+        },
+        "9": {
+          "name": "9",
+          "type": "passive",
+          "x": -15.24,
+          "y": -3.8100000000000005,
+          "angle": 0
+        },
+        "11": {
+          "name": "11",
+          "type": "passive",
+          "x": -15.24,
+          "y": -6.35,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": 15.24,
+          "y": 6.35,
+          "angle": 180
+        },
+        "4": {
+          "name": "4",
+          "type": "passive",
+          "x": 15.24,
+          "y": 3.8099999999999996,
+          "angle": 180
+        },
+        "6": {
+          "name": "6",
+          "type": "passive",
+          "x": 15.24,
+          "y": 1.2699999999999996,
+          "angle": 180
+        },
+        "8": {
+          "name": "8",
+          "type": "passive",
+          "x": 15.24,
+          "y": -1.2700000000000005,
+          "angle": 180
+        },
+        "10": {
+          "name": "10",
+          "type": "passive",
+          "x": 15.24,
+          "y": -3.8100000000000005,
+          "angle": 180
+        },
+        "12": {
+          "name": "12",
+          "type": "passive",
+          "x": 15.24,
+          "y": -6.35,
+          "angle": 180
+        }
+      },
+      "h": 8.89,
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical",
+      "kind": "box"
+    },
+    "CON20": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -15.24,
+          "y": 11.43,
+          "angle": 0
+        },
+        "3": {
+          "name": "3",
+          "type": "passive",
+          "x": -15.24,
+          "y": 8.89,
+          "angle": 0
+        },
+        "5": {
+          "name": "5",
+          "type": "passive",
+          "x": -15.24,
+          "y": 6.35,
+          "angle": 0
+        },
+        "7": {
+          "name": "7",
+          "type": "passive",
+          "x": -15.24,
+          "y": 3.8099999999999996,
+          "angle": 0
+        },
+        "9": {
+          "name": "9",
+          "type": "passive",
+          "x": -15.24,
+          "y": 1.2699999999999996,
+          "angle": 0
+        },
+        "11": {
+          "name": "11",
+          "type": "passive",
+          "x": -15.24,
+          "y": -1.2699999999999996,
+          "angle": 0
+        },
+        "13": {
+          "name": "13",
+          "type": "passive",
+          "x": -15.24,
+          "y": -3.8100000000000005,
+          "angle": 0
+        },
+        "15": {
+          "name": "15",
+          "type": "passive",
+          "x": -15.24,
+          "y": -6.350000000000001,
+          "angle": 0
+        },
+        "17": {
+          "name": "17",
+          "type": "passive",
+          "x": -15.24,
+          "y": -8.89,
+          "angle": 0
+        },
+        "19": {
+          "name": "19",
+          "type": "passive",
+          "x": -15.24,
+          "y": -11.43,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": 15.24,
+          "y": 11.43,
+          "angle": 180
+        },
+        "4": {
+          "name": "4",
+          "type": "passive",
+          "x": 15.24,
+          "y": 8.89,
+          "angle": 180
+        },
+        "6": {
+          "name": "6",
+          "type": "passive",
+          "x": 15.24,
+          "y": 6.35,
+          "angle": 180
+        },
+        "8": {
+          "name": "8",
+          "type": "passive",
+          "x": 15.24,
+          "y": 3.8099999999999996,
+          "angle": 180
+        },
+        "10": {
+          "name": "10",
+          "type": "passive",
+          "x": 15.24,
+          "y": 1.2699999999999996,
+          "angle": 180
+        },
+        "12": {
+          "name": "12",
+          "type": "passive",
+          "x": 15.24,
+          "y": -1.2699999999999996,
+          "angle": 180
+        },
+        "14": {
+          "name": "14",
+          "type": "passive",
+          "x": 15.24,
+          "y": -3.8100000000000005,
+          "angle": 180
+        },
+        "16": {
+          "name": "16",
+          "type": "passive",
+          "x": 15.24,
+          "y": -6.350000000000001,
+          "angle": 180
+        },
+        "18": {
+          "name": "18",
+          "type": "passive",
+          "x": 15.24,
+          "y": -8.89,
+          "angle": 180
+        },
+        "20": {
+          "name": "20",
+          "type": "passive",
+          "x": 15.24,
+          "y": -11.43,
+          "angle": 180
+        }
+      },
+      "h": 13.97,
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical",
+      "kind": "box"
+    },
+    "WIRE6": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -15.24,
+          "y": 6.35,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": -15.24,
+          "y": 3.8099999999999996,
+          "angle": 0
+        },
+        "3": {
+          "name": "3",
+          "type": "passive",
+          "x": -15.24,
+          "y": 1.2699999999999996,
+          "angle": 0
+        },
+        "4": {
+          "name": "4",
+          "type": "passive",
+          "x": -15.24,
+          "y": -1.2700000000000005,
+          "angle": 0
+        },
+        "5": {
+          "name": "5",
+          "type": "passive",
+          "x": -15.24,
+          "y": -3.8100000000000005,
+          "angle": 0
+        },
+        "6": {
+          "name": "6",
+          "type": "passive",
+          "x": -15.24,
+          "y": -6.35,
+          "angle": 0
+        }
+      },
+      "h": 8.89,
+      "fp": "Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm",
+      "kind": "box"
+    },
+    "ADV7511": {
+      "pins": {
+        "1": {
+          "name": "DVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 62.230000000000004,
+          "angle": 0
+        },
+        "2": {
+          "name": "VSYNC",
+          "type": "input",
+          "x": -15.24,
+          "y": 59.690000000000005,
+          "angle": 0
+        },
+        "3": {
+          "name": "DSD0",
+          "type": "input",
+          "x": -15.24,
+          "y": 57.150000000000006,
+          "angle": 0
+        },
+        "4": {
+          "name": "DSD1",
+          "type": "input",
+          "x": -15.24,
+          "y": 54.61000000000001,
+          "angle": 0
+        },
+        "5": {
+          "name": "DSD2",
+          "type": "input",
+          "x": -15.24,
+          "y": 52.07000000000001,
+          "angle": 0
+        },
+        "6": {
+          "name": "DSD3",
+          "type": "input",
+          "x": -15.24,
+          "y": 49.53,
+          "angle": 0
+        },
+        "7": {
+          "name": "DSD4",
+          "type": "input",
+          "x": -15.24,
+          "y": 46.99,
+          "angle": 0
+        },
+        "8": {
+          "name": "DSD5",
+          "type": "input",
+          "x": -15.24,
+          "y": 44.45,
+          "angle": 0
+        },
+        "9": {
+          "name": "DSD_CLK",
+          "type": "input",
+          "x": -15.24,
+          "y": 41.910000000000004,
+          "angle": 0
+        },
+        "10": {
+          "name": "SPDIF_IN",
+          "type": "input",
+          "x": -15.24,
+          "y": 39.370000000000005,
+          "angle": 0
+        },
+        "11": {
+          "name": "MCLK",
+          "type": "input",
+          "x": -15.24,
+          "y": 36.830000000000005,
+          "angle": 0
+        },
+        "12": {
+          "name": "I2S0",
+          "type": "input",
+          "x": -15.24,
+          "y": 34.290000000000006,
+          "angle": 0
+        },
+        "13": {
+          "name": "I2S1",
+          "type": "input",
+          "x": -15.24,
+          "y": 31.750000000000004,
+          "angle": 0
+        },
+        "14": {
+          "name": "I2S2",
+          "type": "input",
+          "x": -15.24,
+          "y": 29.21,
+          "angle": 0
+        },
+        "15": {
+          "name": "I2S3",
+          "type": "input",
+          "x": -15.24,
+          "y": 26.67,
+          "angle": 0
+        },
+        "16": {
+          "name": "SCLK",
+          "type": "input",
+          "x": -15.24,
+          "y": 24.130000000000003,
+          "angle": 0
+        },
+        "17": {
+          "name": "LRCLK",
+          "type": "input",
+          "x": -15.24,
+          "y": 21.590000000000003,
+          "angle": 0
+        },
+        "18": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 19.050000000000004,
+          "angle": 0
+        },
+        "19": {
+          "name": "DVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 16.510000000000005,
+          "angle": 0
+        },
+        "20": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 13.970000000000006,
+          "angle": 0
+        },
+        "21": {
+          "name": "PLVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 11.430000000000007,
+          "angle": 0
+        },
+        "22": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 8.89,
+          "angle": 0
+        },
+        "23": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 6.350000000000001,
+          "angle": 0
+        },
+        "24": {
+          "name": "PVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 3.8100000000000023,
+          "angle": 0
+        },
+        "25": {
+          "name": "PVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 1.2700000000000031,
+          "angle": 0
+        },
+        "26": {
+          "name": "BGVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -1.269999999999996,
+          "angle": 0
+        },
+        "27": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -3.8100000000000023,
+          "angle": 0
+        },
+        "28": {
+          "name": "R_EXT",
+          "type": "passive",
+          "x": -15.24,
+          "y": -6.349999999999994,
+          "angle": 0
+        },
+        "29": {
+          "name": "AVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -8.89,
+          "angle": 0
+        },
+        "30": {
+          "name": "HPD",
+          "type": "input",
+          "x": -15.24,
+          "y": -11.429999999999993,
+          "angle": 0
+        },
+        "31": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -13.969999999999999,
+          "angle": 0
+        },
+        "32": {
+          "name": "TXC_N",
+          "type": "output",
+          "x": -15.24,
+          "y": -16.50999999999999,
+          "angle": 0
+        },
+        "33": {
+          "name": "TXC_P",
+          "type": "output",
+          "x": -15.24,
+          "y": -19.049999999999997,
+          "angle": 0
+        },
+        "34": {
+          "name": "AVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -21.590000000000003,
+          "angle": 0
+        },
+        "35": {
+          "name": "TX0_N",
+          "type": "output",
+          "x": -15.24,
+          "y": -24.129999999999995,
+          "angle": 0
+        },
+        "36": {
+          "name": "TX0_P",
+          "type": "output",
+          "x": -15.24,
+          "y": -26.67,
+          "angle": 0
+        },
+        "37": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -29.209999999999994,
+          "angle": 0
+        },
+        "38": {
+          "name": "PD_AD",
+          "type": "input",
+          "x": -15.24,
+          "y": -31.75,
+          "angle": 0
+        },
+        "39": {
+          "name": "TX1_N",
+          "type": "output",
+          "x": -15.24,
+          "y": -34.28999999999999,
+          "angle": 0
+        },
+        "40": {
+          "name": "TX1_P",
+          "type": "output",
+          "x": -15.24,
+          "y": -36.83,
+          "angle": 0
+        },
+        "41": {
+          "name": "AVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -39.36999999999999,
+          "angle": 0
+        },
+        "42": {
+          "name": "TX2_N",
+          "type": "output",
+          "x": -15.24,
+          "y": -41.91,
+          "angle": 0
+        },
+        "43": {
+          "name": "TX2_P",
+          "type": "output",
+          "x": -15.24,
+          "y": -44.45,
+          "angle": 0
+        },
+        "44": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -46.989999999999995,
+          "angle": 0
+        },
+        "45": {
+          "name": "INT",
+          "type": "output",
+          "x": -15.24,
+          "y": -49.53,
+          "angle": 0
+        },
+        "46": {
+          "name": "SPDIF_OUT",
+          "type": "output",
+          "x": -15.24,
+          "y": -52.06999999999999,
+          "angle": 0
+        },
+        "47": {
+          "name": "MVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -54.61,
+          "angle": 0
+        },
+        "48": {
+          "name": "CEC",
+          "type": "bidirectional",
+          "x": -15.24,
+          "y": -57.14999999999999,
+          "angle": 0
+        },
+        "49": {
+          "name": "DVDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -59.69,
+          "angle": 0
+        },
+        "50": {
+          "name": "CEC_CLK",
+          "type": "input",
+          "x": -15.24,
+          "y": -62.230000000000004,
+          "angle": 0
+        },
+        "51": {
+          "name": "HEAC_N",
+          "type": "input",
+          "x": 15.24,
+          "y": 62.230000000000004,
+          "angle": 180
+        },
+        "52": {
+          "name": "HEAC_P",
+          "type": "input",
+          "x": 15.24,
+          "y": 59.690000000000005,
+          "angle": 180
+        },
+        "53": {
+          "name": "DDCSCL",
+          "type": "open_collector",
+          "x": 15.24,
+          "y": 57.150000000000006,
+          "angle": 180
+        },
+        "54": {
+          "name": "DDCSDA",
+          "type": "bidirectional",
+          "x": 15.24,
+          "y": 54.61000000000001,
+          "angle": 180
+        },
+        "55": {
+          "name": "SCL",
+          "type": "input",
+          "x": 15.24,
+          "y": 52.07000000000001,
+          "angle": 180
+        },
+        "56": {
+          "name": "SDA",
+          "type": "bidirectional",
+          "x": 15.24,
+          "y": 49.53,
+          "angle": 180
+        },
+        "57": {
+          "name": "D35",
+          "type": "input",
+          "x": 15.24,
+          "y": 46.99,
+          "angle": 180
+        },
+        "58": {
+          "name": "D34",
+          "type": "input",
+          "x": 15.24,
+          "y": 44.45,
+          "angle": 180
+        },
+        "59": {
+          "name": "D33",
+          "type": "input",
+          "x": 15.24,
+          "y": 41.910000000000004,
+          "angle": 180
+        },
+        "60": {
+          "name": "D32",
+          "type": "input",
+          "x": 15.24,
+          "y": 39.370000000000005,
+          "angle": 180
+        },
+        "61": {
+          "name": "D31",
+          "type": "input",
+          "x": 15.24,
+          "y": 36.830000000000005,
+          "angle": 180
+        },
+        "62": {
+          "name": "D30",
+          "type": "input",
+          "x": 15.24,
+          "y": 34.290000000000006,
+          "angle": 180
+        },
+        "63": {
+          "name": "D29",
+          "type": "input",
+          "x": 15.24,
+          "y": 31.750000000000004,
+          "angle": 180
+        },
+        "64": {
+          "name": "D28",
+          "type": "input",
+          "x": 15.24,
+          "y": 29.21,
+          "angle": 180
+        },
+        "65": {
+          "name": "D27",
+          "type": "input",
+          "x": 15.24,
+          "y": 26.67,
+          "angle": 180
+        },
+        "66": {
+          "name": "D26",
+          "type": "input",
+          "x": 15.24,
+          "y": 24.130000000000003,
+          "angle": 180
+        },
+        "67": {
+          "name": "D25",
+          "type": "input",
+          "x": 15.24,
+          "y": 21.590000000000003,
+          "angle": 180
+        },
+        "68": {
+          "name": "D24",
+          "type": "input",
+          "x": 15.24,
+          "y": 19.050000000000004,
+          "angle": 180
+        },
+        "69": {
+          "name": "D23",
+          "type": "input",
+          "x": 15.24,
+          "y": 16.510000000000005,
+          "angle": 180
+        },
+        "70": {
+          "name": "D22",
+          "type": "input",
+          "x": 15.24,
+          "y": 13.970000000000006,
+          "angle": 180
+        },
+        "71": {
+          "name": "D21",
+          "type": "input",
+          "x": 15.24,
+          "y": 11.430000000000007,
+          "angle": 180
+        },
+        "72": {
+          "name": "D20",
+          "type": "input",
+          "x": 15.24,
+          "y": 8.89,
+          "angle": 180
+        },
+        "73": {
+          "name": "D19",
+          "type": "input",
+          "x": 15.24,
+          "y": 6.350000000000001,
+          "angle": 180
+        },
+        "74": {
+          "name": "D18",
+          "type": "input",
+          "x": 15.24,
+          "y": 3.8100000000000023,
+          "angle": 180
+        },
+        "75": {
+          "name": "GND",
+          "type": "power_in",
+          "x": 15.24,
+          "y": 1.2700000000000031,
+          "angle": 180
+        },
+        "76": {
+          "name": "DVDD",
+          "type": "power_in",
+          "x": 15.24,
+          "y": -1.269999999999996,
+          "angle": 180
+        },
+        "77": {
+          "name": "DVDD",
+          "type": "power_in",
+          "x": 15.24,
+          "y": -3.8100000000000023,
+          "angle": 180
+        },
+        "78": {
+          "name": "D17",
+          "type": "input",
+          "x": 15.24,
+          "y": -6.349999999999994,
+          "angle": 180
+        },
+        "79": {
+          "name": "VCLK",
+          "type": "input",
+          "x": 15.24,
+          "y": -8.89,
+          "angle": 180
+        },
+        "80": {
+          "name": "D16",
+          "type": "input",
+          "x": 15.24,
+          "y": -11.429999999999993,
+          "angle": 180
+        },
+        "81": {
+          "name": "D15",
+          "type": "input",
+          "x": 15.24,
+          "y": -13.969999999999999,
+          "angle": 180
+        },
+        "82": {
+          "name": "D14",
+          "type": "input",
+          "x": 15.24,
+          "y": -16.50999999999999,
+          "angle": 180
+        },
+        "83": {
+          "name": "D13",
+          "type": "input",
+          "x": 15.24,
+          "y": -19.049999999999997,
+          "angle": 180
+        },
+        "84": {
+          "name": "D12",
+          "type": "input",
+          "x": 15.24,
+          "y": -21.590000000000003,
+          "angle": 180
+        },
+        "85": {
+          "name": "D11",
+          "type": "input",
+          "x": 15.24,
+          "y": -24.129999999999995,
+          "angle": 180
+        },
+        "86": {
+          "name": "D10",
+          "type": "input",
+          "x": 15.24,
+          "y": -26.67,
+          "angle": 180
+        },
+        "87": {
+          "name": "D9",
+          "type": "input",
+          "x": 15.24,
+          "y": -29.209999999999994,
+          "angle": 180
+        },
+        "88": {
+          "name": "D8",
+          "type": "input",
+          "x": 15.24,
+          "y": -31.75,
+          "angle": 180
+        },
+        "89": {
+          "name": "D7",
+          "type": "input",
+          "x": 15.24,
+          "y": -34.28999999999999,
+          "angle": 180
+        },
+        "90": {
+          "name": "D6",
+          "type": "input",
+          "x": 15.24,
+          "y": -36.83,
+          "angle": 180
+        },
+        "91": {
+          "name": "D5",
+          "type": "input",
+          "x": 15.24,
+          "y": -39.36999999999999,
+          "angle": 180
+        },
+        "92": {
+          "name": "D4",
+          "type": "input",
+          "x": 15.24,
+          "y": -41.91,
+          "angle": 180
+        },
+        "93": {
+          "name": "D3",
+          "type": "input",
+          "x": 15.24,
+          "y": -44.45,
+          "angle": 180
+        },
+        "94": {
+          "name": "D2",
+          "type": "input",
+          "x": 15.24,
+          "y": -46.989999999999995,
+          "angle": 180
+        },
+        "95": {
+          "name": "D1",
+          "type": "input",
+          "x": 15.24,
+          "y": -49.53,
+          "angle": 180
+        },
+        "96": {
+          "name": "D0",
+          "type": "input",
+          "x": 15.24,
+          "y": -52.06999999999999,
+          "angle": 180
+        },
+        "97": {
+          "name": "DE",
+          "type": "input",
+          "x": 15.24,
+          "y": -54.61,
+          "angle": 180
+        },
+        "98": {
+          "name": "HSYNC",
+          "type": "input",
+          "x": 15.24,
+          "y": -57.14999999999999,
+          "angle": 180
+        },
+        "99": {
+          "name": "GND",
+          "type": "power_in",
+          "x": 15.24,
+          "y": -59.69,
+          "angle": 180
+        },
+        "100": {
+          "name": "GND",
+          "type": "power_in",
+          "x": 15.24,
+          "y": -62.230000000000004,
+          "angle": 180
+        }
+      },
+      "h": 64.77,
+      "fp": "Package_QFP:LQFP-100_14x14mm_P0.5mm",
+      "kind": "box"
+    },
+    "LDOW": {
+      "pins": {
+        "6": {
+          "name": "IN",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 3.81,
+          "angle": 0
+        },
+        "4": {
+          "name": "EN",
+          "type": "input",
+          "x": -15.24,
+          "y": 1.27,
+          "angle": 0
+        },
+        "3": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -1.27,
+          "angle": 0
+        },
+        "7": {
+          "name": "EP_GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -3.81,
+          "angle": 0
+        },
+        "1": {
+          "name": "OUT",
+          "type": "power_out",
+          "x": 15.24,
+          "y": 2.54,
+          "angle": 180
+        },
+        "2": {
+          "name": "NC",
+          "type": "no_connect",
+          "x": 15.24,
+          "y": 0.0,
+          "angle": 180
+        },
+        "5": {
+          "name": "NC",
+          "type": "no_connect",
+          "x": 15.24,
+          "y": -2.54,
+          "angle": 180
+        }
+      },
+      "h": 6.35,
+      "fp": "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+      "kind": "box"
+    },
+    "OSC": {
+      "pins": {
+        "1": {
+          "name": "EN",
+          "type": "input",
+          "x": -15.24,
+          "y": 2.54,
+          "angle": 0
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        },
+        "4": {
+          "name": "VDD",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -2.54,
+          "angle": 0
+        },
+        "3": {
+          "name": "OUT",
+          "type": "output",
+          "x": 15.24,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm",
+      "kind": "box"
+    },
+    "SW5V": {
+      "pins": {
+        "1": {
+          "name": "IN",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 2.54,
+          "angle": 0
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        },
+        "3": {
+          "name": "EN",
+          "type": "input",
+          "x": -15.24,
+          "y": -2.54,
+          "angle": 0
+        },
+        "6": {
+          "name": "OUT",
+          "type": "power_out",
+          "x": 15.24,
+          "y": 2.54,
+          "angle": 180
+        },
+        "4": {
+          "name": "FAULT_N",
+          "type": "open_collector",
+          "x": 15.24,
+          "y": 0.0,
+          "angle": 180
+        },
+        "5": {
+          "name": "ILIM",
+          "type": "passive",
+          "x": 15.24,
+          "y": -2.54,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Package_TO_SOT_SMD:SOT-23-6",
+      "kind": "box"
+    },
+    "ESD4": {
+      "pins": {
+        "1": {
+          "name": "IO1",
+          "type": "passive",
+          "x": -15.24,
+          "y": 5.08,
+          "angle": 0
+        },
+        "2": {
+          "name": "IO2",
+          "type": "passive",
+          "x": -15.24,
+          "y": 2.54,
+          "angle": 0
+        },
+        "4": {
+          "name": "IO3",
+          "type": "passive",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        },
+        "5": {
+          "name": "IO4",
+          "type": "passive",
+          "x": -15.24,
+          "y": -2.54,
+          "angle": 0
+        },
+        "3": {
+          "name": "GND",
+          "type": "power_in",
+          "x": -15.24,
+          "y": -5.08,
+          "angle": 0
+        },
+        "6": {
+          "name": "NC",
+          "type": "passive",
+          "x": 15.24,
+          "y": 5.08,
+          "angle": 180
+        },
+        "7": {
+          "name": "NC",
+          "type": "passive",
+          "x": 15.24,
+          "y": 2.54,
+          "angle": 180
+        },
+        "9": {
+          "name": "NC",
+          "type": "passive",
+          "x": 15.24,
+          "y": 0.0,
+          "angle": 180
+        },
+        "10": {
+          "name": "NC",
+          "type": "passive",
+          "x": 15.24,
+          "y": -2.54,
+          "angle": 180
+        },
+        "8": {
+          "name": "GND",
+          "type": "power_in",
+          "x": 15.24,
+          "y": -5.08,
+          "angle": 180
+        }
+      },
+      "h": 7.62,
+      "fp": "Package_SON:USON-10_2.5x1.0mm_P0.5mm",
+      "kind": "box"
+    },
+    "DIO": {
+      "pins": {
+        "1": {
+          "name": "A",
+          "type": "passive",
+          "x": -15.24,
+          "y": 0.0,
+          "angle": 0
+        },
+        "3": {
+          "name": "K",
+          "type": "passive",
+          "x": 15.24,
+          "y": 1.27,
+          "angle": 180
+        },
+        "2": {
+          "name": "NC",
+          "type": "no_connect",
+          "x": 15.24,
+          "y": -1.27,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Package_TO_SOT_SMD:SOT-23",
+      "kind": "box"
+    },
+    "L": {
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive",
+          "x": -5.08,
+          "y": 0.0,
+          "angle": 0
+        },
+        "2": {
+          "name": "2",
+          "type": "passive",
+          "x": 5.08,
+          "y": 0.0,
+          "angle": 180
+        }
+      },
+      "h": 5.08,
+      "fp": "Inductor_SMD:L_Bourns-SRN4018",
+      "kind": "resistor"
+    },
+    "D_TVS": {
+      "pins": {
+        "1": {
+          "name": "A1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "A2",
+          "type": "passive"
+        }
+      }
+    }
+  },
+  "status": "unrouted ARC candidate; DD+ / CEC firmware / capture not qualified"
+}

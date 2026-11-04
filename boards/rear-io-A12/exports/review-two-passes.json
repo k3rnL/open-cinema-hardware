@@ -1,0 +1,74 @@
+{
+  "revision": "A12 draft",
+  "date": "2026-11-04",
+  "kicad": "10.0.5",
+  "reviewer": "Two static passes by same assistant; not independent engineer approval",
+  "pass_1": {
+    "scope": "Exported schematic topology, pin tables, values and ERC; separate reviewer script",
+    "status": "pass for static draft connectivity",
+    "erc_violations": 0,
+    "checked": [
+      "CS8416 four selected AC-coupled inputs, PLL and startup straps",
+      "ADV7511 all 100 pins, rails, ground and unused pin assignments",
+      "ARC coupling/bias, connector-side HPD tap, R_EXT and address strap",
+      "CEC clock and low-leakage pull-up diode orientation",
+      "HDMI DDC, switchable current-limited 5V and ESD channel assignment",
+      "WSON regulator pin map including thermal pad",
+      "Three LVDS pair polarities, new control pins, separate BTL pairs"
+    ],
+    "unproven": [
+      "ARC-only startup without video clock",
+      "DD+ carrier / JOC bit preservation",
+      "CEC negotiation firmware and TV interoperability",
+      "Power, ESD, back-powering and thermal behavior"
+    ],
+    "bench_tests_run": false
+  },
+  "pass_2": {
+    "scope": "PCB versus exported schematic, nominal placement, unchanged connectors/holes and models; routed",
+    "status": "pass for routed connectivity and model consistency",
+    "footprints": 98,
+    "electrical_pad_keys": 423,
+    "resolved_model_links": 92,
+    "drc_geometry_violations": 0,
+    "unrouted_connections": 0,
+    "tracks_and_vias": 1572,
+    "lvds_lengths_mm": {
+      "BCLK": {
+        "P": 12.23068745487178,
+        "N": 14.796612549695428,
+        "skew_mm": 2.5659250948236476
+      },
+      "LRCLK": {
+        "P": 9.347452406381898,
+        "N": 12.83818542494924,
+        "skew_mm": 3.490733018567342
+      },
+      "D0": {
+        "P": 7.790646489017174,
+        "N": 10.53520598642227,
+        "skew_mm": 2.7445594974050955
+      }
+    },
+    "speaker_paths": "12 independent nets, 2.5 mm on both outer layers, no vias",
+    "copper_layers": 4,
+    "mounting_holes_retained": true,
+    "physical_prototype_tested": false
+  },
+  "source_sha256": {
+    "OpenCinema_A12.kicad_sym": "a8ec51767de3abc8f4c1419fe1aa7a48bbfc1bb7578d050d02cd79add284a13b",
+    "arc-connector.kicad_sch": "c8ecaa74513356799c453ca2a3f1d384b89fa7edac150fa34ccadf1c1c7f82ed",
+    "arc-decoupling.kicad_sch": "5484938af09d666f87c6017d82851e1370a2a9c035753a4dd6f8933e5f2baf8e",
+    "arc-power.kicad_sch": "a7099753a315871da6895326eb7b11ed7280a981dae9dd424c486b152a9e73ec",
+    "arc-receiver.kicad_sch": "6fc88d2bbe244b99d5bba77f63b64c362132c6c67e982e208a9496cec70a1f6d",
+    "power-control.kicad_sch": "2a47192e8846a36258c0ac5b48b0890db520d0effa476f0238494fe74b959fd1",
+    "rear-io-A12.kicad_pcb": "034db0c9e99551c2dc34d3db4ca860455cfa0802dc523088f887045a51105550",
+    "rear-io-A12.kicad_pro": "c26866d7f73e0b2bc5868c37b9c2a8d88e72f02d3883c5d042c6ba17ffb2e4ca",
+    "rear-io-A12.kicad_sch": "d363891ef2f203ca4f901b417994f68c5977ee76ace31512010caf1445eb3fc4",
+    "selection-lvds.kicad_sch": "aca1badd9f3ad655e004700ca91cb21dc485cda2e199d21e8e635278984534bc",
+    "spdif.kicad_sch": "733b21dec475b31fab3052738fc02561e2bb8bf1a16156df1f76b228b4e03868",
+    "speakers.kicad_sch": "d327aa13bd1e516df9c042c53fe45853f097307777ce6ddd5925f8b466822e75",
+    "~rear-io-A12.kicad_pro.lck": "f30dfc81d5c43da9b3a6818a041833ce928c2e6fc620bd6e108dd99257d4f781"
+  },
+  "overall_release_status": "HOLD FOR QUALIFICATION: routed prototype; functional, current-rating and procurement gates remain"
+}

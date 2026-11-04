@@ -1,0 +1,93 @@
+{
+  "access_date": "2026-11-04",
+  "status": "public manufacturer sources; no vendor PDF redistribution or supplier contact",
+  "datasheets": {
+    "cs8416": {
+      "url": "https://statics.cirrus.com/pubs/proDatasheet/CS8416_DS578F5.pdf",
+      "used_for": "DS578F5; pins pp12-13; typical circuit p20; reset p22; serial port pp24-26,41-42; inputs pp27,50-51; I2C pp11,35; PLL p55; K ordering p60",
+      "sha256": "2bd423f47c687c10e8e5f074f1bb71cbc644f28cb7776f992aa3872ffce42737"
+    },
+    "lvds-tx": {
+      "url": "https://www.ti.com/lit/ds/symlink/ds90lv047a.pdf",
+      "used_for": "SNLS044D; PW pinout p3; electrical pp4-7; layout pp16-17",
+      "sha256": "ed31d28c7fa80b5a62ba0897122baec7fab0bc4e574c580aa8f1b2c7efad9ff4"
+    },
+    "lvds-rx": {
+      "url": "https://www.ti.com/lit/ds/symlink/ds90lv048a.pdf",
+      "used_for": "SNLS045C; future HAT candidate, not placed",
+      "sha256": "59aca1e089c7c4a42565be34eea5ae7089c25ab854b138e92b9c2f9817cadd4c"
+    },
+    "ldo": {
+      "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "used_for": "SBVS320D; DRV WSON6 pin table p3; DRV0006A drawing4222173/C (11/2025), nominal EP1x1.6; power/thermal/capacitor constraints",
+      "sha256": "96e2706d4b13656d2d550fdbb5be9861c56b058822109bb39a906d4ad1beb019"
+    },
+    "optical": {
+      "url": "https://www.cliffuk.co.uk/products/optical/FCR684205R.pdf",
+      "used_for": "Version2.0 2023-06-29; pinout p3; electrical p4; 100nF and30pF requirements p7",
+      "sha256": "59c25d7f71fa019de4ca9df4cb5366d1e573120baf0109039e4c359a702744d4"
+    },
+    "adv7511-hardware": {
+      "url": "https://www.analog.com/media/en/technical-documentation/user-guides/ADV7511_Hardware_Users_Guide.pdf",
+      "used_for": "RevD; complete pin table pp19-20; ARC p41; rails/filters and CEC support. Reviewed via web PDF text; no local PDF copy/hash."
+    },
+    "adv7511-programming": {
+      "url": "https://www.analog.com/media/en/technical-documentation/user-guides/ADV7511_Programming_Guide.pdf",
+      "used_for": "RevG; startup, maps, ARC section4.5 and CEC. Does not prove DD+ carrier support. Reviewed via web PDF text."
+    },
+    "adv7511-ordering": {
+      "url": "https://www.analog.com/en/products/adv7511.html",
+      "used_for": "HDMI-adopter purchase condition and product status"
+    },
+    "adv7511-api": {
+      "url": "https://developer.analog.com/docs/system-level/solutions/reference-designs/adv7511/transmitter_api/",
+      "used_for": "Public CEC and ARC API description, not implemented project firmware"
+    },
+    "adv7511-termination-discussion": {
+      "url": "https://ez.analog.com/video/f/q-a/10016/arc-termination-circuits",
+      "used_for": "ADI evaluation bias variants and HPD connection; comparison remains bench work"
+    },
+    "hdmi-power-switch": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+      "used_for": "RevG October2026; DBV pin table,226k ILIM table and reverse/enable behavior",
+      "sha256": "edd76d150b073ae8d4addbf85f6845b8c722fbd0b35ef025ac3c9e704a6a3385"
+    },
+    "esd": {
+      "url": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+      "used_for": "RevO; DQA10 pin map, 5.5V/low-capacitance protection",
+      "sha256": "c167cf1e72a5473a4d2c59b6a3c0251498701da05b7785919b9ceaae3b3e02c6"
+    },
+    "cec-oscillator": {
+      "url": "https://abracon.com/Oscillators/ASV.pdf",
+      "used_for": "3.3V12MHz ASV package7x5.08mm, pins1EN2GND3OUT4VDD",
+      "sha256": "1e9c5f54ef800f33c4d11970d5f281a4f4d0c36f8fc59bcbf636a5e6dc3d2b8e"
+    },
+    "cec-diode": {
+      "url": "https://assets.nexperia.com/documents/data-sheet/BAS116.pdf",
+      "used_for": "2020-08-05; SOT23 pins1A2NC3K; leakage specification"
+    },
+    "power-inductor": {
+      "url": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "used_for": "SRN4018-100M 10uH,0.180ohm max DCR,1.3A; package and pad geometry"
+    },
+    "10uf-capacitor": {
+      "url": "https://product.samsungsem.com/cn/mlcc/CL10A106KP8NNN.do",
+      "used_for": "Correct MPN CL10A106KP8NNNC;10uF10VX5R0603"
+    },
+    "coax-esd": {
+      "url": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+      "used_for": "TPD1E10B06DYAR SOD523, bidirectional clamp and capacitance; system qualification remains pending"
+    }
+  },
+  "a12_layout_sources": {
+    "jlc_stackup": "https://jlcpcb.com/pcb-impedance-calculator",
+    "jlc_guide": "https://jlcpcb.com/help/article/user-guide-to-the-jlcpcb-impedance-calculator",
+    "samtec_series_drawing": "https://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf",
+    "samtec_parts": [
+      "https://www.samtec.com/products/tsw-106-07-g-d",
+      "https://www.samtec.com/products/tsw-110-07-g-d",
+      "https://www.samtec.com/products/tsw-102-07-g-s"
+    ],
+    "notes": "Exact stackup calculator result recorded in manufacturing-review/stackup.md; no orders or supplier contacts"
+  }
+}

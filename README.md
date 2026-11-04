@@ -2,36 +2,35 @@
 
 Editable hardware for [Open Cinema](https://github.com/k3rnL/open-cinema). The [resources repository](https://github.com/k3rnL/open-cinema-resources) holds searchable knowledge and decision history.
 
-## Current work: A11 ARC electrical study
+## Current work: A12 routed ARC prototype
 
-[Open A11](boards/rear-io-A11/README.md). The draft connects an **ADV7511 ARC candidate → CS8416 four-source selector → three-pair LVDS link → Raspberry Pi**. The Pi decodes/processes audio and sends output by USB to the amplifier. Optical ×2, coax, HDMI and six speaker pairs remain on one horizontal board.
+[Open A12](boards/rear-io-A12/README.md). ADV7511 ARC candidate → CS8416 four-source selector → three-pair LVDS link → Raspberry Pi. The Pi decodes/processes audio and sends output over USB to the amplifier. Optical ×2, coax, HDMI and six speaker pairs remain on one horizontal board.
 
-- [Editable KiCad project](boards/rear-io-A11/rear-io-A11.kicad_pro)
-- [Schematic PDF](boards/rear-io-A11/exports/rear-io-A11-schematic.pdf)
-- [Rigid STEP for Fusion](boards/rear-io-A11/exports/rear-io-A11-rigid.step) / [Fusion archive](boards/rear-io-A11/exports/rear-io-A11-rigid.f3d)
-- [Part references and sourcing](boards/rear-io-A11/sourcing.md), [circuit/interface requirements](boards/rear-io-A11/requirements.md), [verification](boards/rear-io-A11/verification.md)
+- [Editable KiCad project](boards/rear-io-A12/rear-io-A12.kicad_pro) and [routed PCB](boards/rear-io-A12/rear-io-A12.kicad_pcb)
+- [Schematic PDF](boards/rear-io-A12/exports/rear-io-A12-schematic.pdf)
+- [Rigid STEP](boards/rear-io-A12/exports/rear-io-A12-rigid.step) / [Fusion archive](boards/rear-io-A12/exports/rear-io-A12-rigid.f3d)
+- [Manufacturing review files](boards/rear-io-A12/manufacturing-review/README.md), [sourcing](boards/rear-io-A12/sourcing.md), [requirements](boards/rear-io-A12/requirements.md), [verification](boards/rear-io-A12/verification.md)
 
-![A11 electronics underside](boards/rear-io-A11/exports/rear-io-A11-installed-underside.png)
+![A12 electronics underside](boards/rear-io-A12/exports/rear-io-A12-installed-underside.png)
 
-**This is an unrouted prototype draft, not ready to order.** Two static review passes found zero ERC and zero geometry-DRC violations, but 318 connections remain unrouted. ARC/CEC startup, DD+ Atmos payload preservation and Pi capture have not been demonstrated. ADI specifies an HDMI-adopter purchasing condition for ADV7511; JLC listing C179459 does not settle eligibility. Horizontal KLS speaker-terminal current rating and supply are still unqualified.
+**Routing is complete: 0 ERC violations, 0 DRC violations and 0 unrouted connections. Manufacturing release remains on hold.** ARC-only/CEC startup, DD+ payload preservation and Pi capture have not been demonstrated; ADV7511 eligible supply and horizontal KLS speaker-clip current rating remain unresolved. The package includes Gerbers, drills, BOM/CPL, stackup and a [qualification plan](boards/rear-io-A12/bring-up.md); it is not an approved order.
 
-The [accepted ARC scope](docs/arc-v1-requirements.md) defers eARC/lossless return audio while retaining DD+ Atmos as a validation target. A11 does not claim those tests have passed.
+The [accepted ARC scope](docs/arc-v1-requirements.md) defers eARC/lossless return audio while retaining DD+ Atmos as a validation target. A12 does not claim those tests passed.
 
 ## Mechanical integration
 
-A11 preserves the 228 × 39.8 × 1.6 mm PCB, connector positions and four Ø3 holes at installation x ±110 mm, depths 12/30 mm. Its rigid files contain one component with 161 solid bodies and no child components. Both formats were reimported and geometry-checked. The owner designs the backplate and L brackets; neither is included. Mains remains separate.
+A12 preserves the 228 ×39.8 ×1.6 mm PCB, connector positions and four Ø3 holes at installation x±110 mm, depths 12/30 mm. Its rigid files contain one component with 162 solids and no child components; both reimports match. No owner backplate, L brackets or mains circuit is included.
 
-The latest owner opening is 250 × 51 mm. Clearance, airflow, cable access, tolerances and thermal/EMI behavior in that enlarged enclosure remain to be checked. The new files are in the previous component-down installation datum, nominal z 67 mm.
+The latest owner opening is 250 ×51 mm. Assembled clearance, airflow, cable access, tolerances and loaded thermal/EMI behavior remain to be checked. Exports retain the component-down installation datum, nominal z 67 mm. Existing owner CAD and the linked `rear-io-A5-assembly` cloud document were not saved or overwritten. Git publication does not update Fusion links automatically.
 
-The linked `rear-io-A5-assembly v2` contained unsaved owner edits when inspected. This session exported A11 separately and did not overwrite/save it or the enclosure. Git publication does not update that Fusion cloud component automatically.
+## Previous revisions
 
-## Previous revisions and reproducibility
-
-- [A10 electrical draft](boards/rear-io-A10/README.md): historical optical/coax, muxes and LVDS; HDMI unwired.
-- [A9 PCB/connector mechanical baseline](docs/pcb-only-assembly-A9.md) and [A8 horizontal connector study](docs/horizontal-assembly-A8.md). Their old clearance results do not qualify the enlarged enclosure or A11.
+- [A11 ARC electrical study](boards/rear-io-A11/README.md): historical unrouted schematic/placement.
+- [A10 electrical draft](boards/rear-io-A10/README.md): historical mux/LVDS design, HDMI unwired.
+- [A9 mechanical baseline](docs/pcb-only-assembly-A9.md), [A8 horizontal study](docs/horizontal-assembly-A8.md).
 - [Original mechanical KiCad project](boards/rear-io/rear-io.kicad_pro): manual edits preserved.
-- [A7 vertical design in Git history](https://github.com/k3rnL/open-cinema-hardware/tree/eae54aa79c94255bdad5aaae5bf087d2b4166b0e).
+- [A7 vertical design in history](https://github.com/k3rnL/open-cinema-hardware/tree/eae54aa79c94255bdad5aaae5bf087d2b4166b0e).
 
-JLCPCB is preferred; pre-order/Global Sourcing and external suppliers are allowed. No purchase or supplier contact is authorized by a catalogue audit. Do not regenerate over manual edits. A11 has [reproduction instructions](boards/rear-io-A11/verification.md).
+JLCPCB is preferred; Global Sourcing/pre-order and external suppliers are allowed. No purchase or supplier contact was made. The saved A12 board owns routing; do not regenerate over manual work. [Checks and export reproduction](boards/rear-io-A12/verification.md).
 
-No project hardware license has been selected. Redistributed KiCad assets retain their [attribution and license](docs/sources/README.md).
+No project hardware license has been selected. KiCad assets retain their [attribution/license](docs/sources/README.md).
