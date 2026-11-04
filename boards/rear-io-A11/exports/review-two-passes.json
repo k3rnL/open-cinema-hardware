@@ -1,0 +1,55 @@
+{
+  "revision": "A11 draft",
+  "date": "2026-11-04",
+  "kicad": "10.0.5",
+  "reviewer": "Two static passes by same assistant; not independent engineer approval",
+  "pass_1": {
+    "scope": "Exported schematic topology, pin tables, values and ERC; separate reviewer script",
+    "status": "pass for static draft connectivity",
+    "erc_violations": 0,
+    "checked": [
+      "CS8416 four selected AC-coupled inputs, PLL and startup straps",
+      "ADV7511 all 100 pins, rails, ground and unused pin assignments",
+      "ARC coupling/bias, connector-side HPD tap, R_EXT and address strap",
+      "CEC clock and low-leakage pull-up diode orientation",
+      "HDMI DDC, switchable current-limited 5V and ESD channel assignment",
+      "WSON regulator pin map including thermal pad",
+      "Three LVDS pair polarities, new control pins, separate BTL pairs"
+    ],
+    "unproven": [
+      "ARC-only startup without video clock",
+      "DD+ carrier / JOC bit preservation",
+      "CEC negotiation firmware and TV interoperability",
+      "Power, ESD, back-powering and thermal behavior"
+    ],
+    "bench_tests_run": false
+  },
+  "pass_2": {
+    "scope": "PCB versus exported schematic, nominal placement, unchanged connectors/holes and models; unrouted",
+    "status": "pass for static placement and model consistency",
+    "footprints": 97,
+    "electrical_pad_keys": 421,
+    "resolved_model_links": 91,
+    "drc_geometry_violations": 0,
+    "unrouted_connections": 318,
+    "tracks": 0,
+    "copper_layers": 4,
+    "mounting_holes_retained": true,
+    "physical_prototype_tested": false
+  },
+  "source_sha256": {
+    "OpenCinema_A11.kicad_sym": "ac38f84dd7e93fa03b5b0ef29667475aa708c1ef5d571239d965035a439d03de",
+    "arc-connector.kicad_sch": "1dbd9f2db15e97a1b5b1f807ba3d48c664e81c5684f82c7c0a160c5fb749b808",
+    "arc-decoupling.kicad_sch": "6cfe069f2f3de7b8b5b4fa2d856aa78764e41d14dce35d1b63a0b3c5ed6c9afb",
+    "arc-power.kicad_sch": "102bc4f7ad3d96d2698b844a53c1523b256e1d5ba7f83b1061a67b8b77607202",
+    "arc-receiver.kicad_sch": "4b9cf347c1b90411100e0a9d9366a21e34f27b1dd51ecfdfb43f2b4f73332319",
+    "power-control.kicad_sch": "243655079643a9e7caa8238348499d790b43f6a3f63d747104d1228cd259023c",
+    "rear-io-A11.kicad_pcb": "0633e76063627afabc0358e7b4506311a5cf9bcf0492d2867c6c01d94b2a48cb",
+    "rear-io-A11.kicad_pro": "09f06c295d3c46f35f6b4c704c27b0917483217e6642f97246ce3ffc429dfcde",
+    "rear-io-A11.kicad_sch": "8006b03bbf3415ba09830c8bdf979704c75db95a4ad72a35e7a39a8fb86bd10a",
+    "selection-lvds.kicad_sch": "c210f458eaf01fef4f73e7b5268f2d1475b6fa7f2ca328f365441365f0e93a84",
+    "spdif.kicad_sch": "af1decca4136cf3071a89b63aadbf874347701748a4180db87b6acae41398797",
+    "speakers.kicad_sch": "1c2a8101693e659c9ef540134ca60990f319cc2b52a345cb182b69834e4b3e00"
+  },
+  "overall_release_status": "NOT FOR FABRICATION; functional, routing and procurement gates remain"
+}

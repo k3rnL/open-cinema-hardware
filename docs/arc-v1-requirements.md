@@ -1,10 +1,16 @@
 # ARC first-version implementation contract
 
-Accepted scope: 2026-11-04. Requirements/proposal, not a schematic or manufacturing release.
+Accepted scope: 2026-11-04. Current implementation: [A11 electrical study](../boards/rear-io-A11/README.md), not a manufacturing release.
 
 [Resources decision 0014](https://github.com/k3rnL/open-cinema-resources/blob/main/docs/decisions/0014-use-arc-for-first-version.md) supersedes the initial eARC/lossless input obligation. Target stereo PCM, AC-3, conventional DTS, and DD+ including unchanged Atmos/JOC payload, subject to source/TV passthrough. Multichannel PCM, TrueHD, DTS-HD MA and MAT over HDMI are deferred with eARC. The rear board still only receives/selects/transports; all processing remains on the Pi with USB output to the amplifier.
 
-## Existing draft and next revision
+## Current A11 draft
+
+A11 implements an ADV7511KSTZ test candidate feeding CS8416 RXP3. It uses one LVDS transmitter and three active pairs, removes the A10 muxes/second driver/J23, and changes J20 pins7/8. Read the [A11 interface contract](../boards/rear-io-A11/requirements.md) and [sourcing limits](../boards/rear-io-A11/sourcing.md). Public documentation, DD+ carrier support, ARC-only startup and procurement eligibility must not be conflated. No end-to-end format is yet qualified.
+
+## Original scope requirements and A10 starting point
+
+Historical proposal below; A11 supersedes its provisional quantity/pinout choices as described above.
 
 - Preserve the horizontal board, connector positions and four mounting holes until actual parts justify a reviewed geometry change. The owner designs the backplate/brackets.
 - A10 optical/coax, Pi control and LVDS circuits are reusable candidates. Its HDMI socket is unwired. The provisional eARC header and static checks do not establish ARC functionality.
@@ -23,7 +29,7 @@ Accepted scope: 2026-11-04. Requirements/proposal, not a schematic or manufactur
 | Selection/status | Pi command/readback, lock/carrier rate/transport mode/errors; coordinated mute, capture stop, selection, re-lock and restart |
 | Integration | Exact part/package, supply/reset/clocks, procurement, footprints, ESD, sequencing and PSU interaction |
 
-High-level Pi control software remains deferred as requested, but receiver testing requires a working way to initiate ARC/CEC. No chip/controller or firmware has been selected by this scope decision.
+High-level Pi control software remains deferred as requested, but receiver testing requires a working way to initiate ARC/CEC. The scope decision itself selected no chip/controller. The later A11 candidate is documented above; its firmware remains unimplemented.
 
 ## Documented receiver candidate
 
@@ -38,6 +44,6 @@ Any alternative module must preserve DD+ Atmos at its digital output. A stereo P
 
 Then measure PCM patterns; AC-3/DTS/DD+ payload equality after documented depacking; preserved JOC in a known DD+ Atmos fixture; source/rate/format changes; loss/re-lock/hotplug; CEC interoperability; boot/shutdown/back-powering; and timing/thermal/EMI with PSU/amplifier loaded. A format badge or PCM capture alone does not prove DD+ Atmos preservation.
 
-## Revision boundary
+## Scope-record boundary
 
-This scope update changes documentation only. A10 KiCad, STEP/F3D, firmware and existing Fusion assembly are unchanged. Prior verification applies only to A10. eARC documentation no longer gates the ARC prototype; complete ARC circuitry/CEC, routing/protection, component qualification and physical tests still do.
+The initial scope decision changed documentation only; the subsequent A11 implementation is linked above. A10 KiCad, STEP/F3D, firmware and existing Fusion assembly are unchanged. Prior verification applies only to A10. eARC documentation no longer gates the ARC prototype; complete ARC circuitry/CEC, routing/protection, component qualification and physical tests still do.

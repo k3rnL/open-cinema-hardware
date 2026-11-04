@@ -20,3 +20,9 @@ RCA, HDMI, optical receiver and assembled optical STEP models are drawing-derive
 ## A10 package models and schematic symbols
 
 A10 uses KiCad 10 package/connector/passive footprints and copied STEP models from Package_SO, Package_TO_SOT_SMD, Capacitor_SMD, Resistor_SMD, Inductor_SMD and Connector_PinHeader_2.54mm. Copyright KiCad library contributors; the same linked CC BY-SA 4.0 library exception applies. Model paths were localized. A10 custom schematic symbols are project-authored from factual manufacturer pin tables; they are not downloaded vendor symbols. The [A10 source register](../../boards/rear-io-A10/source-register.json) identifies the PDFs and hashes used. Datasheet PDFs are linked, not redistributed here.
+
+## A11 assets
+
+A11 additionally uses KiCad10 footprints/STEP models from Package_QFP, Package_SON, Oscillator and the Bourns SRN4018 inductor library, plus the existing passive/header packages. Copyright KiCad library contributors; the same CC BY-SA4.0 library exception linked above applies. Project symbols are authored from the manufacturer pin tables, not copied from third-party designs. [A11 source register](../../boards/rear-io-A11/source-register.json) records the public references and available local file hashes. Datasheets are linked, not redistributed.
+
+A11 normalizes the upstream oscillator STEP file-name header to its basename, removing the original author workstation path; the DATA/geometry section and attribution are unchanged.

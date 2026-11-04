@@ -1,0 +1,3775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>rear-io-A11.kicad_sch</source>
+    <date>2026-11-04T13:12:55</date>
+    <tool>Eeschema 10.0.5</tool>
+    <textvar name="REVISION">A11 DRAFT / UNROUTED</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Open Cinema rear I/O electrical study</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>rear-io-A11.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/">
+      <title_block>
+        <title>Open Cinema - power-control</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>power-control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/">
+      <title_block>
+        <title>Open Cinema - spdif</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>spdif.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/selection-lvds/" tstamps="/a8af13af-ed30-5846-a984-91a17f744144/">
+      <title_block>
+        <title>Open Cinema - selection-lvds</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>selection-lvds.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/speakers/" tstamps="/ef15d7c3-58c1-50f2-98e0-7e43df20b59d/">
+      <title_block>
+        <title>Open Cinema - speakers</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>speakers.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/">
+      <title_block>
+        <title>Open Cinema - arc-receiver</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>arc-receiver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/">
+      <title_block>
+        <title>Open Cinema - arc-connector</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>arc-connector.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/">
+      <title_block>
+        <title>Open Cinema - arc-power</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>arc-power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/">
+      <title_block>
+        <title>Open Cinema - arc-decoupling</title>
+        <company/>
+        <rev>A11 DRAFT</rev>
+        <date>2026-11-04</date>
+        <source>arc-decoupling.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A475KO8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A475KO8NNNC"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>cd0a363c-5b11-5e62-88e6-55e8ae2b1ddd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A475KO8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A475KO8NNNC"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>2b95974e-4509-5e31-a7d2-bae28129a894</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>99f736f5-7759-5f50-8ac5-558ea6f35019</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J20">
+      <value>PI CONTROL / NOT PI PINOUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">HEADER_2X06_P2.54_PROVISIONAL</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="CON12" description=""/>
+      <property name="MPN" value="HEADER_2X06_P2.54_PROVISIONAL"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>26ea46ab-5bb1-5bb4-bf3d-2c2fee64a2e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J21">
+      <value>5V regulated input</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">HEADER_1X02_P2.54_PROVISIONAL</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="CON2" description=""/>
+      <property name="MPN" value="HEADER_1X02_P2.54_PROVISIONAL"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>ad395edf-47f2-5194-b795-1a9ee7e25a79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 4.7k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 4.7k R 0603"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>71ca1f7e-997d-57fd-b1c6-c8cde7e26cb1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 4.7k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 4.7k R 0603"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>43176140-df76-5ba8-b45f-a160effa5667</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 10k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 10k R 0603"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>58a3fc78-2bca-59f6-b1e9-64797621af2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 10k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 10k R 0603"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>b7df475e-7bff-54e0-86c7-be4035bf6227</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>TLV75533PDRVR</value>
+      <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
+      <fields>
+        <field name="MPN">TLV75533PDRVR</field>
+        <field name="Footprint">Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv755p.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="LDOW" description=""/>
+      <property name="MPN" value="TLV75533PDRVR"/>
+      <property name="Sheetname" value="power-control"/>
+      <property name="Sheetfile" value="power-control.kicad_sch"/>
+      <sheetpath names="/power-control/" tstamps="/0249639b-c903-56e4-a1b5-1f083a1dce0c/"/>
+      <tstamps>7f3e937a-a364-5779-b4ec-35503322644c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>5814c2ee-59b8-5d9a-a13c-626f58e324a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>a1021328-ede1-50b3-aceb-f92e24d33cfe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>f8c57770-14c4-5d4a-8271-a33d8a117d10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>95506182-809e-553e-9031-77411cb98652</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>30pF C0G</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10C300JB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10C300JB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>bd183b2a-44d9-54af-9617-b9dbc7a4161b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>30pF C0G</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10C300JB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10C300JB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>c545aaa8-95fe-512a-9806-f016e5257942</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 10nF C 0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="TBD - 10nF C 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>ac40d3fe-0da8-59c3-a265-ba7751050211</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 10nF C 0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="TBD - 10nF C 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>07e81a34-ce87-563e-b6ff-d8ca29e38d25</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>038d7672-2e8b-5b7a-9669-904190a34685</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>d6eb28f4-1bf7-505f-b19a-f4d376271206</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>41762657-084e-5880-af2a-3e84586449df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>104dbe10-a6db-5fa6-807c-105a97a901a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>1nF C0G</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 1nF C0G C 0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="TBD - 1nF C0G C 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>edf9bb81-04f3-5c7d-b01d-f63c7531d532</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>22nF X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B223KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B223KB8NNNC"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>d1aceaf8-2616-5127-9e4b-791d2157bc77</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FB1">
+      <value>600R @100MHz</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">BLM18AG601SN1D</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="FB" description=""/>
+      <property name="MPN" value="BLM18AG601SN1D"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>3b1ac872-db03-50a1-9333-9809b41df982</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>FCR684205R</value>
+      <footprint>OpenCinema_Connectors:Cliff_FCR684205R</footprint>
+      <fields>
+        <field name="MPN">FCR684205R</field>
+        <field name="Footprint">OpenCinema_Connectors:Cliff_FCR684205R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="OPT" description=""/>
+      <property name="MPN" value="FCR684205R"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>1529eb06-80bf-5d80-8cb5-fc5eb9033b8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>FCR684205R</value>
+      <footprint>OpenCinema_Connectors:Cliff_FCR684205R</footprint>
+      <fields>
+        <field name="MPN">FCR684205R</field>
+        <field name="Footprint">OpenCinema_Connectors:Cliff_FCR684205R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="OPT" description=""/>
+      <property name="MPN" value="FCR684205R"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>fd2a7e1e-8ec9-5bb0-b0b2-62d68fa345e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>RCJ-011</value>
+      <footprint>OpenCinema_Connectors:SameSky_RCJ_011_Horizontal_A8</footprint>
+      <fields>
+        <field name="MPN">RCJ-011</field>
+        <field name="Footprint">OpenCinema_Connectors:SameSky_RCJ_011_Horizontal_A8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="RCA" description=""/>
+      <property name="MPN" value="RCJ-011"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>866dd3bb-c5e1-5ee9-9faf-ba74e6c48a1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>75R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 75R 1% R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 75R 1% R 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>5c60ba6b-4617-5a66-99c1-c8a60b68ea87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>3k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 3k 1% R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 3k 1% R 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>54df0948-832e-5025-b5f7-35b2bbd157ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 47k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 47k R 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>a039c626-6294-5794-9be6-eada9dd6206d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 47k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 47k R 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>4082ba38-4033-5f35-a8dd-b09514b8c277</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 10k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 10k R 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>bc0feff5-e9a5-5493-a08c-490a32bb2ce3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD - 10k R 0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="TBD - 10k R 0603"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>cbabee1f-13c3-55ec-8f88-4d92bbb1ce2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>CS8416K-CZZR</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>https://statics.cirrus.com/pubs/proDatasheet/CS8416_DS578F5.pdf</datasheet>
+      <fields>
+        <field name="MPN">CS8416K-CZZR</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+        <field name="Datasheet">https://statics.cirrus.com/pubs/proDatasheet/CS8416_DS578F5.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="CS8416K" description=""/>
+      <property name="MPN" value="CS8416K-CZZR"/>
+      <property name="Sheetname" value="spdif"/>
+      <property name="Sheetfile" value="spdif.kicad_sch"/>
+      <sheetpath names="/spdif/" tstamps="/890e5e43-af9f-5217-a370-3d4dccdd5066/"/>
+      <tstamps>c3956c11-c042-5bb2-9f24-782196ce4353</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="23"/>
+            <pin num="21"/>
+            <pin num="7"/>
+            <pin num="22"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="selection-lvds"/>
+      <property name="Sheetfile" value="selection-lvds.kicad_sch"/>
+      <sheetpath names="/selection-lvds/" tstamps="/a8af13af-ed30-5846-a984-91a17f744144/"/>
+      <tstamps>c1f59d93-41ef-5046-8e8f-0b5b6dac967a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J22">
+      <value>3 LVDS PAIRS / PROVISIONAL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">HEADER_2X10_P2.54_PROVISIONAL</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="CON20" description=""/>
+      <property name="MPN" value="HEADER_2X10_P2.54_PROVISIONAL"/>
+      <property name="Sheetname" value="selection-lvds"/>
+      <property name="Sheetfile" value="selection-lvds.kicad_sch"/>
+      <sheetpath names="/selection-lvds/" tstamps="/a8af13af-ed30-5846-a984-91a17f744144/"/>
+      <tstamps>fb804997-3f8f-5625-a981-31d34b5a1fb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>DS90LV047ATMTC/NOPB</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ds90lv047a.pdf</datasheet>
+      <fields>
+        <field name="MPN">DS90LV047ATMTC/NOPB</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ds90lv047a.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="LVDS" description=""/>
+      <property name="MPN" value="DS90LV047ATMTC/NOPB"/>
+      <property name="Sheetname" value="selection-lvds"/>
+      <property name="Sheetfile" value="selection-lvds.kicad_sch"/>
+      <sheetpath names="/selection-lvds/" tstamps="/a8af13af-ed30-5846-a984-91a17f744144/"/>
+      <tstamps>8c84c573-2af8-5604-8344-9e67962e1ce6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J31">
+      <value>AMP WIRE SOLDER PADS</value>
+      <footprint>Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <fields>
+        <field name="MPN">PCB_SOLDER_PADS_1SQMM</field>
+        <field name="Footprint">Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="WIRE6" description=""/>
+      <property name="MPN" value="PCB_SOLDER_PADS_1SQMM"/>
+      <property name="Sheetname" value="speakers"/>
+      <property name="Sheetfile" value="speakers.kicad_sch"/>
+      <sheetpath names="/speakers/" tstamps="/ef15d7c3-58c1-50f2-98e0-7e43df20b59d/"/>
+      <tstamps>ddefb86a-e94e-5ff8-92dc-304d88db4234</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J32">
+      <value>AMP WIRE SOLDER PADS</value>
+      <footprint>Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <fields>
+        <field name="MPN">PCB_SOLDER_PADS_1SQMM</field>
+        <field name="Footprint">Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="WIRE6" description=""/>
+      <property name="MPN" value="PCB_SOLDER_PADS_1SQMM"/>
+      <property name="Sheetname" value="speakers"/>
+      <property name="Sheetfile" value="speakers.kicad_sch"/>
+      <sheetpath names="/speakers/" tstamps="/ef15d7c3-58c1-50f2-98e0-7e43df20b59d/"/>
+      <tstamps>69d88255-d7dd-5dce-9ad4-d7fcf105356c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SP1">
+      <value>KLS1-WP-6P-03B / UNQUALIFIED</value>
+      <footprint>OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8</footprint>
+      <fields>
+        <field name="MPN">L-KLS1-WP-6P-03B-B/R</field>
+        <field name="Footprint">OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="SPEAKER" description=""/>
+      <property name="MPN" value="L-KLS1-WP-6P-03B-B/R"/>
+      <property name="Sheetname" value="speakers"/>
+      <property name="Sheetfile" value="speakers.kicad_sch"/>
+      <sheetpath names="/speakers/" tstamps="/ef15d7c3-58c1-50f2-98e0-7e43df20b59d/"/>
+      <tstamps>f25b70de-d1a2-51a0-a0de-598937b9e446</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SP2">
+      <value>KLS1-WP-6P-03B / UNQUALIFIED</value>
+      <footprint>OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8</footprint>
+      <fields>
+        <field name="MPN">L-KLS1-WP-6P-03B-B/R</field>
+        <field name="Footprint">OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="SPEAKER" description=""/>
+      <property name="MPN" value="L-KLS1-WP-6P-03B-B/R"/>
+      <property name="Sheetname" value="speakers"/>
+      <property name="Sheetfile" value="speakers.kicad_sch"/>
+      <sheetpath names="/speakers/" tstamps="/ef15d7c3-58c1-50f2-98e0-7e43df20b59d/"/>
+      <tstamps>5aef6de9-8763-53e2-987b-482e26b352eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C40">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-receiver"/>
+      <property name="Sheetfile" value="arc-receiver.kicad_sch"/>
+      <sheetpath names="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/"/>
+      <tstamps>a1a69aa6-f35e-523d-ae57-dc31b2066523</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R40">
+      <value>887R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07887RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07887RL"/>
+      <property name="Sheetname" value="arc-receiver"/>
+      <property name="Sheetfile" value="arc-receiver.kicad_sch"/>
+      <sheetpath names="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/"/>
+      <tstamps>0570fff8-d817-5605-a15e-237acde4e339</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R41">
+      <value>2k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072KL"/>
+      <property name="Sheetname" value="arc-receiver"/>
+      <property name="Sheetfile" value="arc-receiver.kicad_sch"/>
+      <sheetpath names="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/"/>
+      <tstamps>131f0859-ba0f-52e8-b881-5e6a7307468c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R42">
+      <value>2k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072KL"/>
+      <property name="Sheetname" value="arc-receiver"/>
+      <property name="Sheetfile" value="arc-receiver.kicad_sch"/>
+      <sheetpath names="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/"/>
+      <tstamps>a052e8b3-4786-552c-bf4d-4f02a15c6223</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R43">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Sheetname" value="arc-receiver"/>
+      <property name="Sheetfile" value="arc-receiver.kicad_sch"/>
+      <sheetpath names="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/"/>
+      <tstamps>411d871c-480f-543d-ba1f-947824061c4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>ADV7511KSTZ / ARC candidate</value>
+      <footprint>Package_QFP:LQFP-100_14x14mm_P0.5mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/user-guides/ADV7511_Hardware_Users_Guide.pdf</datasheet>
+      <fields>
+        <field name="MPN">ADV7511KSTZ</field>
+        <field name="Footprint">Package_QFP:LQFP-100_14x14mm_P0.5mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/user-guides/ADV7511_Hardware_Users_Guide.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="ADV7511" description=""/>
+      <property name="MPN" value="ADV7511KSTZ"/>
+      <property name="Sheetname" value="arc-receiver"/>
+      <property name="Sheetfile" value="arc-receiver.kicad_sch"/>
+      <sheetpath names="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/"/>
+      <tstamps>eccd00fa-5838-5114-9ec6-6326772705e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+            <pin num="49"/>
+            <pin num="50"/>
+            <pin num="51"/>
+            <pin num="52"/>
+            <pin num="53"/>
+            <pin num="54"/>
+            <pin num="55"/>
+            <pin num="56"/>
+            <pin num="57"/>
+            <pin num="58"/>
+            <pin num="59"/>
+            <pin num="60"/>
+            <pin num="61"/>
+            <pin num="62"/>
+            <pin num="63"/>
+            <pin num="64"/>
+            <pin num="65"/>
+            <pin num="66"/>
+            <pin num="67"/>
+            <pin num="68"/>
+            <pin num="69"/>
+            <pin num="70"/>
+            <pin num="71"/>
+            <pin num="72"/>
+            <pin num="73"/>
+            <pin num="74"/>
+            <pin num="75"/>
+            <pin num="76"/>
+            <pin num="77"/>
+            <pin num="78"/>
+            <pin num="79"/>
+            <pin num="80"/>
+            <pin num="81"/>
+            <pin num="82"/>
+            <pin num="83"/>
+            <pin num="84"/>
+            <pin num="85"/>
+            <pin num="86"/>
+            <pin num="87"/>
+            <pin num="88"/>
+            <pin num="89"/>
+            <pin num="90"/>
+            <pin num="91"/>
+            <pin num="92"/>
+            <pin num="93"/>
+            <pin num="94"/>
+            <pin num="95"/>
+            <pin num="96"/>
+            <pin num="97"/>
+            <pin num="98"/>
+            <pin num="99"/>
+            <pin num="100"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>12 MHz / ASV-12.000MHZ-E-T</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm</footprint>
+      <datasheet>https://abracon.com/Oscillators/ASV.pdf</datasheet>
+      <fields>
+        <field name="MPN">ASV-12.000MHZ-E-T</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm</field>
+        <field name="Datasheet">https://abracon.com/Oscillators/ASV.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="OSC" description=""/>
+      <property name="MPN" value="ASV-12.000MHZ-E-T"/>
+      <property name="Sheetname" value="arc-receiver"/>
+      <property name="Sheetfile" value="arc-receiver.kicad_sch"/>
+      <sheetpath names="/arc-receiver/" tstamps="/385618bf-50cd-5c9e-b28d-e5ac96e2f532/"/>
+      <tstamps>bbc0ae88-a7ca-5e71-ad17-b6634ecc7190</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C41">
+      <value>1uF 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B105KO8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B105KO8NNNC"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>26ee84a2-7fbc-5838-91a0-c27fa7d360b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C42">
+      <value>1uF 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B105KO8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B105KO8NNNC"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>19a2cb96-3a46-5b92-89e1-e9c6df3c801f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C43">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>5f91ab71-3014-5576-ba1f-223848fafa76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>BAS116,215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS116.pdf</datasheet>
+      <fields>
+        <field name="MPN">BAS116,215</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAS116.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="DIO" description=""/>
+      <property name="MPN" value="BAS116,215"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>d5e88a89-f9cc-58c1-bfeb-5b3baee7ef44</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>10029449-001RLF / ARC ONLY</value>
+      <footprint>OpenCinema_Connectors:HDMI_A_Amphenol_10029449-x01xLF_Horizontal</footprint>
+      <fields>
+        <field name="MPN">10029449-001RLF</field>
+        <field name="Footprint">OpenCinema_Connectors:HDMI_A_Amphenol_10029449-x01xLF_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="HDMI" description=""/>
+      <property name="MPN" value="10029449-001RLF"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>754eea26-5ecd-5400-acbf-dfb1b8394bbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R44">
+      <value>49.9R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0749R9L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0749R9L"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>7a0e5b88-4206-5023-95ce-b2edcd40702a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R45">
+      <value>49.9R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0749R9L</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0749R9L"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>9a94331e-0a2f-5ecf-a22f-8fe615437aa7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>fec87218-1f22-5060-bc63-de16691ef8a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R47">
+      <value>2k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072KL"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>9e8c9b89-6d21-52da-b9b7-482923661b41</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R48">
+      <value>2k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072KL"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>5f031805-ff11-5b32-99bc-f08e777a1b38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R49">
+      <value>27k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0727KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0727KL"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>5f03b248-d866-58dd-9cca-5663de1d8ba3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R50">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>47b67065-8541-5edb-974d-b82b874a8ea7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R51">
+      <value>0R / chassis bond DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603JR-070RL"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>1be9b959-9c7a-530a-be18-5483b082ccc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U10">
+      <value>TPD4E05U06DQAR</value>
+      <footprint>Package_SON:USON-10_2.5x1.0mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPD4E05U06DQAR</field>
+        <field name="Footprint">Package_SON:USON-10_2.5x1.0mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="ESD4" description=""/>
+      <property name="MPN" value="TPD4E05U06DQAR"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>a0eb2aee-9dc9-5179-af02-45d575e00f20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U11">
+      <value>TPD4E05U06DQAR</value>
+      <footprint>Package_SON:USON-10_2.5x1.0mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPD4E05U06DQAR</field>
+        <field name="Footprint">Package_SON:USON-10_2.5x1.0mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="ESD4" description=""/>
+      <property name="MPN" value="TPD4E05U06DQAR"/>
+      <property name="Sheetname" value="arc-connector"/>
+      <property name="Sheetfile" value="arc-connector.kicad_sch"/>
+      <sheetpath names="/arc-connector/" tstamps="/3748fc03-73b6-566d-95ee-0c7dac7c0019/"/>
+      <tstamps>bd0bba8e-d8e1-5420-95da-1c3b6bf50f7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C44">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A475KO8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A475KO8NNNC"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>b063e9d6-de82-5897-b9d3-b34b4dc2ce92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C45">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A475KO8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A475KO8NNNC"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>f61652c2-c14f-5540-b486-edc420820f62</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C46">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>bc315c23-ce01-5ec0-a022-1629b84390f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C47">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>b608275c-a4c1-5b66-a520-1619c9f755c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C48">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10A106KP8NNNC"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>c2d9882e-0b47-5ff4-b795-0a7ce952a3b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>10uH / SRN4018-100M</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN4018</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/srn4018.pdf</datasheet>
+      <fields>
+        <field name="MPN">SRN4018-100M</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN4018</field>
+        <field name="Datasheet">https://www.bourns.com/docs/product-datasheets/srn4018.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="L" description=""/>
+      <property name="MPN" value="SRN4018-100M"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>7f41f43d-bc63-5330-b07c-3d4d930470d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>10uH / SRN4018-100M</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN4018</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/srn4018.pdf</datasheet>
+      <fields>
+        <field name="MPN">SRN4018-100M</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN4018</field>
+        <field name="Datasheet">https://www.bourns.com/docs/product-datasheets/srn4018.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="L" description=""/>
+      <property name="MPN" value="SRN4018-100M"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>4a2387b3-19d5-5c56-b3d3-c4802a3aedb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L3">
+      <value>10uH / SRN4018-100M</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN4018</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/srn4018.pdf</datasheet>
+      <fields>
+        <field name="MPN">SRN4018-100M</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN4018</field>
+        <field name="Datasheet">https://www.bourns.com/docs/product-datasheets/srn4018.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="L" description=""/>
+      <property name="MPN" value="SRN4018-100M"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>58e67538-3bf5-545a-a115-37ec953195d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>TLV75518PDRVR</value>
+      <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
+      <fields>
+        <field name="MPN">TLV75518PDRVR</field>
+        <field name="Footprint">Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv755p.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="LDOW" description=""/>
+      <property name="MPN" value="TLV75518PDRVR"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>549bf354-b5b8-5a53-ace0-f143192efc46</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U9">
+      <value>TPS2553DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2553DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="SW5V" description=""/>
+      <property name="MPN" value="TPS2553DBVR"/>
+      <property name="Sheetname" value="arc-power"/>
+      <property name="Sheetfile" value="arc-power.kicad_sch"/>
+      <sheetpath names="/arc-power/" tstamps="/b90c48f9-fb91-505d-b17f-0980ec350cd6/"/>
+      <tstamps>bcc84cf2-7264-5205-b70d-0d288c266e5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C50">
+      <value>100nF / U7 pin 1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>2bd13867-c574-570e-b6b0-15245bd66c17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C51">
+      <value>100nF / U7 pin 19</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>a125fabf-eb0e-5657-8d01-2b60f9c87fa0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C52">
+      <value>100nF / U7 pin 49</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>7fea2618-6cbf-5d68-9b03-14041a4cca49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C53">
+      <value>100nF / U7 pin 76</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>6889e849-6e10-5227-b12c-0585789787e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C54">
+      <value>100nF / U7 pin 77</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>54882028-6b76-55db-9eb6-28b389c61dba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C55">
+      <value>100nF / U7 pin 24</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>19ff7fc7-9bef-548c-8d83-8df09962013c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C56">
+      <value>100nF / U7 pin 25</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>e42cc303-715f-501e-abd3-fe546e9822c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C57">
+      <value>100nF / U7 pin 29</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>0c6bea4b-31db-5e41-809d-447a0ba63f06</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C58">
+      <value>100nF / U7 pin 34</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>940c3a21-cd81-5392-a73c-b740188d1f46</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C59">
+      <value>100nF / U7 pin 41</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>d3a7477c-65b2-599c-9d6e-7e6c19349ba7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C60">
+      <value>100nF / U7 pin 21</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>09363bbc-1bfe-59ec-8d67-636cfee0b851</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C61">
+      <value>100nF / U7 pin 26</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>6d50ac2a-551b-5c8a-a443-eb521dc9f878</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C62">
+      <value>100nF / U7 pin 47</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>d19d50c8-429d-54ca-b95b-779a5b5fdf6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C63">
+      <value>1uF 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B105KO8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B105KO8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>994a41a4-9386-5945-9ac2-4816021bbc16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C64">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="C" description=""/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>9e2cc4da-67bc-5f5f-ab62-7cdaa8f05549</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J24">
+      <value>HDMI POWER FAULT / GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">HEADER_1X02_P2.54_PROVISIONAL</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="CON2" description=""/>
+      <property name="MPN" value="HEADER_1X02_P2.54_PROVISIONAL"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>c6d33d84-e8b4-5d4c-acb3-7dd5a8c06b11</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R52">
+      <value>226k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07226KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07226KL"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>8f2c6e17-d372-5bb9-863f-1355f8b71c27</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>5e0e5ee0-abb8-51ed-98b3-e7ac61d5de1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenCinema_A11" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="arc-decoupling"/>
+      <property name="Sheetfile" value="arc-decoupling.kicad_sch"/>
+      <sheetpath names="/arc-decoupling/" tstamps="/6924bbaf-0f93-5c78-a03f-ff3403ed5651/"/>
+      <tstamps>a4f3d9a0-6a0f-5109-b382-24c233e446aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="OpenCinema_A11" part="ADV7511">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADV7511</field>
+        <field name="Footprint">Package_QFP:LQFP-100_14x14mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DVDD" type="power_in"/>
+        <pin num="2" name="VSYNC" type="input"/>
+        <pin num="3" name="DSD0" type="input"/>
+        <pin num="4" name="DSD1" type="input"/>
+        <pin num="5" name="DSD2" type="input"/>
+        <pin num="6" name="DSD3" type="input"/>
+        <pin num="7" name="DSD4" type="input"/>
+        <pin num="8" name="DSD5" type="input"/>
+        <pin num="9" name="DSD_CLK" type="input"/>
+        <pin num="10" name="SPDIF_IN" type="input"/>
+        <pin num="11" name="MCLK" type="input"/>
+        <pin num="12" name="I2S0" type="input"/>
+        <pin num="13" name="I2S1" type="input"/>
+        <pin num="14" name="I2S2" type="input"/>
+        <pin num="15" name="I2S3" type="input"/>
+        <pin num="16" name="SCLK" type="input"/>
+        <pin num="17" name="LRCLK" type="input"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="DVDD" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="PLVDD" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="PVDD" type="power_in"/>
+        <pin num="25" name="PVDD" type="power_in"/>
+        <pin num="26" name="BGVDD" type="power_in"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="R_EXT" type="passive"/>
+        <pin num="29" name="AVDD" type="power_in"/>
+        <pin num="30" name="HPD" type="input"/>
+        <pin num="31" name="GND" type="power_in"/>
+        <pin num="32" name="TXC_N" type="output"/>
+        <pin num="33" name="TXC_P" type="output"/>
+        <pin num="34" name="AVDD" type="power_in"/>
+        <pin num="35" name="TX0_N" type="output"/>
+        <pin num="36" name="TX0_P" type="output"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="PD_AD" type="input"/>
+        <pin num="39" name="TX1_N" type="output"/>
+        <pin num="40" name="TX1_P" type="output"/>
+        <pin num="41" name="AVDD" type="power_in"/>
+        <pin num="42" name="TX2_N" type="output"/>
+        <pin num="43" name="TX2_P" type="output"/>
+        <pin num="44" name="GND" type="power_in"/>
+        <pin num="45" name="INT" type="output"/>
+        <pin num="46" name="SPDIF_OUT" type="output"/>
+        <pin num="47" name="MVDD" type="power_in"/>
+        <pin num="48" name="CEC" type="bidirectional"/>
+        <pin num="49" name="DVDD" type="power_in"/>
+        <pin num="50" name="CEC_CLK" type="input"/>
+        <pin num="51" name="HEAC_N" type="input"/>
+        <pin num="52" name="HEAC_P" type="input"/>
+        <pin num="53" name="DDCSCL" type="open_collector"/>
+        <pin num="54" name="DDCSDA" type="bidirectional"/>
+        <pin num="55" name="SCL" type="input"/>
+        <pin num="56" name="SDA" type="bidirectional"/>
+        <pin num="57" name="D35" type="input"/>
+        <pin num="58" name="D34" type="input"/>
+        <pin num="59" name="D33" type="input"/>
+        <pin num="60" name="D32" type="input"/>
+        <pin num="61" name="D31" type="input"/>
+        <pin num="62" name="D30" type="input"/>
+        <pin num="63" name="D29" type="input"/>
+        <pin num="64" name="D28" type="input"/>
+        <pin num="65" name="D27" type="input"/>
+        <pin num="66" name="D26" type="input"/>
+        <pin num="67" name="D25" type="input"/>
+        <pin num="68" name="D24" type="input"/>
+        <pin num="69" name="D23" type="input"/>
+        <pin num="70" name="D22" type="input"/>
+        <pin num="71" name="D21" type="input"/>
+        <pin num="72" name="D20" type="input"/>
+        <pin num="73" name="D19" type="input"/>
+        <pin num="74" name="D18" type="input"/>
+        <pin num="75" name="GND" type="power_in"/>
+        <pin num="76" name="DVDD" type="power_in"/>
+        <pin num="77" name="DVDD" type="power_in"/>
+        <pin num="78" name="D17" type="input"/>
+        <pin num="79" name="VCLK" type="input"/>
+        <pin num="80" name="D16" type="input"/>
+        <pin num="81" name="D15" type="input"/>
+        <pin num="82" name="D14" type="input"/>
+        <pin num="83" name="D13" type="input"/>
+        <pin num="84" name="D12" type="input"/>
+        <pin num="85" name="D11" type="input"/>
+        <pin num="86" name="D10" type="input"/>
+        <pin num="87" name="D9" type="input"/>
+        <pin num="88" name="D8" type="input"/>
+        <pin num="89" name="D7" type="input"/>
+        <pin num="90" name="D6" type="input"/>
+        <pin num="91" name="D5" type="input"/>
+        <pin num="92" name="D4" type="input"/>
+        <pin num="93" name="D3" type="input"/>
+        <pin num="94" name="D2" type="input"/>
+        <pin num="95" name="D1" type="input"/>
+        <pin num="96" name="D0" type="input"/>
+        <pin num="97" name="DE" type="input"/>
+        <pin num="98" name="HSYNC" type="input"/>
+        <pin num="99" name="GND" type="power_in"/>
+        <pin num="100" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">C</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="CON12">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CON12</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="CON2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CON2</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="CON20">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CON20</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="CS8416K">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CS8416K</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RXP3" type="input"/>
+        <pin num="2" name="RXP2" type="input"/>
+        <pin num="3" name="RXP1" type="input"/>
+        <pin num="4" name="RXP0" type="input"/>
+        <pin num="5" name="RXN" type="input"/>
+        <pin num="6" name="VA" type="power_in"/>
+        <pin num="7" name="AGND" type="power_in"/>
+        <pin num="8" name="FILT" type="passive"/>
+        <pin num="9" name="RST_N" type="input"/>
+        <pin num="10" name="RXP4" type="input"/>
+        <pin num="11" name="RXP5" type="input"/>
+        <pin num="12" name="RXP6" type="input"/>
+        <pin num="13" name="RXP7" type="input"/>
+        <pin num="14" name="AD0" type="input"/>
+        <pin num="15" name="AD1" type="input"/>
+        <pin num="16" name="SCL" type="input"/>
+        <pin num="17" name="SDA" type="bidirectional"/>
+        <pin num="18" name="AD2/GPO2" type="bidirectional"/>
+        <pin num="19" name="GPO1" type="output"/>
+        <pin num="20" name="GPO0" type="output"/>
+        <pin num="21" name="VL" type="power_in"/>
+        <pin num="22" name="DGND" type="power_in"/>
+        <pin num="23" name="VD" type="power_in"/>
+        <pin num="24" name="RMCK" type="output"/>
+        <pin num="25" name="OMCK" type="input"/>
+        <pin num="26" name="SDOUT" type="output"/>
+        <pin num="27" name="OSCLK" type="bidirectional"/>
+        <pin num="28" name="OLRCK" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="DIO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DIO</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="ESD4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESD4</field>
+        <field name="Footprint">Package_SON:USON-10_2.5x1.0mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="IO2" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="IO4" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="10" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="FB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FB</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="HDMI">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDMI</field>
+        <field name="Footprint">OpenCinema_Connectors:HDMI_A_Amphenol_10029449-x01xLF_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="passive"/>
+        <pin num="2" name="PIN2" type="passive"/>
+        <pin num="3" name="PIN3" type="passive"/>
+        <pin num="4" name="PIN4" type="passive"/>
+        <pin num="5" name="PIN5" type="passive"/>
+        <pin num="6" name="PIN6" type="passive"/>
+        <pin num="7" name="PIN7" type="passive"/>
+        <pin num="8" name="PIN8" type="passive"/>
+        <pin num="9" name="PIN9" type="passive"/>
+        <pin num="10" name="PIN10" type="passive"/>
+        <pin num="11" name="PIN11" type="passive"/>
+        <pin num="12" name="PIN12" type="passive"/>
+        <pin num="13" name="PIN13" type="passive"/>
+        <pin num="14" name="PIN14" type="passive"/>
+        <pin num="15" name="PIN15" type="passive"/>
+        <pin num="16" name="PIN16" type="passive"/>
+        <pin num="17" name="PIN17" type="passive"/>
+        <pin num="18" name="PIN18" type="passive"/>
+        <pin num="19" name="PIN19" type="passive"/>
+        <pin num="SH" name="SHELL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="L">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN4018</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="LDOW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDOW</field>
+        <field name="Footprint">Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="EP_GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="LVDS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LVDS</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="DIN1" type="input"/>
+        <pin num="3" name="DIN2" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="DIN3" type="input"/>
+        <pin num="7" name="DIN4" type="input"/>
+        <pin num="8" name="EN_N" type="input"/>
+        <pin num="9" name="D4-" type="output"/>
+        <pin num="10" name="D4+" type="output"/>
+        <pin num="11" name="D3+" type="output"/>
+        <pin num="12" name="D3-" type="output"/>
+        <pin num="13" name="D2-" type="output"/>
+        <pin num="14" name="D2+" type="output"/>
+        <pin num="15" name="D1+" type="output"/>
+        <pin num="16" name="D1-" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="OPT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPT</field>
+        <field name="Footprint">OpenCinema_Connectors:Cliff_FCR684205R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="OSC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OSC</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="RCA">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RCA</field>
+        <field name="Footprint">OpenCinema_Connectors:SameSky_RCJ_011_Horizontal_A8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CENTRE" type="passive"/>
+        <pin num="2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="SPEAKER">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPEAKER</field>
+        <field name="Footprint">OpenCinema_Connectors:KLS1_WP_6P_03B_Horizontal_A8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SPK1-" type="passive"/>
+        <pin num="2" name="SPK1+" type="passive"/>
+        <pin num="3" name="SPK2-" type="passive"/>
+        <pin num="4" name="SPK2+" type="passive"/>
+        <pin num="5" name="SPK3-" type="passive"/>
+        <pin num="6" name="SPK3+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="SW5V">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SW5V</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="FAULT_N" type="open_collector"/>
+        <pin num="5" name="ILIM" type="passive"/>
+        <pin num="6" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenCinema_A11" part="WIRE6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WIRE6</field>
+        <field name="Footprint">Connector_Wire:SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="OpenCinema_A11">
+      <uri>${KIPRJMOD}/OpenCinema_A11.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V8_A" class="Default">
+      <node ref="C47" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C57" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C58" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C59" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U7" pin="29" pinfunction="AVDD_29" pintype="power_in"/>
+      <node ref="U7" pin="34" pinfunction="AVDD_34" pintype="power_in"/>
+      <node ref="U7" pin="41" pinfunction="AVDD_41" pintype="power_in"/>
+    </net>
+    <net code="2" name="+1V8_D" class="Default">
+      <node ref="C46" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C50" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C51" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C52" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C53" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C54" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C55" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C56" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R44" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R45" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="DVDD_1" pintype="power_in"/>
+      <node ref="U7" pin="19" pinfunction="DVDD_19" pintype="power_in"/>
+      <node ref="U7" pin="24" pinfunction="PVDD_24" pintype="power_in"/>
+      <node ref="U7" pin="25" pinfunction="PVDD_25" pintype="power_in"/>
+      <node ref="U7" pin="49" pinfunction="DVDD_49" pintype="power_in"/>
+      <node ref="U7" pin="76" pinfunction="DVDD_76" pintype="power_in"/>
+      <node ref="U7" pin="77" pinfunction="DVDD_77" pintype="power_in"/>
+    </net>
+    <net code="3" name="+1V8_P" class="Default">
+      <node ref="C48" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C60" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C61" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U7" pin="21" pinfunction="PLVDD_21" pintype="power_in"/>
+      <node ref="U7" pin="26" pinfunction="BGVDD_26" pintype="power_in"/>
+    </net>
+    <net code="4" name="+1V8_RAW" class="Default">
+      <node ref="C45" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="OUT_1" pintype="power_out"/>
+    </net>
+    <net code="5" name="+3V3" class="Default">
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C22" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C32" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C40" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C44" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C62" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="FB1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="VCC_3" pintype="power_in"/>
+      <node ref="J8" pin="3" pinfunction="VCC_3" pintype="power_in"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R42" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R49" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R54" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VL_21" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="VD_23" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VCC_4" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="OUT_1" pintype="power_out"/>
+      <node ref="U7" pin="47" pinfunction="MVDD_47" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="EN_4" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="IN_6" pintype="power_in"/>
+      <node ref="Y1" pin="1" pinfunction="EN_1" pintype="input"/>
+      <node ref="Y1" pin="4" pinfunction="VDD_4" pintype="power_in"/>
+    </net>
+    <net code="6" name="+3V3_A" class="Default">
+      <node ref="C19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="FB1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VA_6" pintype="power_in"/>
+    </net>
+    <net code="7" name="+5V_IN" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C63" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="EN_4" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="IN_6" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="IN_1" pintype="power_in"/>
+    </net>
+    <net code="8" name="AD0_STRAP" class="Default">
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="AD0_14" pintype="input"/>
+    </net>
+    <net code="9" name="AD1_STRAP" class="Default">
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="AD1_15" pintype="input"/>
+    </net>
+    <net code="10" name="AD2_STRAP" class="Default">
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="AD2/GPO2_18" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="ADV_HEAC_N" class="Default">
+      <node ref="C42" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R45" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="51" pinfunction="HEAC_N_51" pintype="input"/>
+    </net>
+    <net code="12" name="ADV_HEAC_P" class="Default">
+      <node ref="C41" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R44" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="52" pinfunction="HEAC_P_52" pintype="input"/>
+    </net>
+    <net code="13" name="ADV_INT" class="Default">
+      <node ref="J20" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="R42" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="45" pinfunction="INT_45" pintype="output"/>
+    </net>
+    <net code="14" name="ADV_PD" class="Default">
+      <node ref="R41" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="38" pinfunction="PD_AD_38" pintype="input"/>
+    </net>
+    <net code="15" name="ADV_REXT" class="Default">
+      <node ref="R40" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="28" pinfunction="R_EXT_28" pintype="passive"/>
+    </net>
+    <net code="16" name="ARC_SPDIF" class="Default">
+      <node ref="R50" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="46" pinfunction="SPDIF_OUT_46" pintype="output"/>
+    </net>
+    <net code="17" name="ARC_SPDIF_SER" class="Default">
+      <node ref="C43" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R50" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="18" name="CEC_CLK" class="Default">
+      <node ref="R43" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U7" pin="50" pinfunction="CEC_CLK_50" pintype="input"/>
+    </net>
+    <net code="19" name="CEC_CLK_RAW" class="Default">
+      <node ref="R43" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Y1" pin="3" pinfunction="OUT_3" pintype="output"/>
+    </net>
+    <net code="20" name="CEC_PULLUP_A" class="Default">
+      <node ref="D1" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="R49" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="21" name="CHASSIS_HDMI" class="Default">
+      <node ref="J10" pin="SH" pinfunction="SHELL_SH" pintype="passive"/>
+      <node ref="R51" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="22" name="COAX_IN" class="Default">
+      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="CENTRE_1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="23" name="CS_INT" class="Default">
+      <node ref="J20" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GPO0_20" pintype="output"/>
+    </net>
+    <net code="24" name="CS_RERR" class="Default">
+      <node ref="J20" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GPO1_19" pintype="output"/>
+    </net>
+    <net code="25" name="CS_RESET_N" class="Default">
+      <node ref="J20" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="RST_N_9" pintype="input"/>
+    </net>
+    <net code="26" name="CS_RMCK_MON" class="Default">
+      <node ref="J20" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="RMCK_24" pintype="output"/>
+    </net>
+    <net code="27" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C22" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C23" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C24" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C32" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C40" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C44" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C45" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C46" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C47" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C48" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C50" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C51" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C52" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C53" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C54" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C55" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C56" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C57" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C58" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C59" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C60" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C61" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C62" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C63" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C64" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J10" pin="11" pinfunction="PIN11_11" pintype="passive"/>
+      <node ref="J10" pin="17" pinfunction="PIN17_17" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="PIN2_2" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="PIN5_5" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="PIN8_8" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J20" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="J20" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J22" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J22" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="J22" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="J22" pin="19" pinfunction="19_19" pintype="passive"/>
+      <node ref="J22" pin="20" pinfunction="20_20" pintype="passive"/>
+      <node ref="J22" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J22" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J22" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="J8" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="J9" pin="2" pinfunction="SHIELD_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R41" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R46" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R51" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R52" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R53" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="RXP4_10" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="RXP5_11" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="RXP6_12" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="RXP7_13" pintype="input"/>
+      <node ref="U1" pin="22" pinfunction="DGND_22" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="OMCK_25" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="AGND_7" pintype="power_in"/>
+      <node ref="U10" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U10" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U11" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="DIN4_7" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="EN_N_8" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="EP_GND_7" pintype="power_in"/>
+      <node ref="U7" pin="10" pinfunction="SPDIF_IN_10" pintype="input"/>
+      <node ref="U7" pin="100" pinfunction="GND_100" pintype="power_in"/>
+      <node ref="U7" pin="11" pinfunction="MCLK_11" pintype="input"/>
+      <node ref="U7" pin="12" pinfunction="I2S0_12" pintype="input"/>
+      <node ref="U7" pin="13" pinfunction="I2S1_13" pintype="input"/>
+      <node ref="U7" pin="14" pinfunction="I2S2_14" pintype="input"/>
+      <node ref="U7" pin="15" pinfunction="I2S3_15" pintype="input"/>
+      <node ref="U7" pin="16" pinfunction="SCLK_16" pintype="input"/>
+      <node ref="U7" pin="17" pinfunction="LRCLK_17" pintype="input"/>
+      <node ref="U7" pin="18" pinfunction="GND_18" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="VSYNC_2" pintype="input"/>
+      <node ref="U7" pin="20" pinfunction="GND_20" pintype="power_in"/>
+      <node ref="U7" pin="22" pinfunction="GND_22" pintype="power_in"/>
+      <node ref="U7" pin="23" pinfunction="GND_23" pintype="power_in"/>
+      <node ref="U7" pin="27" pinfunction="GND_27" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="DSD0_3" pintype="input"/>
+      <node ref="U7" pin="31" pinfunction="GND_31" pintype="power_in"/>
+      <node ref="U7" pin="37" pinfunction="GND_37" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="DSD1_4" pintype="input"/>
+      <node ref="U7" pin="44" pinfunction="GND_44" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="DSD2_5" pintype="input"/>
+      <node ref="U7" pin="57" pinfunction="D35_57" pintype="input"/>
+      <node ref="U7" pin="58" pinfunction="D34_58" pintype="input"/>
+      <node ref="U7" pin="59" pinfunction="D33_59" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="DSD3_6" pintype="input"/>
+      <node ref="U7" pin="60" pinfunction="D32_60" pintype="input"/>
+      <node ref="U7" pin="61" pinfunction="D31_61" pintype="input"/>
+      <node ref="U7" pin="62" pinfunction="D30_62" pintype="input"/>
+      <node ref="U7" pin="63" pinfunction="D29_63" pintype="input"/>
+      <node ref="U7" pin="64" pinfunction="D28_64" pintype="input"/>
+      <node ref="U7" pin="65" pinfunction="D27_65" pintype="input"/>
+      <node ref="U7" pin="66" pinfunction="D26_66" pintype="input"/>
+      <node ref="U7" pin="67" pinfunction="D25_67" pintype="input"/>
+      <node ref="U7" pin="68" pinfunction="D24_68" pintype="input"/>
+      <node ref="U7" pin="69" pinfunction="D23_69" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="DSD4_7" pintype="input"/>
+      <node ref="U7" pin="70" pinfunction="D22_70" pintype="input"/>
+      <node ref="U7" pin="71" pinfunction="D21_71" pintype="input"/>
+      <node ref="U7" pin="72" pinfunction="D20_72" pintype="input"/>
+      <node ref="U7" pin="73" pinfunction="D19_73" pintype="input"/>
+      <node ref="U7" pin="74" pinfunction="D18_74" pintype="input"/>
+      <node ref="U7" pin="75" pinfunction="GND_75" pintype="power_in"/>
+      <node ref="U7" pin="78" pinfunction="D17_78" pintype="input"/>
+      <node ref="U7" pin="79" pinfunction="VCLK_79" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="DSD5_8" pintype="input"/>
+      <node ref="U7" pin="80" pinfunction="D16_80" pintype="input"/>
+      <node ref="U7" pin="81" pinfunction="D15_81" pintype="input"/>
+      <node ref="U7" pin="82" pinfunction="D14_82" pintype="input"/>
+      <node ref="U7" pin="83" pinfunction="D13_83" pintype="input"/>
+      <node ref="U7" pin="84" pinfunction="D12_84" pintype="input"/>
+      <node ref="U7" pin="85" pinfunction="D11_85" pintype="input"/>
+      <node ref="U7" pin="86" pinfunction="D10_86" pintype="input"/>
+      <node ref="U7" pin="87" pinfunction="D9_87" pintype="input"/>
+      <node ref="U7" pin="88" pinfunction="D8_88" pintype="input"/>
+      <node ref="U7" pin="89" pinfunction="D7_89" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="DSD_CLK_9" pintype="input"/>
+      <node ref="U7" pin="90" pinfunction="D6_90" pintype="input"/>
+      <node ref="U7" pin="91" pinfunction="D5_91" pintype="input"/>
+      <node ref="U7" pin="92" pinfunction="D4_92" pintype="input"/>
+      <node ref="U7" pin="93" pinfunction="D3_93" pintype="input"/>
+      <node ref="U7" pin="94" pinfunction="D2_94" pintype="input"/>
+      <node ref="U7" pin="95" pinfunction="D1_95" pintype="input"/>
+      <node ref="U7" pin="96" pinfunction="D0_96" pintype="input"/>
+      <node ref="U7" pin="97" pinfunction="DE_97" pintype="input"/>
+      <node ref="U7" pin="98" pinfunction="HSYNC_98" pintype="input"/>
+      <node ref="U7" pin="99" pinfunction="GND_99" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="EP_GND_7" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="28" name="HDMI_5V" class="Default">
+      <node ref="C64" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J10" pin="18" pinfunction="PIN18_18" pintype="passive"/>
+      <node ref="R47" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R48" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="IO2_2" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="29" name="HDMI_5V_EN" class="Default">
+      <node ref="J20" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="R53" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="30" name="HDMI_5V_FAULT_N" class="Default">
+      <node ref="J24" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R54" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="FAULT_N_4" pintype="open_collector"/>
+    </net>
+    <net code="31" name="HDMI_CEC" class="Default">
+      <node ref="D1" pin="3" pinfunction="K_3" pintype="passive"/>
+      <node ref="J10" pin="13" pinfunction="PIN13_13" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="IO1_1" pintype="passive"/>
+      <node ref="U7" pin="48" pinfunction="CEC_48" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="HDMI_DDC_SCL" class="Default">
+      <node ref="J10" pin="15" pinfunction="PIN15_15" pintype="passive"/>
+      <node ref="R47" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="IO3_4" pintype="passive"/>
+      <node ref="U7" pin="53" pinfunction="DDCSCL_53" pintype="open_collector"/>
+    </net>
+    <net code="33" name="HDMI_DDC_SDA" class="Default">
+      <node ref="J10" pin="16" pinfunction="PIN16_16" pintype="passive"/>
+      <node ref="R48" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="IO4_5" pintype="passive"/>
+      <node ref="U7" pin="54" pinfunction="DDCSDA_54" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="HDMI_HEAC_P" class="Default">
+      <node ref="C41" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J10" pin="14" pinfunction="PIN14_14" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="IO1_1" pintype="passive"/>
+    </net>
+    <net code="35" name="HDMI_HPD_HEAC_N" class="Default">
+      <node ref="C42" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J10" pin="19" pinfunction="PIN19_19" pintype="passive"/>
+      <node ref="R46" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="IO2_2" pintype="passive"/>
+      <node ref="U7" pin="30" pinfunction="HPD_30" pintype="input"/>
+    </net>
+    <net code="36" name="HDMI_ILIM" class="Default">
+      <node ref="R52" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="ILIM_5" pintype="passive"/>
+    </net>
+    <net code="37" name="I2C_SCL" class="Default">
+      <node ref="J20" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="SCL_16" pintype="input"/>
+      <node ref="U7" pin="55" pinfunction="SCL_55" pintype="input"/>
+    </net>
+    <net code="38" name="I2C_SDA" class="Default">
+      <node ref="J20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="SDA_17" pintype="bidirectional"/>
+      <node ref="U7" pin="56" pinfunction="SDA_56" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="LVDS_BCLK_N" class="Default">
+      <node ref="J22" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="D1-_16" pintype="output"/>
+    </net>
+    <net code="40" name="LVDS_BCLK_P" class="Default">
+      <node ref="J22" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="D1+_15" pintype="output"/>
+    </net>
+    <net code="41" name="LVDS_D0_N" class="Default">
+      <node ref="J22" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="D3-_12" pintype="output"/>
+    </net>
+    <net code="42" name="LVDS_D0_P" class="Default">
+      <node ref="J22" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="D3+_11" pintype="output"/>
+    </net>
+    <net code="43" name="LVDS_EN" class="Default">
+      <node ref="J20" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="EN_1" pintype="input"/>
+    </net>
+    <net code="44" name="LVDS_LRCLK_N" class="Default">
+      <node ref="J22" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="D2-_13" pintype="output"/>
+    </net>
+    <net code="45" name="LVDS_LRCLK_P" class="Default">
+      <node ref="J22" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="D2+_14" pintype="output"/>
+    </net>
+    <net code="46" name="OPT1_OUT" class="Default">
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="OUT_1" pintype="output"/>
+    </net>
+    <net code="47" name="OPT2_OUT" class="Default">
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="OUT_1" pintype="output"/>
+    </net>
+    <net code="48" name="PLL_FILT" class="Default">
+      <node ref="C23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="FILT_8" pintype="passive"/>
+    </net>
+    <net code="49" name="PLL_RC" class="Default">
+      <node ref="C24" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="50" name="RXN_AC" class="Default">
+      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="RXN_5" pintype="input"/>
+    </net>
+    <net code="51" name="RX_ARC" class="Default">
+      <node ref="C43" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="RXP3_1" pintype="input"/>
+    </net>
+    <net code="52" name="RX_COAX" class="Default">
+      <node ref="C17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="RXP2_2" pintype="input"/>
+    </net>
+    <net code="53" name="RX_OPT1" class="Default">
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RXP0_4" pintype="input"/>
+    </net>
+    <net code="54" name="RX_OPT2" class="Default">
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="RXP1_3" pintype="input"/>
+    </net>
+    <net code="55" name="SPDIF_BCLK" class="Default">
+      <node ref="U1" pin="27" pinfunction="OSCLK_27" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="DIN1_2" pintype="input"/>
+    </net>
+    <net code="56" name="SPDIF_D0" class="Default">
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="SDOUT_26" pintype="output"/>
+      <node ref="U4" pin="6" pinfunction="DIN3_6" pintype="input"/>
+    </net>
+    <net code="57" name="SPDIF_LRCLK" class="Default">
+      <node ref="U1" pin="28" pinfunction="OLRCK_28" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="DIN2_3" pintype="input"/>
+    </net>
+    <net code="58" name="SPK1_N" class="Default">
+      <node ref="J31" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SP1" pin="1" pinfunction="SPK1-_1" pintype="passive"/>
+    </net>
+    <net code="59" name="SPK1_P" class="Default">
+      <node ref="J31" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SP1" pin="2" pinfunction="SPK1+_2" pintype="passive"/>
+    </net>
+    <net code="60" name="SPK2_N" class="Default">
+      <node ref="J31" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="SP1" pin="3" pinfunction="SPK2-_3" pintype="passive"/>
+    </net>
+    <net code="61" name="SPK2_P" class="Default">
+      <node ref="J31" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="SP1" pin="4" pinfunction="SPK2+_4" pintype="passive"/>
+    </net>
+    <net code="62" name="SPK3_N" class="Default">
+      <node ref="J31" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="SP1" pin="5" pinfunction="SPK3-_5" pintype="passive"/>
+    </net>
+    <net code="63" name="SPK3_P" class="Default">
+      <node ref="J31" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="SP1" pin="6" pinfunction="SPK3+_6" pintype="passive"/>
+    </net>
+    <net code="64" name="SPK4_N" class="Default">
+      <node ref="J32" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SP2" pin="1" pinfunction="SPK1-_1" pintype="passive"/>
+    </net>
+    <net code="65" name="SPK4_P" class="Default">
+      <node ref="J32" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SP2" pin="2" pinfunction="SPK1+_2" pintype="passive"/>
+    </net>
+    <net code="66" name="SPK5_N" class="Default">
+      <node ref="J32" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="SP2" pin="3" pinfunction="SPK2-_3" pintype="passive"/>
+    </net>
+    <net code="67" name="SPK5_P" class="Default">
+      <node ref="J32" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="SP2" pin="4" pinfunction="SPK2+_4" pintype="passive"/>
+    </net>
+    <net code="68" name="SPK6_N" class="Default">
+      <node ref="J32" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="SP2" pin="5" pinfunction="SPK3-_5" pintype="passive"/>
+    </net>
+    <net code="69" name="SPK6_P" class="Default">
+      <node ref="J32" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="SP2" pin="6" pinfunction="SPK3+_6" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(D1-NC-Pad2)" class="Default">
+      <node ref="D1" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J10-PIN1-Pad1)" class="Default">
+      <node ref="J10" pin="1" pinfunction="PIN1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J10-PIN3-Pad3)" class="Default">
+      <node ref="J10" pin="3" pinfunction="PIN3_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J10-PIN4-Pad4)" class="Default">
+      <node ref="J10" pin="4" pinfunction="PIN4_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J10-PIN6-Pad6)" class="Default">
+      <node ref="J10" pin="6" pinfunction="PIN6_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J10-PIN7-Pad7)" class="Default">
+      <node ref="J10" pin="7" pinfunction="PIN7_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J10-PIN9-Pad9)" class="Default">
+      <node ref="J10" pin="9" pinfunction="PIN9_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J10-PIN10-Pad10)" class="Default">
+      <node ref="J10" pin="10" pinfunction="PIN10_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J10-PIN12-Pad12)" class="Default">
+      <node ref="J10" pin="12" pinfunction="PIN12_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J22-Pad11)" class="Default">
+      <node ref="J22" pin="11" pinfunction="11_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J22-Pad12)" class="Default">
+      <node ref="J22" pin="12" pinfunction="12_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J22-Pad13)" class="Default">
+      <node ref="J22" pin="13" pinfunction="13_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(J22-Pad14)" class="Default">
+      <node ref="J22" pin="14" pinfunction="14_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(J22-Pad17)" class="Default">
+      <node ref="J22" pin="17" pinfunction="17_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J22-Pad18)" class="Default">
+      <node ref="J22" pin="18" pinfunction="18_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U4-D4+-Pad10)" class="Default">
+      <node ref="U4" pin="10" pinfunction="D4+_10" pintype="output+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-D4--Pad9)" class="Default">
+      <node ref="U4" pin="9" pinfunction="D4-_9" pintype="output+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U6-NC-Pad2)" class="Default">
+      <node ref="U6" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U6-NC-Pad5)" class="Default">
+      <node ref="U6" pin="5" pinfunction="NC_5" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U7-TX0_N-Pad35)" class="Default">
+      <node ref="U7" pin="35" pinfunction="TX0_N_35" pintype="output+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U7-TX0_P-Pad36)" class="Default">
+      <node ref="U7" pin="36" pinfunction="TX0_P_36" pintype="output+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U7-TX1_N-Pad39)" class="Default">
+      <node ref="U7" pin="39" pinfunction="TX1_N_39" pintype="output+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U7-TX1_P-Pad40)" class="Default">
+      <node ref="U7" pin="40" pinfunction="TX1_P_40" pintype="output+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U7-TX2_N-Pad42)" class="Default">
+      <node ref="U7" pin="42" pinfunction="TX2_N_42" pintype="output+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U7-TX2_P-Pad43)" class="Default">
+      <node ref="U7" pin="43" pinfunction="TX2_P_43" pintype="output+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U7-TXC_N-Pad32)" class="Default">
+      <node ref="U7" pin="32" pinfunction="TXC_N_32" pintype="output+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U7-TXC_P-Pad33)" class="Default">
+      <node ref="U7" pin="33" pinfunction="TXC_P_33" pintype="output+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U8-NC-Pad2)" class="Default">
+      <node ref="U8" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U8-NC-Pad5)" class="Default">
+      <node ref="U8" pin="5" pinfunction="NC_5" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U10-NC-Pad6)" class="Default">
+      <node ref="U10" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U10-NC-Pad7)" class="Default">
+      <node ref="U10" pin="7" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U10-NC-Pad9)" class="Default">
+      <node ref="U10" pin="9" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U10-NC-Pad10)" class="Default">
+      <node ref="U10" pin="10" pinfunction="NC_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U11-IO3-Pad4)" class="Default">
+      <node ref="U11" pin="4" pinfunction="IO3_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U11-IO4-Pad5)" class="Default">
+      <node ref="U11" pin="5" pinfunction="IO4_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U11-NC-Pad6)" class="Default">
+      <node ref="U11" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U11-NC-Pad7)" class="Default">
+      <node ref="U11" pin="7" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U11-NC-Pad9)" class="Default">
+      <node ref="U11" pin="9" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U11-NC-Pad10)" class="Default">
+      <node ref="U11" pin="10" pinfunction="NC_10" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

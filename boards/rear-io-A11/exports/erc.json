@@ -1,0 +1,76 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-04T13:12:56",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5",
+            "violations": []
+        },
+        {
+            "path": "/power-control/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/0249639b-c903-56e4-a1b5-1f083a1dce0c",
+            "violations": []
+        },
+        {
+            "path": "/spdif/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/890e5e43-af9f-5217-a370-3d4dccdd5066",
+            "violations": []
+        },
+        {
+            "path": "/selection-lvds/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/a8af13af-ed30-5846-a984-91a17f744144",
+            "violations": []
+        },
+        {
+            "path": "/speakers/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/ef15d7c3-58c1-50f2-98e0-7e43df20b59d",
+            "violations": []
+        },
+        {
+            "path": "/arc-receiver/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/385618bf-50cd-5c9e-b28d-e5ac96e2f532",
+            "violations": []
+        },
+        {
+            "path": "/arc-connector/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/3748fc03-73b6-566d-95ee-0c7dac7c0019",
+            "violations": []
+        },
+        {
+            "path": "/arc-power/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/b90c48f9-fb91-505d-b17f-0980ec350cd6",
+            "violations": []
+        },
+        {
+            "path": "/arc-decoupling/",
+            "uuid_path": "/21bbf0f1-96d9-5ded-9d09-e5c10bd0eda5/6924bbaf-0f93-5c78-a03f-ff3403ed5651",
+            "violations": []
+        }
+    ],
+    "source": "rear-io-A11.kicad_sch"
+}
