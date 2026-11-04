@@ -1,5 +1,7 @@
 # A10 electrical requirements and interface contract
 
+> **Scope update, 2026-11-04:** next implementation targets [standard ARC](../../docs/arc-v1-requirements.md), including DD+ Atmos, with eARC/lossless HDMI deferred. The circuit, exports and tests below describe unchanged A10. HDMI remains unwired; no ARC receiver/controller is selected yet.
+
 Status: design draft, 2026-11-03. Values and pin maps derive from the [source register](source-register.json). Neither a powered prototype nor full transport compatibility has been tested.
 
 ## Responsibility boundary
@@ -54,6 +56,8 @@ Use a four-layer stack with an uninterrupted ground reference. Keep PLL filter/V
 
 Ground-referenced LVDS improves cable noise immunity but does not solve conducted supply noise, chassis bonding, ESD or PSU coupling. Retain separation from mains wiring, plan chassis/connector shields deliberately, and validate with powered PSU and amplifier load. No fixed safe spacing can be concluded from the screenshot alone. No shielding plate, insulation clearance, thermal or EMC compliance is certified by this model.
 
-## Gates before fabrication
+## Original A10 gates before fabrication
+
+The eARC-specific gates below are historical. For the next ARC revision, use the [current ARC contract](../../docs/arc-v1-requirements.md); its receiver/CEC and payload validation requirements replace the eARC/HBR/MAT requirements. Other A10 integration gaps remain.
 
 Full eARC pin/register/firmware documentation and supply route; eARC power rails/CEC/ESD/coupling components and HBR/MAT output mapping; source-loss state machine; final HAT/harness and power sequencing; coax protection/ground strategy; speaker-current qualification and wire retention; complete PCB routing/stackup; renewed enclosure/airflow/thermal check; bit-exact capture tests across sources and formats. Mains inlet and power-control board remain separate assemblies.

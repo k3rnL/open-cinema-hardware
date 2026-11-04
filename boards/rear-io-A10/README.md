@@ -1,5 +1,7 @@
 # A10 electrical draft — not for fabrication
 
+> **Scope update, 2026-11-04:** next implementation targets [standard ARC](../../docs/arc-v1-requirements.md), including DD+ Atmos, with eARC/lossless HDMI deferred. The circuit, exports and tests below describe unchanged A10. HDMI remains unwired; no ARC receiver/controller is selected yet.
+
 This is a new, separate KiCad project. A9 and its manually modified project file are preserved.
 The owner authorized chip research, schematic work, two reviews and an integration export.
 

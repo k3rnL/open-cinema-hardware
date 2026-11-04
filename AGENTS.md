@@ -1,5 +1,7 @@
 # Open Cinema hardware guidance
 
+- **Current HDMI scope (2026-11-04): ARC first, including unchanged DD+ Atmos payload; eARC/lossless return audio deferred.** Read `docs/arc-v1-requirements.md`. A10 remains unchanged/unrouted with HDMI unwired; old eARC labels describe its original draft. No ARC chip/controller is selected yet. Retain Pi processing, USB amplifier output, source/status control and future HAT allocation.
+
 - New electrical work is in `boards/rear-io-A10/`; read its README, requirements and verification. A10 is a separate unrouted draft with optical/coax + mux + LVDS circuitry; HDMI/eARC is explicitly absent. It is not a manufacturing release. Do not represent ERC/placement success as full electrical validation. Keep A9 manual edits intact. A10 preserves its outline/holes while the latest owner window is 250 × 51 mm; old A9 fit claims do not validate the enlarged enclosure.
 
 - This repository owns editable implementation. The sibling `../open-cinema-resources` owns durable memory; use its open-cinema-memory skill and reference index.

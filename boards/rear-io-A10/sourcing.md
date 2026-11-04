@@ -1,5 +1,7 @@
 # A10 sourcing — candidates, not an order
 
+> **Scope update, 2026-11-04:** next implementation targets [standard ARC](../../docs/arc-v1-requirements.md), including DD+ Atmos, with eARC/lossless HDMI deferred. The circuit, exports and tests below describe unchanged A10. HDMI remains unwired; no ARC receiver/controller is selected yet.
+
 Checked 2026-11-03. Catalogue listings are not inventory reservations or JLC assembly acceptance. Some web results are cached; recheck exact stock at ordering. Global Sourcing/pre-order and external distributors are permitted. No order or supplier message was sent.
 
 | Function | Qty | Exact part | Route / evidence | Status |

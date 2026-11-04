@@ -2,6 +2,10 @@
 
 Editable hardware for [Open Cinema](https://github.com/k3rnL/open-cinema). The [resources repository](https://github.com/k3rnL/open-cinema-resources) holds searchable knowledge and decision history.
 
+## Current HDMI scope: ARC first
+
+The owner selected ARC on 2026-11-04, retaining DD+ Atmos payload transport and deferring eARC/lossless return audio. See the [ARC implementation contract](docs/arc-v1-requirements.md). This changes requirements; A10's HDMI socket remains unwired and no revised model or ARC functionality is claimed.
+
 ## A10: electrical draft in a separate project
 
 [Start with A10](boards/rear-io-A10/README.md): editable schematic, chip sourcing, two static review passes and rigid STEP/F3D exports. Optical/coax selection and LVDS circuitry are drafted. **HDMI/eARC is unresolved, the PCB is unrouted, and this is not ready to order.** A9 below remains the historical mechanical baseline; its manually modified project file is preserved.
